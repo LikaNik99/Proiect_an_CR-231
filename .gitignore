@@ -1,0 +1,12 @@
+node_modules
+npm-debug.log
+.DS_Store
+.env
+.vscode
+*.log
+build
+dist
+coverage
+.idea
+setup-firewall.bat
+update-ip.bat

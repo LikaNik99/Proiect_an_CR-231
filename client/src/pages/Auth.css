@@ -1,0 +1,112 @@
+.auth-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #0a1628 0%, #1e3a5f 100%);
+  padding: 20px;
+}
+
+.auth-box {
+  background: #162a45;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+  max-width: 450px;
+  width: 100%;
+  border: 1px solid #2c5aa0;
+}
+
+.auth-box h1 {
+  text-align: center;
+  color: #4a90e2;
+  margin-bottom: 10px;
+  font-size: 2.5rem;
+}
+
+.auth-box h2 {
+  text-align: center;
+  color: #e0e6ed;
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #b8c5d6;
+  font-weight: 500;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #2c5aa0;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s, background 0.3s;
+  box-sizing: border-box;
+  background: #0f1f36;
+  color: #e0e6ed;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #4a90e2;
+  background: #162a45;
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(135deg, #1e3a5f 0%, #2c5aa0 100%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn-primary:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(74, 144, 226, 0.4);
+  background: linear-gradient(135deg, #2c5aa0 0%, #3a6ec0 100%);
+}
+
+.btn-primary:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.error-message {
+  background: #2d1a1a;
+  border: 1px solid #8b3a3a;
+  color: #ff6b6b;
+  padding: 12px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.auth-link {
+  text-align: center;
+  margin-top: 20px;
+  color: #b8c5d6;
+}
+
+.auth-link a {
+  color: #4a90e2;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.auth-link a:hover {
+  text-decoration: underline;
+  color: #6ba3e8;
+}
