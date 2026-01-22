@@ -1,0 +1,16 @@
+services:
+  db:
+    image: postgres:16
+    container_name: chat_postgres
+    restart: always
+    environment:
+      POSTGRES_USER: chatuser
+      POSTGRES_PASSWORD: chatpass
+      POSTGRES_DB: chatdb
+    ports:
+      - "5544:5432"     # <<< ATENȚIE: 5544 pe host, 5432 în container
+    volumes:
+      - chat-db-data:/var/lib/postgresql/data
+
+volumes:
+  chat-db-data:

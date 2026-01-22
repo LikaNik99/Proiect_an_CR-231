@@ -1,0 +1,26 @@
+# Java
+*.class
+*.log
+target/
+out/
+bin/
+*.iml
+.idea/
+.vscode/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env / secrets (nu urca parole)
+.env
+*.env
+
+# Docker volumes (daca ai)
+data/
