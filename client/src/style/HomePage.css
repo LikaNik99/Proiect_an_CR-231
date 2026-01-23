@@ -1,0 +1,116 @@
+/* Centrare perfectă pe orice rezoluție */
+.home-main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.home-wrap {
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+.home-title {
+    font-size: 36px;
+    margin-bottom: 12px;
+    color: var(--text);
+    font-weight: 700;
+}
+
+.home-subtitle {
+    font-size: 16px;
+    color: var(--muted);
+    margin-bottom: 30px;
+}
+
+.home-card {
+    background: var(--card);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 40px;
+}
+
+.home-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.home-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 18px 24px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.home-btn .btn-icon {
+    font-size: 24px;
+}
+
+.home-btn .btn-text {
+    flex: 1;
+    text-align: left;
+}
+
+.home-btn:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+}
+
+.home-btn.primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.home-btn.primary:hover:not(:disabled) {
+    background: linear-gradient(135deg, #5568d3 0%, #63408a 100%);
+}
+
+.home-btn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.server-status-warning {
+    background: rgba(245, 158, 11, 0.1);
+    border: 1px solid #f59e0b;
+    color: #fbbf24;
+    padding: 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+@media (max-width: 768px) {
+    .home-title {
+        font-size: 28px;
+    }
+
+    .home-subtitle {
+        font-size: 14px;
+    }
+
+    .home-card {
+        padding: 24px;
+    }
+
+    .home-btn {
+        padding: 16px 20px;
+        font-size: 16px;
+    }
+
+    .home-btn .btn-icon {
+        font-size: 20px;
+    }
+}

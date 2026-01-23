@@ -1,0 +1,38 @@
+:root {
+  --brand: #4b6cb7;
+  --brand-light: #6f86d6;
+  --bg: #0e1217;
+  --card: #1b222c;
+  --text: #e2e8f0;
+  --muted: #a0aec0;
+  --radius: 14px;
+  --shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Poppins", system-ui, sans-serif;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2d3541;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3f4a5c;
+}

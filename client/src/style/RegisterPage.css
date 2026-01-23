@@ -1,0 +1,54 @@
+.page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    width: min(420px, 95vw);
+    background: var(--card);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 36px 30px;
+    text-align: center;
+}
+
+input {
+    padding: 12px 14px;
+    background: #232a35;
+    border: 1px solid #2f3744;
+    color: var(--text);
+    border-radius: 10px;
+    font-size: 15px;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+input:focus {
+    border-color: var(--brand-light);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(75, 108, 183, 0.3);
+}
+
+button[type="submit"] {
+    background: var(--brand-light);
+    color: white;
+    border: none;
+    padding: 12px 14px;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+button[type="submit"]:hover {
+    background: var(--brand);
+}
+
+.message {
+    color: var(--muted);
+    font-size: 14px;
+    margin-top: 10px;
+}
