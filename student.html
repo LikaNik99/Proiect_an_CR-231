@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="utf-8">
+    <title>Elev - QuizOn</title>
+    <style>
+        body { font-family: sans-serif; background: #f0fdf4; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .card { background: white; padding: 40px; border-radius: 20px; box-shadow: 0 10px 15px rgba(0,0,0,0.05); text-align: center; width: 350px; }
+        input { width: 100%; padding: 15px; margin: 10px 0; border: 2px solid #bbf7d0; border-radius: 10px; font-size: 1.1rem; text-align: center; }
+        .btn { width: 100%; background: #10b981; color: white; border: none; padding: 15px; border-radius: 10px; cursor: pointer; font-weight: bold; font-size: 1.1rem; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Salut! 👋</h1>
+        <p>Introdu codul primit de la profesor:</p>
+        <input type="text" id="tName" placeholder="Numele tău">
+        <input type="text" id="tCode" placeholder="Cod Test (ex: IST01)">
+        <button class="btn" onclick="start()">Începe Testul</button>
+        <a href="index.html" style="display:block; margin-top:20px; color:#64748b; text-decoration:none;">⬅ Înapoi</a>
+    </div>
+    <script>
+        function start() {
+            const name = document.getElementById('tName').value;
+            const code = document.getElementById('tCode').value;
+            if(!name || !code) return alert("Completează tot!");
+            localStorage.setItem('studentName', name);
+            localStorage.setItem('testCode', code);
+            window.location.href = 'quiz.html';
+        }
+    </script>
+</body>
+</html>

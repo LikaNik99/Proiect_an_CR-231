@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8"><title>QuizOn - Panou Elev</title>
+    <style>
+        :root { --primary: #10b981; --bg: #f8fafc; }
+        body { font-family: 'Segoe UI', sans-serif; background: var(--bg); margin: 0; }
+        .nav { background: white; padding: 0 40px; display: flex; justify-content: space-between; align-items: center; height: 75px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+        .logo-img { height: 50px; }
+        .container { max-width: 1100px; margin: 30px auto; padding: 0 20px; display: grid; grid-template-columns: 1fr 350px; gap: 25px; }
+        .card { background: white; padding: 30px; border-radius: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+        .main-section { text-align: center; }
+        input { width: 100%; max-width: 300px; padding: 15px; font-size: 20px; text-align: center; border: 2px solid #e2e8f0; border-radius: 12px; font-weight: bold; color: var(--primary); margin: 20px 0; }
+        .btn-start { width: 100%; max-width: 300px; padding: 15px; background: var(--primary); color: white; border: none; border-radius: 12px; font-size: 18px; font-weight: bold; cursor: pointer; transition: 0.3s; }
+        .results-section { grid-column: span 2; margin-top: 20px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        th, td { padding: 12px; text-align: left; border-bottom: 1px solid #eee; }
+        th { color: #64748b; font-size: 13px; text-transform: uppercase; }
+        .score-badge { background: #dcfce7; color: #166534; padding: 5px 12px; border-radius: 20px; font-weight: bold; }
+        .tips-card { background: #ecfdf5; padding: 20px; border-radius: 20px; color: #065f46; border: 1px solid #d1fae5; }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div style="display:flex; align-items:center; gap:15px;">
+            <img src="logo.png" class="logo-img">
+            <h1 style="font-size:20px; color:var(--primary);">Portalul Meu</h1>
+        </div>
+        <a href="index.html" style="color:#ef4444; font-weight:bold; text-decoration:none;">Deconectare</a>
+    </div>
+
+    <div class="container">
+        <div class="card main-section">
+            <h2>Bun venit! 👋</h2>
+            <p>Introdu codul furnizat de profesor pentru a începe.</p>
+            <input type="text" id="tCode" placeholder="COD TEST" maxlength="6">
+            <br>
+            <button class="btn-start" onclick="start()">ÎNCEPE EVALUAREA</button>
+        </div>
+
+        <aside class="tips-card">
+            <h3>💡 Sfaturi Utile</h3>
+            <p>• Rezultatele tale sunt salvate automat în tabelul de mai jos.</p>
+            <p>• Poți susține fiecare test o singură dată.</p>
+            <p>• După finalizare, vei vedea nota instantaneu.</p>
+        </aside>
+
+        <div class="card results-section">
+            <h3>📊 Istoricul Notelor Tale</h3>
+            <table id="myResults">
+                <thead><tr><th>Nume Test</th><th>Cod</th><th>Scor Obținut</th><th>Data Susținerii</th></tr></thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        async function loadResults() {
+            const res = await fetch('tests.php', { method:'POST', body: JSON.stringify({action:'get_student_results'})});
+            const data = await res.json();
+            document.querySelector('#myResults tbody').innerHTML = data.map(r => `
+                <tr>
+                    <td><b>${r.test_name}</b></td>
+                    <td><code>${r.test_code}</code></td>
+                    <td><span class="score-badge">${r.score} / ${r.total}</span></td>
+                    <td>${new Date(r.date_taken).toLocaleDateString()}</td>
+                </tr>
+            `).join('') || '<tr><td colspan="4" style="text-align:center;">Nu ai susținut niciun test încă.</td></tr>';
+        }
+
+        function start() {
+            const c = document.getElementById('tCode').value.toUpperCase().trim();
+            if(!c) return alert("Introdu codul testului!");
+            localStorage.setItem('currentTestCode', c);
+            window.location.href = 'quiz_run.html';
+        }
+        window.onload = loadResults;
+    </script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>QuizOn - Dashboard Profesor</title>
+    <style>
+        body { font-family: sans-serif; background: #f1f5f9; display: flex; gap: 20px; padding: 20px; }
+        .panel { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { text-align: left; padding: 12px; border-bottom: 1px solid #eee; }
+        input, textarea, select { width: 100%; padding: 10px; margin: 5px 0; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box; }
+        .btn-save { background: #10b981; color: white; border: none; padding: 10px; width: 100%; cursor: pointer; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <div class="panel" style="width: 350px;">
+        <h3>Adaugă Întrebare</h3>
+        <input type="text" id="tCode" placeholder="Cod Test (Ex: QX-1)">
+        <input type="text" id="tName" placeholder="Nume Public Test">
+        <textarea id="qText" placeholder="Întrebarea"></textarea>
+        <input type="text" id="oA" placeholder="Varianta A">
+        <input type="text" id="oB" placeholder="Varianta B">
+        <input type="text" id="oC" placeholder="Varianta C">
+        <select id="correct"><option value="A">Corect: A</option><option value="B">Corect: B</option><option value="C">Corect: C</option></select>
+        <button class="btn-save" onclick="save()">Salvează Întrebarea</button>
+    </div>
+
+    <div class="panel" style="flex-grow: 1;">
+        <h3>Catalog Note Elevi</h3>
+        <table id="resultsTable">
+            <thead><tr><th>Elev</th><th>Test</th><th>Scor</th><th>Data</th></tr></thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script>
+        async function loadCatalog() {
+            const res = await fetch('tests.php', { method: 'POST', body: JSON.stringify({action:'get_all_results'}) });
+            const data = await res.json();
+            document.querySelector('#resultsTable tbody').innerHTML = data.map(r => `
+                <tr>
+                    <td><b>${r.username}</b></td>
+                    <td>${r.display_name}</td>
+                    <td>${r.score} / ${r.total}</td>
+                    <td>${new Date(r.date_taken).toLocaleDateString()}</td>
+                </tr>
+            `).join('');
+        }
+
+        async function save() {
+            const data = {
+                action: 'save_question',
+                testName: document.getElementById('tCode').value,
+                displayName: document.getElementById('tName').value,
+                text: document.getElementById('qText').value,
+                a: document.getElementById('oA').value,
+                b: document.getElementById('oB').value,
+                c: document.getElementById('oC').value,
+                correct: document.getElementById('correct').value
+            };
+            await fetch('tests.php', { method: 'POST', body: JSON.stringify(data) });
+            alert("Întrebare salvată!");
+            document.getElementById('qText').value = "";
+            loadCatalog();
+        }
+
+        window.onload = loadCatalog;
+    </script>
+</body>
+</html>

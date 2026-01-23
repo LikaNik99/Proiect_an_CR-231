@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>QuizOn - Smart Learning 2026</title>
+    <style>
+        :root {
+            --p-color: #4f46e5; 
+            --s-color: #10b981; 
+            --dark: #0f172a;
+            /* Albastru deschis mai accentuat pentru 2026 */
+            --bg-blue: #e0f2fe; 
+        }
+        
+        body { 
+            font-family: 'Inter', 'Segoe UI', sans-serif; 
+            margin: 0; 
+            min-height: 100vh;
+            /* Fundal albastru deschis cu textură fină */
+            background: linear-gradient(rgba(224, 242, 254, 0.85), rgba(224, 242, 254, 0.85)), url('bg.jpg') no-repeat center center fixed;
+            background-size: cover; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center;
+        }
+
+        .header {
+            width: 100%; 
+            padding: 60px 0 30px 0; /* Spațiu mare deasupra logoului */
+            display: flex; 
+            justify-content: center; 
+        }
+
+        .logo-giant { 
+            width: 320px; /* Logo FOARTE MARE */
+            height: auto;
+            filter: drop-shadow(0 10px 20px rgba(0,0,0,0.1));
+            transition: all 0.5s ease;
+        }
+        
+        .logo-giant:hover {
+            transform: scale(1.05) rotate(-1deg);
+        }
+
+        .hero { text-align: center; padding: 0 20px 60px 20px; max-width: 1000px; }
+        
+        h1 { 
+            font-size: 52px; 
+            color: var(--dark); 
+            margin: 20px 0; 
+            font-weight: 900; 
+            letter-spacing: -2px;
+            line-height: 1;
+        }
+        
+        h1 span { color: var(--p-color); }
+
+        .subtitle { 
+            font-size: 20px; 
+            color: #475569; 
+            max-width: 600px; 
+            margin: 0 auto 50px; 
+            font-weight: 500;
+        }
+
+        .cards-container { 
+            display: flex; 
+            gap: 35px; 
+            flex-wrap: wrap; 
+            justify-content: center; 
+        }
+
+        .card {
+            background: white; 
+            width: 280px; 
+            padding: 50px 30px; 
+            border-radius: 40px;
+            text-decoration: none; 
+            color: inherit; 
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.06);
+            border: 1px solid rgba(255,255,255,1);
+            text-align: center;
+        }
+
+        .card:hover { 
+            transform: translateY(-15px); 
+            box-shadow: 0 40px 60px rgba(0,0,0,0.1); 
+        }
+
+        .card.student { border-bottom: 8px solid var(--s-color); }
+        .card.teacher { border-bottom: 8px solid var(--p-color); }
+
+        .icon-box {
+            font-size: 75px;
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        .card h2 { margin: 10px 0; font-size: 26px; color: var(--dark); }
+        .card p { color: #64748b; font-size: 15px; line-height: 1.5; }
+
+        .footer {
+            margin-top: auto;
+            padding: 40px;
+            color: #64748b;
+            font-size: 14px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <img src="logo.png" alt="QuizOn Logo" class="logo-giant">
+    </header>
+
+    <main class="hero">
+        <h1>Evaluare <span>Smart</span>. Rezultate <span>Instante</span>.</h1>
+        <p class="subtitle">Sistemul de testare al anului 2026, creat pentru a face educația mai simplă și mai eficientă.</p>
+
+        <div class="cards-container">
+            <a href="login_student.html" class="card student">
+                <span class="icon-box">👨‍🎓</span>
+                <h2>Portal Elev</h2>
+                <p>Introdu codul unic și rezolvă testul. Vezi nota imediat după finalizare.</p>
+            </a>
+
+            <a href="login_teacher.html" class="card teacher">
+                <span class="icon-box">👩‍🏫</span>
+                <h2>Panou Profesor</h2>
+                <p>Creează întrebări, gestionează codurile de acces și monitorizează notele clasei.</p>
+            </a>
+        </div>
+    </main>
+
+    <footer class="footer">
+        &copy; 2026 QuizOn Educational Platform
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8"><title>QuizOn - Test în curs</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background: #10b981; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .card { background: white; padding: 40px; border-radius: 25px; width: 500px; box-shadow: 0 15px 35px rgba(0,0,0,0.2); text-align: center; }
+        .opt { display: block; width: 100%; padding: 15px; margin: 12px 0; border: 2px solid #e2e8f0; border-radius: 12px; cursor: pointer; font-size: 16px; text-align: left; transition: 0.2s; background: white; font-weight: 500; }
+        .opt:hover { border-color: #10b981; background: #f0fdf4; transform: scale(1.02); }
+        #loader { color: white; font-size: 20px; font-weight: 800; }
+    </style>
+</head>
+<body>
+    <div id="loader">Se inițializează examenul...</div>
+    <div class="card" id="quizBox" style="display:none;">
+        <p id="prog" style="color:#64748b; font-size: 14px; margin-bottom: 5px;"></p>
+        <h2 id="qTxt" style="margin-top: 0;"></h2>
+        <div id="opts"></div>
+    </div>
+
+    <script>
+        let qs = [], current = 0, score = 0;
+        const code = localStorage.getItem('currentTestCode');
+
+        async function init() {
+            const res = await fetch('tests.php', { method:'POST', body: JSON.stringify({action:'check_and_get_questions', testCode:code}) });
+            const data = await res.json();
+            if(data.success) {
+                qs = data.questions;
+                document.getElementById('loader').style.display='none';
+                document.getElementById('quizBox').style.display='block';
+                show();
+            } else {
+                alert(data.error);
+                window.location.href = 'student_dashboard.html';
+            }
+        }
+
+        function show() {
+            const q = qs[current];
+            document.getElementById('prog').innerText = `ÎNTREBAREA ${current + 1} DIN ${qs.length}`;
+            document.getElementById('qTxt').innerText = q.text;
+            document.getElementById('opts').innerHTML = `
+                <button class="opt" onclick="step('A')"><b>A.</b> ${q.a}</button>
+                <button class="opt" onclick="step('B')"><b>B.</b> ${q.b}</button>
+                <button class="opt" onclick="step('C')"><b>C.</b> ${q.c}</button>
+            `;
+        }
+
+        async function step(ans) {
+            if(ans === qs[current].correct) score++;
+            current++;
+            if(current < qs.length) {
+                show();
+            } else {
+                document.getElementById('quizBox').innerHTML = "<h3>Se salvează nota în catalog...</h3>";
+                await fetch('tests.php', { 
+                    method:'POST', 
+                    body: JSON.stringify({
+                        action:'submit_score', 
+                        testCode:code, 
+                        testName:qs[0].test_name, 
+                        score, 
+                        total:qs.length
+                    }) 
+                });
+                alert(`Test finalizat cu succes!`);
+                window.location.href = 'student_dashboard.html';
+            }
+        }
+        init();
+    </script>
+</body>
+</html>

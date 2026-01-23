@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8"><title>QuizOn - Panou Prof</title>
+    <style>
+        :root { --primary: #4f46e5; --bg: #f4f7fe; }
+        body { font-family: 'Segoe UI', sans-serif; background: var(--bg); margin: 0; }
+        .nav { background: white; padding: 10px 40px; display: flex; justify-content: space-between; align-items: center; height: 90px; border-bottom: 2px solid #eef2ff; }
+        .logo-img { height: 70px; }
+        .container { display: grid; grid-template-columns: 350px 1fr 320px; gap: 25px; padding: 30px; }
+        .card { background: white; padding: 25px; border-radius: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.04); }
+        input, textarea, select { width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #e2e8f0; border-radius: 8px; box-sizing: border-box; }
+        .btn-save { width: 100%; padding: 14px; background: #10b981; color: white; border: none; border-radius: 10px; cursor: pointer; margin-top: 15px; font-weight: bold; }
+        .tips { background: #fdfaf0; padding: 15px; border-radius: 15px; margin-top: 20px; font-size: 13px; color: #92400e; }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div style="display:flex; align-items:center; gap:20px;">
+            <img src="logo.png" class="logo-img">
+            <h1 style="color:var(--primary);">Administrare QuizOn</h1>
+        </div>
+        <a href="logout.php" style="color:#ef4444; text-decoration:none; font-weight:bold;">Ieșire</a>
+    </div>
+    <div class="container">
+        <div class="card">
+            <h3>📝 Creează Test</h3>
+            <input type="text" id="tName" placeholder="Nume Test">
+            <div style="display:flex; gap:5px; margin-top:5px;">
+                <input type="text" id="tCode" placeholder="Cod" readonly>
+                <button onclick="gen()" style="cursor:pointer; background:var(--primary); color:white; border:none; border-radius:5px;">GEN</button>
+            </div>
+            <textarea id="qTxt" placeholder="Întrebare" style="margin-top:10px;"></textarea>
+            <input type="text" id="oA" placeholder="A">
+            <input type="text" id="oB" placeholder="B">
+            <input type="text" id="oC" placeholder="C">
+            <select id="corr"><option value="A">A</option><option value="B">B</option><option value="C">C</option></select>
+            <button class="btn-save" onclick="save()">Salvează</button>
+        </div>
+        <div class="card">
+            <h3>📊 Catalog Note</h3>
+            <table width="100%" id="resTable" style="font-size:14px; text-align:left;">
+                <thead><tr><th>Elev</th><th>Test</th><th>Scor</th></tr></thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div>
+            <div class="card">
+                <h3>⚙️ Gestiune</h3>
+                <div id="myTests"></div>
+            </div>
+            <div class="tips">
+                <h4>💡 Sfat Prof</h4>
+                <p>Generați un cod unic pentru fiecare clasă pentru a păstra notele separat.</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        function gen() { const c = Math.random().toString(36).substring(2,7).toUpperCase(); document.getElementById('tCode').value = c; }
+        async function save() {
+            const d = { action:'save_question', testName:document.getElementById('tName').value, testCode:document.getElementById('tCode').value, text:document.getElementById('qTxt').value, a:document.getElementById('oA').value, b:document.getElementById('oB').value, c:document.getElementById('oC').value, correct:document.getElementById('corr').value };
+            await fetch('tests.php', { method:'POST', body: JSON.stringify(d)});
+            document.getElementById('qTxt').value=""; load();
+        }
+        async function load() {
+            const r1 = await fetch('tests.php', { method:'POST', body: JSON.stringify({action:'get_all_results'})});
+            const res = await r1.json();
+            document.querySelector('#resTable tbody').innerHTML = res.map(r => `<tr><td>${r.student_name}</td><td>${r.test_name}</td><td><b>${r.score}/${r.total}</b></td></tr>`).join('');
+            const r2 = await fetch('tests.php', { method:'POST', body: JSON.stringify({action:'get_my_tests'})});
+            const tests = await r2.json();
+            document.getElementById('myTests').innerHTML = tests.map(t => `<div style="display:flex; justify-content:space-between; margin-bottom:5px;"><span>${t.test_name}</span><button onclick="del('${t.test_code}')" style="color:red; border:none; background:none; cursor:pointer;">X</button></div>`).join('');
+        }
+        async function del(c) { if(confirm('Ștergi testul?')) { await fetch('tests.php', { method:'POST', body: JSON.stringify({action:'delete_test', testCode:c})}); load(); } }
+        window.onload = load;
+    </script>
+</body>
+</html>

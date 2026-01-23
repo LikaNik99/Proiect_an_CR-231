@@ -1,0 +1,6 @@
+<!DOCTYPE html><html lang="ro"><head><meta charset="utf-8"><title>Rezultate - QuizOn</title><link rel="stylesheet" href="style.css"></head><body>
+<header class="topbar"><div class="brand">QuizOn</div><div id="userInfo"></div><button onclick="logout()" class="secondary small">Logout</button></header>
+<main class="container"><section class="card"><h2>Rezultate teste</h2>
+<select id="selectTest" onchange="loadResults(this.value)"><option value="">Alege testul</option></select>
+<div id="resultsTable"></div></section></main>
+<script src="app.js"></script><script>checkLogin('teacher'); loadTeacherTestsForResults();</script></body></html>
