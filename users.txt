@@ -1,0 +1,6 @@
+Maxim031|maxim.munteanu.2000@gmail.com|Asasin78|35900|2026-01-14T17:46:00.926167700
+Vasile1|vasile1@gmail.com|123456|13500|2026-01-14T18:28:11.390974600
+Andrei1|andrei1@gmail.com|123456|3000|2026-01-19 20:02
+admin|admin@gmail.com|123456|10700|2026-01-19 20:03
+Marin33|marin33@gmail.com|123456|1000|2026-01-19 21:00
+Ionel4|ionel4@gmail.com|11111|1000|2026-01-20 01:16

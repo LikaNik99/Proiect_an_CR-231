@@ -1,0 +1,5 @@
+Andrei1:Pariuri plasate|2|3|OPEN;Mâini câștigate|0|5|OPEN;Scor de 21|0|3|OPEN|2026-01-19|2026-01-19
+admin:Pariuri plasate|3|3|CLAIMED;Mâini câștigate|3|5|OPEN;Scor de 21|2|3|OPEN|2026-01-20
+Unknown:Pariuri plasate|0|3|OPEN;Mâini câștigate|1|5|OPEN;Scor de 21|0|3|OPEN|2026-01-20
+Vasile1:Pariuri plasate|1|3|OPEN;Mâini câștigate|0|5|OPEN;Scor de 21|0|3|OPEN|2026-01-21
+Maxim031:Pariuri plasate|1|3|OPEN;Mâini câștigate|0|5|OPEN;Scor de 21|0|3|OPEN|2026-01-21
