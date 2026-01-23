@@ -1,0 +1,135 @@
+[09:08:44] 📁 Log file opened: logs/server_23.01.2026.log
+[09:08:44] ===========================================
+[09:08:44]       FORUM APP SERVER - UTM FCIM
+[09:08:44]       Autor: Buga Pavel - CR-231
+[09:08:44]       Port: 12345
+[09:08:44]       Data: 23.01.2026 09:08:44
+[09:08:44] ===========================================
+
+[09:08:44] 🚀 Initializare server...
+[09:08:45] 🧪 Test baza de date...
+[09:08:45] ✅ Test autentificare: PASSED (student)
+[09:08:45] ✅ Test thread-uri: 9 thread-uri găsite
+[09:08:45] ✅ Test tag-uri: 8 tag-uri găsite
+[09:08:45] ✅ Server pornit pe portul 12345
+[09:08:45] 📍 Accesează: localhost:12345
+[09:08:45] ⏳ Aștept conexiuni...
+
+[09:08:50] 🔗 Client conectat: 127.0.0.1
+[09:08:50] 🎬 ClientHandler pornit pentru: /127.0.0.1
+[09:09:08] 📥 Primit de la anonim: LOGIN:student:student123
+[09:09:08] ✅ student autentificat (session: sess_1769152148429_1)
+[09:09:08] 📥 Primit de la student: GET_THREADS
+[09:09:08] 📤 Trimis 9 thread-uri către student
+[09:09:08] 📥 Primit de la student: GET_ACTIVE_USERS:null
+[09:09:12] 📥 Primit de la student: GET_THREAD:3
+[09:09:12] 📤 Trimis thread #3 către student
+[09:09:12] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1769152148429_1:1:3
+[09:09:12] 📥 Primit de la student: GET_COMMENTS:3
+[09:09:12] 📤 Trimis 14 comentarii pentru thread #3
+[09:09:12] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[09:09:19] 📥 Primit de la student: GET_COMMENTS:3
+[09:09:19] 📤 Trimis 14 comentarii pentru thread #3
+[09:09:19] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[09:09:26] 📥 Primit de la student: GET_COMMENTS:3
+[09:09:26] 📤 Trimis 14 comentarii pentru thread #3
+[09:09:26] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[09:09:27] 📴 Client disconnected: student
+[09:09:27] 👋 Deconectare client: student
+[09:09:29] 🔗 Client conectat: 127.0.0.1
+[09:09:29] 🎬 ClientHandler pornit pentru: /127.0.0.1
+[09:09:31] 📥 Primit de la anonim: LOGIN:student:student123
+[09:09:31] ✅ student autentificat (session: sess_1769152171443_1)
+[09:09:31] 📥 Primit de la student: GET_THREADS
+[09:09:31] 📤 Trimis 9 thread-uri către student
+[09:09:31] 📥 Primit de la student: GET_ACTIVE_USERS:null
+[09:09:32] 📥 Primit de la student: GET_THREAD:3
+[09:09:32] 📤 Trimis thread #3 către student
+[09:09:33] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1769152171443_1:1:3
+[09:09:33] 📥 Primit de la student: GET_COMMENTS:3
+[09:09:33] 📤 Trimis 14 comentarii pentru thread #3
+[09:09:33] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[09:09:35] 📥 Primit de la student: GET_THREAD:9
+[09:09:35] 📤 Trimis thread #9 către student
+[09:09:35] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1769152171443_1:1:9
+[09:09:35] 📥 Primit de la student: GET_COMMENTS:9
+[09:09:35] 📤 Trimis 2 comentarii pentru thread #9
+[09:09:35] 📥 Primit de la student: GET_ACTIVE_USERS:9
+[09:09:37] 📥 Primit de la student: GET_THREAD:8
+[09:09:37] 📤 Trimis thread #8 către student
+[09:09:37] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1769152171443_1:1:8
+[09:09:37] 📥 Primit de la student: GET_COMMENTS:8
+[09:09:37] 📤 Trimis 3 comentarii pentru thread #8
+[09:09:37] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[09:09:44] 📥 Primit de la student: GET_COMMENTS:8
+[09:09:44] 📤 Trimis 3 comentarii pentru thread #8
+[09:09:44] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[09:09:47] 📥 Primit de la student: ADD_COMMENT:8:1:test
+[09:09:47] ✅ student a adăugat comentariu la thread #8
+[09:09:47] 📢 Broadcasting comment update for thread #8
+[09:09:47] 📤 Sending 4 comments to student
+[09:09:47] 📤 Trimis 4 comentarii către student
+[09:09:47] 📥 Primit de la student: GET_COMMENTS:8
+[09:09:47] 📤 Trimis 4 comentarii pentru thread #8
+[09:09:47] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[09:09:47] 📥 Primit de la student: GET_THREADS
+[09:09:47] 📤 Trimis 9 thread-uri către student
+[09:09:47] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1769152171443_1:1:8
+[09:09:47] 📥 Primit de la student: GET_COMMENTS:8
+[09:09:47] 📤 Trimis 4 comentarii pentru thread #8
+[09:09:47] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[09:09:47] 📥 Primit de la student: GET_THREADS
+[09:09:47] 📤 Trimis 9 thread-uri către student
+[09:09:54] 📥 Primit de la student: GET_COMMENTS:8
+[09:09:54] 📤 Trimis 4 comentarii pentru thread #8
+[09:09:54] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[09:10:01] 📥 Primit de la student: GET_COMMENTS:8
+[09:10:01] 📤 Trimis 4 comentarii pentru thread #8
+[09:10:01] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[09:10:01] 📥 Primit de la student: GET_THREADS
+[09:10:01] 📤 Trimis 9 thread-uri către student
+[09:10:01] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[09:10:01] 📥 Primit de la student: HEARTBEAT:sess_1769152171443_1:1:8
+[09:10:07] 📥 Primit de la student: GET_THREAD:1
+[09:10:07] 📤 Trimis thread #1 către student
+[09:10:07] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1769152171443_1:1:1
+[09:10:07] 📥 Primit de la student: GET_COMMENTS:1
+[09:10:07] 📤 Trimis 3 comentarii pentru thread #1
+[09:10:07] 📥 Primit de la student: GET_ACTIVE_USERS:1
+[09:10:07] 📥 Primit de la student: GET_THREAD:5
+[09:10:07] 📤 Trimis thread #5 către student
+[09:10:07] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1769152171443_1:1:5
+[09:10:07] 📥 Primit de la student: GET_COMMENTS:5
+[09:10:07] 📤 Trimis 3 comentarii pentru thread #5
+[09:10:07] 📥 Primit de la student: GET_ACTIVE_USERS:5
+[09:10:12] 📥 Primit de la student: GET_THREAD:1
+[09:10:12] 📤 Trimis thread #1 către student
+[09:10:12] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1769152171443_1:1:1
+[09:10:12] 📥 Primit de la student: GET_COMMENTS:1
+[09:10:12] 📤 Trimis 3 comentarii pentru thread #1
+[09:10:12] 📥 Primit de la student: GET_ACTIVE_USERS:1
+[09:10:13] 📥 Primit de la student: GET_THREAD:5
+[09:10:13] 📤 Trimis thread #5 către student
+[09:10:13] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1769152171443_1:1:5
+[09:10:13] 📥 Primit de la student: GET_COMMENTS:5
+[09:10:13] 📤 Trimis 3 comentarii pentru thread #5
+[09:10:13] 📥 Primit de la student: GET_ACTIVE_USERS:5
+[09:10:20] 📥 Primit de la student: GET_COMMENTS:5
+[09:10:20] 📤 Trimis 3 comentarii pentru thread #5
+[09:10:20] 📥 Primit de la student: GET_ACTIVE_USERS:5
+[09:10:27] 📥 Primit de la student: GET_COMMENTS:5
+[09:10:27] 📤 Trimis 3 comentarii pentru thread #5
+[09:10:27] 📥 Primit de la student: GET_ACTIVE_USERS:5
+[09:10:31] 📥 Primit de la student: GET_THREADS
+[09:10:31] 📤 Trimis 9 thread-uri către student
+[09:10:31] 📥 Primit de la student: GET_ACTIVE_USERS:5
+[09:10:31] 📥 Primit de la student: HEARTBEAT:sess_1769152171443_1:1:5
+[09:10:34] 📥 Primit de la student: GET_COMMENTS:5
+[09:10:34] 📤 Trimis 3 comentarii pentru thread #5
+[09:10:34] 📥 Primit de la student: GET_ACTIVE_USERS:5
+[09:10:37] 📴 Client disconnected: student
+[09:10:37] 👋 Deconectare client: student
+[09:10:39] 🔗 Client conectat: 127.0.0.1
+[09:10:39] 🎬 ClientHandler pornit pentru: /127.0.0.1
+[09:12:13] 📴 Client disconnected: /127.0.0.1
+[09:12:13] 👋 Deconectare client: /127.0.0.1

@@ -1,0 +1,27 @@
+<project name="ForumApp" default="compile" basedir=".">
+    <property name="src.dir" value="src"/>
+    <property name="build.dir" value="build"/>
+    <property name="lib.dir" value="lib"/>
+
+    <path id="classpath">
+        <fileset dir="${lib.dir}" includes="**/*.jar"/>
+    </path>
+
+    <target name="compile">
+        <mkdir dir="${build.dir}"/>
+        <javac srcdir="${src.dir}" destdir="${build.dir}"
+               classpathref="classpath" includeantruntime="false"/>
+    </target>
+
+    <target name="run-server" depends="compile">
+        <java classname="server.ServerMain" classpath="${build.dir}" fork="true"/>
+    </target>
+
+    <target name="run-client" depends="compile">
+        <java classname="client.ClientMain" classpath="${build.dir}" fork="true"/>
+    </target>
+
+    <target name="clean">
+        <delete dir="${build.dir}"/>
+    </target>
+</project>

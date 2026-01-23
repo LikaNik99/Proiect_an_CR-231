@@ -1,0 +1,3572 @@
+[12:42:04] 📁 Log file opened: logs/server_08.12.2025.log
+[12:42:04] ===========================================
+[12:42:04]       FORUM APP SERVER - UTM FCIM
+[12:42:04]       Autor: Buga Pavel - CR-231
+[12:42:04]       Port: 12345
+[12:42:04]       Data: 08.12.2025 12:42:04
+[12:42:04] ===========================================
+
+[12:42:04] 🚀 Initializare server...
+[12:42:04] 🧪 Test baza de date...
+[12:42:04] ✅ Test autentificare: PASSED (student)
+[12:42:04] ✅ Test thread-uri: 9 thread-uri găsite
+[12:42:04] ✅ Test tag-uri: 8 tag-uri găsite
+[12:42:04] ✅ Server pornit pe portul 12345
+[12:42:04] 📍 Accesează: localhost:12345
+[12:42:04] ⏳ Aștept conexiuni...
+
+[12:42:06] 🔗 Client conectat: 127.0.0.1
+[12:42:06] 🎬 ClientHandler pornit pentru: /127.0.0.1
+[12:42:14] 📥 Primit de la anonim: LOGIN:ktqmd:1111
+[12:42:14] ✅ ktqmd autentificat (session: sess_1765190534741_6)
+[12:42:14] 📥 Primit de la ktqmd: GET_THREADS
+[12:42:14] 📤 Trimis 9 thread-uri către ktqmd
+[12:42:14] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:null
+[12:42:21] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:null
+[12:42:24] 📥 Primit de la ktqmd: GET_THREADS
+[12:42:24] 📤 Trimis 9 thread-uri către ktqmd
+[12:42:26] 📥 Primit de la ktqmd: GET_THREAD:3
+[12:42:26] 📤 Trimis thread #3 către ktqmd
+[12:42:26] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765190534741_6:6:3
+[12:42:26] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[12:42:26] 📤 Trimis 5 comentarii pentru thread #3
+[12:42:26] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[12:42:30] 📥 Primit de la ktqmd: GET_THREADS
+[12:42:30] 📤 Trimis 9 thread-uri către ktqmd
+[12:42:30] 📥 Primit de la ktqmd: GET_THREADS
+[12:42:30] 📤 Trimis 9 thread-uri către ktqmd
+[12:42:30] 📥 Primit de la ktqmd: GET_THREADS
+[12:42:30] 📤 Trimis 9 thread-uri către ktqmd
+[12:42:30] 📥 Primit de la ktqmd: GET_THREADS
+[12:42:30] 📤 Trimis 9 thread-uri către ktqmd
+[12:42:32] 📥 Primit de la ktqmd: GET_THREAD:3
+[12:42:32] 📤 Trimis thread #3 către ktqmd
+[12:42:32] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765190534741_6:6:3
+[12:42:32] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[12:42:32] 📤 Trimis 5 comentarii pentru thread #3
+[12:42:32] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[12:42:33] 📥 Primit de la ktqmd: GET_THREAD:3
+[12:42:33] 📤 Trimis thread #3 către ktqmd
+[12:42:33] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765190534741_6:6:3
+[12:42:33] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[12:42:33] 📤 Trimis 5 comentarii pentru thread #3
+[12:42:33] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[12:42:39] 📥 Primit de la ktqmd: GET_THREAD:9
+[12:42:39] 📤 Trimis thread #9 către ktqmd
+[12:42:39] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765190534741_6:6:9
+[12:42:39] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[12:42:39] 📤 Trimis 0 comentarii pentru thread #9
+[12:42:39] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[12:42:44] 📥 Primit de la ktqmd: GET_THREADS
+[12:42:44] 📤 Trimis 9 thread-uri către ktqmd
+[12:42:44] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[12:42:44] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765190534741_6:6:9
+[12:42:46] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[12:42:46] 📤 Trimis 0 comentarii pentru thread #9
+[12:42:46] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[12:42:51] 📥 Primit de la ktqmd: GET_THREAD:9
+[12:42:51] 📤 Trimis thread #9 către ktqmd
+[12:42:51] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765190534741_6:6:9
+[12:42:51] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[12:42:51] 📤 Trimis 0 comentarii pentru thread #9
+[12:42:51] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[12:42:56] 📥 Primit de la ktqmd: GET_THREADS
+[12:42:56] 📤 Trimis 9 thread-uri către ktqmd
+[12:42:58] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[12:42:58] 📤 Trimis 0 comentarii pentru thread #9
+[12:42:58] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[12:43:01] 📥 Primit de la ktqmd: GET_THREADS
+[12:43:01] 📤 Trimis 9 thread-uri către ktqmd
+[12:43:01] 📥 Primit de la ktqmd: GET_THREADS
+[12:43:01] 📤 Trimis 9 thread-uri către ktqmd
+[12:43:02] 📥 Primit de la ktqmd: GET_THREADS
+[12:43:02] 📤 Trimis 9 thread-uri către ktqmd
+[12:43:03] 📥 Primit de la ktqmd: GET_THREAD:3
+[12:43:03] 📤 Trimis thread #3 către ktqmd
+[12:43:03] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765190534741_6:6:3
+[12:43:03] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[12:43:03] 📤 Trimis 5 comentarii pentru thread #3
+[12:43:03] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[12:43:07] 📥 Primit de la ktqmd: GET_THREADS
+[12:43:07] 📤 Trimis 9 thread-uri către ktqmd
+[12:43:10] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[12:43:10] 📤 Trimis 5 comentarii pentru thread #3
+[12:43:10] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[12:43:12] 📥 Primit de la ktqmd: GET_THREAD:3
+[12:43:12] 📤 Trimis thread #3 către ktqmd
+[12:43:12] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765190534741_6:6:3
+[12:43:12] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[12:43:12] 📤 Trimis 5 comentarii pentru thread #3
+[12:43:12] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[12:43:14] 📥 Primit de la ktqmd: GET_THREADS
+[12:43:14] 📤 Trimis 9 thread-uri către ktqmd
+[12:43:14] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[12:43:14] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765190534741_6:6:3
+[12:43:19] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[12:43:19] 📤 Trimis 5 comentarii pentru thread #3
+[12:43:19] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[12:43:26] 📥 Primit de la ktqmd: ADD_COMMENT:3:6:unde si cum?
+[12:43:26] ✅ ktqmd a adăugat comentariu la thread #3
+[12:43:26] 📢 Broadcasting comment update for thread #3
+[12:43:26] 📤 Sending 6 comments to ktqmd
+[12:43:26] 📤 Trimis 6 comentarii către ktqmd
+[12:43:26] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[12:43:26] 📤 Trimis 6 comentarii pentru thread #3
+[12:43:26] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[12:43:26] 📥 Primit de la ktqmd: GET_THREADS
+[12:43:26] 📤 Trimis 9 thread-uri către ktqmd
+[12:43:26] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765190534741_6:6:3
+[12:43:26] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[12:43:26] 📤 Trimis 6 comentarii pentru thread #3
+[12:43:26] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[12:43:26] 📥 Primit de la ktqmd: GET_THREADS
+[12:43:26] 📤 Trimis 9 thread-uri către ktqmd
+[12:43:29] 📥 Primit de la ktqmd: GET_THREAD:3
+[12:43:29] 📤 Trimis thread #3 către ktqmd
+[12:43:29] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765190534741_6:6:3
+[12:43:29] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[12:43:29] 📤 Trimis 6 comentarii pentru thread #3
+[12:43:29] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[12:43:34] 📥 Primit de la ktqmd: GET_THREAD:9
+[12:43:34] 📤 Trimis thread #9 către ktqmd
+[12:43:34] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765190534741_6:6:9
+[12:43:34] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[12:43:34] 📤 Trimis 0 comentarii pentru thread #9
+[12:43:34] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[12:43:36] 📥 Primit de la ktqmd: GET_THREAD:9
+[12:43:36] 📤 Trimis thread #9 către ktqmd
+[12:43:36] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765190534741_6:6:9
+[12:43:36] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[12:43:36] 📤 Trimis 0 comentarii pentru thread #9
+[12:43:36] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[12:43:39] 📥 Primit de la ktqmd: GET_THREAD:9
+[12:43:39] 📤 Trimis thread #9 către ktqmd
+[12:43:40] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765190534741_6:6:9
+[12:43:40] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[12:43:40] 📤 Trimis 0 comentarii pentru thread #9
+[12:43:40] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[12:43:41] 📥 Primit de la ktqmd: GET_THREAD:8
+[12:43:41] 📤 Trimis thread #8 către ktqmd
+[12:43:41] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765190534741_6:6:8
+[12:43:41] 📥 Primit de la ktqmd: GET_COMMENTS:8
+[12:43:41] 📤 Trimis 3 comentarii pentru thread #8
+[12:43:41] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:8
+[12:43:44] 📥 Primit de la ktqmd: GET_THREADS
+[12:43:44] 📤 Trimis 9 thread-uri către ktqmd
+[12:43:44] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:8
+[12:43:44] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765190534741_6:6:8
+[12:43:45] 📥 Primit de la ktqmd: GET_THREAD:8
+[12:43:45] 📤 Trimis thread #8 către ktqmd
+[12:43:45] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765190534741_6:6:8
+[12:43:45] 📥 Primit de la ktqmd: GET_COMMENTS:8
+[12:43:45] 📤 Trimis 3 comentarii pentru thread #8
+[12:43:45] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:8
+[12:43:46] 📥 Primit de la ktqmd: GET_THREAD:3
+[12:43:46] 📤 Trimis thread #3 către ktqmd
+[12:43:46] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765190534741_6:6:3
+[12:43:46] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[12:43:46] 📤 Trimis 6 comentarii pentru thread #3
+[12:43:46] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[12:43:47] 📥 Primit de la ktqmd: GET_THREAD:8
+[12:43:47] 📤 Trimis thread #8 către ktqmd
+[12:43:47] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765190534741_6:6:8
+[12:43:47] 📥 Primit de la ktqmd: GET_COMMENTS:8
+[12:43:47] 📤 Trimis 3 comentarii pentru thread #8
+[12:43:47] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:8
+[12:43:48] 📥 Primit de la ktqmd: GET_THREAD:6
+[12:43:48] 📤 Trimis thread #6 către ktqmd
+[12:43:48] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765190534741_6:6:6
+[12:43:48] 📥 Primit de la ktqmd: GET_COMMENTS:6
+[12:43:48] 📤 Trimis 0 comentarii pentru thread #6
+[12:43:48] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:6
+[12:43:49] 📥 Primit de la ktqmd: GET_THREAD:7
+[12:43:49] 📤 Trimis thread #7 către ktqmd
+[12:43:49] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765190534741_6:6:7
+[12:43:49] 📥 Primit de la ktqmd: GET_COMMENTS:7
+[12:43:49] 📤 Trimis 0 comentarii pentru thread #7
+[12:43:49] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:7
+[12:43:49] 📥 Primit de la ktqmd: GET_THREAD:8
+[12:43:49] 📤 Trimis thread #8 către ktqmd
+[12:43:49] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765190534741_6:6:8
+[12:43:49] 📥 Primit de la ktqmd: GET_COMMENTS:8
+[12:43:49] 📤 Trimis 3 comentarii pentru thread #8
+[12:43:49] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:8
+[12:43:50] 📥 Primit de la ktqmd: GET_THREAD:9
+[12:43:50] 📤 Trimis thread #9 către ktqmd
+[12:43:50] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765190534741_6:6:9
+[12:43:50] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[12:43:50] 📤 Trimis 0 comentarii pentru thread #9
+[12:43:50] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[12:43:51] 📥 Primit de la ktqmd: GET_THREAD:7
+[12:43:51] 📤 Trimis thread #7 către ktqmd
+[12:43:51] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765190534741_6:6:7
+[12:43:51] 📥 Primit de la ktqmd: GET_COMMENTS:7
+[12:43:51] 📤 Trimis 0 comentarii pentru thread #7
+[12:43:51] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:7
+[12:43:51] 📥 Primit de la ktqmd: GET_THREAD:8
+[12:43:51] 📤 Trimis thread #8 către ktqmd
+[12:43:51] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765190534741_6:6:8
+[12:43:51] 📥 Primit de la ktqmd: GET_COMMENTS:8
+[12:43:51] 📤 Trimis 3 comentarii pentru thread #8
+[12:43:51] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:8
+[12:43:53] 📥 Primit de la ktqmd: GET_THREAD:7
+[12:43:53] 📤 Trimis thread #7 către ktqmd
+[12:43:53] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765190534741_6:6:7
+[12:43:53] 📥 Primit de la ktqmd: GET_COMMENTS:7
+[12:43:53] 📤 Trimis 0 comentarii pentru thread #7
+[12:43:53] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:7
+[12:43:54] 📥 Primit de la ktqmd: GET_THREAD:1
+[12:43:54] 📤 Trimis thread #1 către ktqmd
+[12:43:54] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765190534741_6:6:1
+[12:43:54] 📥 Primit de la ktqmd: GET_COMMENTS:1
+[12:43:54] 📤 Trimis 3 comentarii pentru thread #1
+[12:43:54] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:1
+[12:43:56] 📥 Primit de la ktqmd: GET_THREAD:1
+[12:43:56] 📤 Trimis thread #1 către ktqmd
+[12:43:56] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765190534741_6:6:1
+[12:43:56] 📥 Primit de la ktqmd: GET_COMMENTS:1
+[12:43:56] 📤 Trimis 3 comentarii pentru thread #1
+[12:43:56] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:1
+[12:44:03] 📥 Primit de la ktqmd: GET_COMMENTS:1
+[12:44:03] 📤 Trimis 3 comentarii pentru thread #1
+[12:44:03] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:1
+[12:44:10] 📥 Primit de la ktqmd: GET_COMMENTS:1
+[12:44:10] 📤 Trimis 3 comentarii pentru thread #1
+[12:44:10] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:1
+[12:44:13] 📥 Primit de la ktqmd: LOGOUT
+[12:44:13] 👋 ktqmd logged out
+[12:44:13] 📴 Client disconnected: ktqmd
+[12:44:13] 👋 Deconectare client: ktqmd
+[12:58:23] 📁 Log file opened: logs/server_08.12.2025.log
+[12:58:23] ===========================================
+[12:58:23]       FORUM APP SERVER - UTM FCIM
+[12:58:23]       Autor: Buga Pavel - CR-231
+[12:58:23]       Port: 12345
+[12:58:23]       Data: 08.12.2025 12:58:23
+[12:58:23] ===========================================
+
+[12:58:23] 🚀 Initializare server...
+[12:58:24] 🧪 Test baza de date...
+[12:58:24] ✅ Test autentificare: PASSED (student)
+[12:58:24] ✅ Test thread-uri: 9 thread-uri găsite
+[12:58:24] ✅ Test tag-uri: 8 tag-uri găsite
+[12:58:24] ✅ Server pornit pe portul 12345
+[12:58:24] 📍 Accesează: localhost:12345
+[12:58:24] ⏳ Aștept conexiuni...
+
+[12:58:31] 🔗 Client conectat: 127.0.0.1
+[12:58:31] 🎬 ClientHandler pornit pentru: /127.0.0.1
+[12:58:39] 📥 Primit de la anonim: LOGIN:ktqmd:1111
+[12:58:39] ✅ ktqmd autentificat (session: sess_1765191519962_6)
+[12:58:40] 📥 Primit de la ktqmd: GET_THREADS
+[12:58:40] 📤 Trimis 9 thread-uri către ktqmd
+[12:58:40] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:null
+[12:58:41] 📥 Primit de la ktqmd: GET_THREAD:3
+[12:58:41] 📤 Trimis thread #3 către ktqmd
+[12:58:42] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765191519962_6:6:3
+[12:58:42] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[12:58:42] 📤 Trimis 6 comentarii pentru thread #3
+[12:58:42] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[12:58:45] 📥 Primit de la ktqmd: GET_THREAD:3
+[12:58:45] 📤 Trimis thread #3 către ktqmd
+[12:58:45] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765191519962_6:6:3
+[12:58:45] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[12:58:45] 📤 Trimis 6 comentarii pentru thread #3
+[12:58:45] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[12:58:48] 📥 Primit de la ktqmd: GET_THREAD:8
+[12:58:48] 📤 Trimis thread #8 către ktqmd
+[12:58:48] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765191519962_6:6:8
+[12:58:48] 📥 Primit de la ktqmd: GET_COMMENTS:8
+[12:58:48] 📤 Trimis 3 comentarii pentru thread #8
+[12:58:48] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:8
+[12:58:49] 📥 Primit de la ktqmd: GET_THREAD:9
+[12:58:49] 📤 Trimis thread #9 către ktqmd
+[12:58:50] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765191519962_6:6:9
+[12:58:50] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[12:58:50] 📤 Trimis 0 comentarii pentru thread #9
+[12:58:50] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[12:58:51] 📥 Primit de la ktqmd: GET_THREAD:8
+[12:58:51] 📤 Trimis thread #8 către ktqmd
+[12:58:51] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765191519962_6:6:8
+[12:58:51] 📥 Primit de la ktqmd: GET_COMMENTS:8
+[12:58:51] 📤 Trimis 3 comentarii pentru thread #8
+[12:58:51] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:8
+[12:58:54] 📥 Primit de la ktqmd: GET_THREAD:8
+[12:58:54] 📤 Trimis thread #8 către ktqmd
+[12:58:54] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765191519962_6:6:8
+[12:58:54] 📥 Primit de la ktqmd: GET_COMMENTS:8
+[12:58:54] 📤 Trimis 3 comentarii pentru thread #8
+[12:58:54] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:8
+[12:58:56] 📥 Primit de la ktqmd: GET_THREAD:1
+[12:58:56] 📤 Trimis thread #1 către ktqmd
+[12:58:56] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765191519962_6:6:1
+[12:58:56] 📥 Primit de la ktqmd: GET_COMMENTS:1
+[12:58:56] 📤 Trimis 3 comentarii pentru thread #1
+[12:58:56] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:1
+[12:58:59] 📥 Primit de la ktqmd: GET_THREAD:1
+[12:58:59] 📤 Trimis thread #1 către ktqmd
+[12:58:59] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765191519962_6:6:1
+[12:58:59] 📥 Primit de la ktqmd: GET_COMMENTS:1
+[12:58:59] 📤 Trimis 3 comentarii pentru thread #1
+[12:58:59] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:1
+[12:59:02] 📥 Primit de la ktqmd: GET_THREAD:4
+[12:59:03] 📤 Trimis thread #4 către ktqmd
+[12:59:03] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765191519962_6:6:4
+[12:59:03] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[12:59:03] 📤 Trimis 4 comentarii pentru thread #4
+[12:59:03] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[12:59:04] 📥 Primit de la ktqmd: GET_THREAD:2
+[12:59:04] 📤 Trimis thread #2 către ktqmd
+[12:59:04] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765191519962_6:6:2
+[12:59:04] 📥 Primit de la ktqmd: GET_COMMENTS:2
+[12:59:04] 📤 Trimis 0 comentarii pentru thread #2
+[12:59:04] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:2
+[12:59:04] 📥 Primit de la ktqmd: GET_THREAD:4
+[12:59:04] 📤 Trimis thread #4 către ktqmd
+[12:59:05] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765191519962_6:6:4
+[12:59:05] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[12:59:05] 📤 Trimis 4 comentarii pentru thread #4
+[12:59:05] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[12:59:07] 📥 Primit de la ktqmd: GET_THREAD:4
+[12:59:07] 📤 Trimis thread #4 către ktqmd
+[12:59:07] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765191519962_6:6:4
+[12:59:07] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[12:59:07] 📤 Trimis 4 comentarii pentru thread #4
+[12:59:07] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[12:59:10] 📥 Primit de la ktqmd: GET_THREADS
+[12:59:10] 📤 Trimis 9 thread-uri către ktqmd
+[12:59:10] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[12:59:10] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765191519962_6:6:4
+[12:59:14] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[12:59:14] 📤 Trimis 4 comentarii pentru thread #4
+[12:59:14] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[12:59:21] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[12:59:21] 📤 Trimis 4 comentarii pentru thread #4
+[12:59:21] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[12:59:28] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[12:59:28] 📤 Trimis 4 comentarii pentru thread #4
+[12:59:28] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[12:59:35] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[12:59:35] 📤 Trimis 4 comentarii pentru thread #4
+[12:59:35] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[12:59:40] 📥 Primit de la ktqmd: GET_THREADS
+[12:59:40] 📤 Trimis 9 thread-uri către ktqmd
+[12:59:40] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[12:59:40] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765191519962_6:6:4
+[12:59:42] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[12:59:42] 📤 Trimis 4 comentarii pentru thread #4
+[12:59:42] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[12:59:49] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[12:59:49] 📤 Trimis 4 comentarii pentru thread #4
+[12:59:49] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[12:59:56] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[12:59:56] 📤 Trimis 4 comentarii pentru thread #4
+[12:59:56] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:00:03] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:00:03] 📤 Trimis 4 comentarii pentru thread #4
+[13:00:03] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:00:10] 📥 Primit de la ktqmd: GET_THREADS
+[13:00:10] 📤 Trimis 9 thread-uri către ktqmd
+[13:00:10] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:00:10] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765191519962_6:6:4
+[13:00:10] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:00:10] 📤 Trimis 4 comentarii pentru thread #4
+[13:00:10] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:00:17] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:00:17] 📤 Trimis 4 comentarii pentru thread #4
+[13:00:17] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:00:24] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:00:24] 📤 Trimis 4 comentarii pentru thread #4
+[13:00:24] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:00:31] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:00:31] 📤 Trimis 4 comentarii pentru thread #4
+[13:00:31] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:00:38] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:00:38] 📤 Trimis 4 comentarii pentru thread #4
+[13:00:38] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:00:40] 📥 Primit de la ktqmd: GET_THREADS
+[13:00:40] 📤 Trimis 9 thread-uri către ktqmd
+[13:00:40] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:00:40] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765191519962_6:6:4
+[13:00:45] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:00:45] 📤 Trimis 4 comentarii pentru thread #4
+[13:00:45] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:00:52] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:00:52] 📤 Trimis 4 comentarii pentru thread #4
+[13:00:52] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:00:59] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:00:59] 📤 Trimis 4 comentarii pentru thread #4
+[13:00:59] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:01:06] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:01:06] 📤 Trimis 4 comentarii pentru thread #4
+[13:01:06] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:01:10] 📥 Primit de la ktqmd: GET_THREADS
+[13:01:10] 📤 Trimis 9 thread-uri către ktqmd
+[13:01:10] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:01:10] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765191519962_6:6:4
+[13:01:13] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:01:13] 📤 Trimis 4 comentarii pentru thread #4
+[13:01:13] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:01:20] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:01:20] 📤 Trimis 4 comentarii pentru thread #4
+[13:01:20] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:01:27] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:01:27] 📤 Trimis 4 comentarii pentru thread #4
+[13:01:27] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:01:34] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:01:34] 📤 Trimis 4 comentarii pentru thread #4
+[13:01:34] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:01:40] 📥 Primit de la ktqmd: GET_THREADS
+[13:01:40] 📤 Trimis 9 thread-uri către ktqmd
+[13:01:40] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:01:40] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765191519962_6:6:4
+[13:01:41] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:01:41] 📤 Trimis 4 comentarii pentru thread #4
+[13:01:41] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:01:48] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:01:48] 📤 Trimis 4 comentarii pentru thread #4
+[13:01:48] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:01:55] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:01:55] 📤 Trimis 4 comentarii pentru thread #4
+[13:01:55] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:02:02] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:02:02] 📤 Trimis 4 comentarii pentru thread #4
+[13:02:02] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:02:09] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:02:09] 📤 Trimis 4 comentarii pentru thread #4
+[13:02:09] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:02:10] 📥 Primit de la ktqmd: GET_THREADS
+[13:02:10] 📤 Trimis 9 thread-uri către ktqmd
+[13:02:10] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:02:10] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765191519962_6:6:4
+[13:02:16] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:02:16] 📤 Trimis 4 comentarii pentru thread #4
+[13:02:16] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:02:23] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:02:23] 📤 Trimis 4 comentarii pentru thread #4
+[13:02:23] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:02:30] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:02:30] 📤 Trimis 4 comentarii pentru thread #4
+[13:02:30] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:02:37] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:02:37] 📤 Trimis 4 comentarii pentru thread #4
+[13:02:37] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:02:40] 📥 Primit de la ktqmd: GET_THREADS
+[13:02:40] 📤 Trimis 9 thread-uri către ktqmd
+[13:02:40] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:02:40] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765191519962_6:6:4
+[13:02:44] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:02:44] 📤 Trimis 4 comentarii pentru thread #4
+[13:02:44] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:02:51] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:02:51] 📤 Trimis 4 comentarii pentru thread #4
+[13:02:51] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:02:58] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:02:58] 📤 Trimis 4 comentarii pentru thread #4
+[13:02:58] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:03:05] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:03:05] 📤 Trimis 4 comentarii pentru thread #4
+[13:03:05] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:03:10] 📥 Primit de la ktqmd: GET_THREADS
+[13:03:10] 📤 Trimis 9 thread-uri către ktqmd
+[13:03:10] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:03:10] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765191519962_6:6:4
+[13:03:12] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:03:12] 📤 Trimis 4 comentarii pentru thread #4
+[13:03:12] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:03:19] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:03:19] 📤 Trimis 4 comentarii pentru thread #4
+[13:03:19] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:03:26] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:03:26] 📤 Trimis 4 comentarii pentru thread #4
+[13:03:26] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:03:27] 📥 Primit de la ktqmd: GET_THREAD:8
+[13:03:27] 📤 Trimis thread #8 către ktqmd
+[13:03:27] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765191519962_6:6:8
+[13:03:27] 📥 Primit de la ktqmd: GET_COMMENTS:8
+[13:03:27] 📤 Trimis 3 comentarii pentru thread #8
+[13:03:27] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:8
+[13:03:28] 📥 Primit de la ktqmd: GET_THREAD:9
+[13:03:28] 📤 Trimis thread #9 către ktqmd
+[13:03:29] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765191519962_6:6:9
+[13:03:29] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[13:03:29] 📤 Trimis 0 comentarii pentru thread #9
+[13:03:29] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[13:03:31] 📥 Primit de la ktqmd: GET_THREAD:9
+[13:03:31] 📤 Trimis thread #9 către ktqmd
+[13:03:31] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765191519962_6:6:9
+[13:03:31] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[13:03:31] 📤 Trimis 0 comentarii pentru thread #9
+[13:03:31] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[13:03:38] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[13:03:38] 📤 Trimis 0 comentarii pentru thread #9
+[13:03:38] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[13:03:39] 📥 Primit de la ktqmd: ADD_COMMENT:9:6:Primul!
+[13:03:39] ✅ ktqmd a adăugat comentariu la thread #9
+[13:03:39] 📢 Broadcasting comment update for thread #9
+[13:03:39] 📤 Sending 1 comments to ktqmd
+[13:03:39] 📤 Trimis 1 comentarii către ktqmd
+[13:03:39] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[13:03:39] 📤 Trimis 1 comentarii pentru thread #9
+[13:03:39] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[13:03:39] 📥 Primit de la ktqmd: GET_THREADS
+[13:03:39] 📤 Trimis 9 thread-uri către ktqmd
+[13:03:39] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765191519962_6:6:9
+[13:03:39] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[13:03:39] 📤 Trimis 1 comentarii pentru thread #9
+[13:03:39] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[13:03:39] 📥 Primit de la ktqmd: GET_THREADS
+[13:03:39] 📤 Trimis 9 thread-uri către ktqmd
+[13:03:40] 📥 Primit de la ktqmd: GET_THREADS
+[13:03:40] 📤 Trimis 9 thread-uri către ktqmd
+[13:03:40] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[13:03:40] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765191519962_6:6:9
+[13:03:42] 📥 Primit de la ktqmd: GET_THREAD:9
+[13:03:42] 📤 Trimis thread #9 către ktqmd
+[13:03:42] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765191519962_6:6:9
+[13:03:42] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[13:03:42] 📤 Trimis 1 comentarii pentru thread #9
+[13:03:42] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[13:03:42] 📥 Primit de la ktqmd: GET_THREAD:3
+[13:03:42] 📤 Trimis thread #3 către ktqmd
+[13:03:42] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765191519962_6:6:3
+[13:03:42] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[13:03:42] 📤 Trimis 6 comentarii pentru thread #3
+[13:03:42] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[13:03:44] 📥 Primit de la ktqmd: GET_THREAD:3
+[13:03:44] 📤 Trimis thread #3 către ktqmd
+[13:03:44] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765191519962_6:6:3
+[13:03:44] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[13:03:44] 📤 Trimis 6 comentarii pentru thread #3
+[13:03:44] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[13:03:51] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[13:03:51] 📤 Trimis 6 comentarii pentru thread #3
+[13:03:51] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[13:03:58] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[13:03:58] 📤 Trimis 6 comentarii pentru thread #3
+[13:03:58] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[13:04:02] 📥 Primit de la ktqmd: GET_THREADS
+[13:04:02] 📤 Trimis 9 thread-uri către ktqmd
+[13:04:02] 📥 Primit de la ktqmd: GET_THREADS
+[13:04:02] 📤 Trimis 9 thread-uri către ktqmd
+[13:04:03] 📥 Primit de la ktqmd: GET_THREADS
+[13:04:03] 📤 Trimis 9 thread-uri către ktqmd
+[13:04:04] 📥 Primit de la ktqmd: GET_THREAD:3
+[13:04:04] 📤 Trimis thread #3 către ktqmd
+[13:04:04] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765191519962_6:6:3
+[13:04:04] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[13:04:04] 📤 Trimis 6 comentarii pentru thread #3
+[13:04:04] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[13:04:10] 📥 Primit de la ktqmd: GET_THREADS
+[13:04:10] 📤 Trimis 9 thread-uri către ktqmd
+[13:04:10] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[13:04:10] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765191519962_6:6:3
+[13:04:11] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[13:04:11] 📤 Trimis 6 comentarii pentru thread #3
+[13:04:11] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[13:04:18] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[13:04:18] 📤 Trimis 6 comentarii pentru thread #3
+[13:04:18] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[13:04:25] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[13:04:25] 📤 Trimis 6 comentarii pentru thread #3
+[13:04:25] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[13:04:32] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[13:04:32] 📤 Trimis 6 comentarii pentru thread #3
+[13:04:32] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[13:04:39] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[13:04:39] 📤 Trimis 6 comentarii pentru thread #3
+[13:04:39] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[13:04:40] 📥 Primit de la ktqmd: GET_THREADS
+[13:04:40] 📤 Trimis 9 thread-uri către ktqmd
+[13:04:40] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[13:04:40] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765191519962_6:6:3
+[13:04:43] 📥 Primit de la ktqmd: LOGOUT
+[13:04:43] 👋 ktqmd logged out
+[13:04:43] 📴 Client disconnected: ktqmd
+[13:04:43] 👋 Deconectare client: ktqmd
+[13:09:34] 📁 Log file opened: logs/server_08.12.2025.log
+[13:09:34] ===========================================
+[13:09:34]       FORUM APP SERVER - UTM FCIM
+[13:09:34]       Autor: Buga Pavel - CR-231
+[13:09:34]       Port: 12345
+[13:09:34]       Data: 08.12.2025 13:09:34
+[13:09:34] ===========================================
+
+[13:09:34] 🚀 Initializare server...
+[13:09:34] 🧪 Test baza de date...
+[13:09:34] ✅ Test autentificare: PASSED (student)
+[13:09:34] ✅ Test thread-uri: 9 thread-uri găsite
+[13:09:34] ✅ Test tag-uri: 8 tag-uri găsite
+[13:09:34] ✅ Server pornit pe portul 12345
+[13:09:34] 📍 Accesează: localhost:12345
+[13:09:34] ⏳ Aștept conexiuni...
+
+[13:09:44] 🔗 Client conectat: 127.0.0.1
+[13:09:44] 🎬 ClientHandler pornit pentru: /127.0.0.1
+[13:09:46] 📥 Primit de la anonim: LOGIN:student:student123
+[13:09:46] ✅ student autentificat (session: sess_1765192186470_1)
+[13:09:46] 📥 Primit de la student: GET_THREADS
+[13:09:46] 📤 Trimis 9 thread-uri către student
+[13:09:46] 📥 Primit de la student: GET_ACTIVE_USERS:null
+[13:09:49] 📥 Primit de la student: GET_THREAD:3
+[13:09:49] 📤 Trimis thread #3 către student
+[13:09:50] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:3
+[13:09:50] 📥 Primit de la student: GET_COMMENTS:3
+[13:09:50] 📤 Trimis 6 comentarii pentru thread #3
+[13:09:50] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[13:09:54] 📥 Primit de la student: GET_THREAD:9
+[13:09:54] 📤 Trimis thread #9 către student
+[13:09:54] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:9
+[13:09:54] 📥 Primit de la student: GET_COMMENTS:9
+[13:09:54] 📤 Trimis 1 comentarii pentru thread #9
+[13:09:54] 📥 Primit de la student: GET_ACTIVE_USERS:9
+[13:09:55] 📥 Primit de la student: GET_THREAD:8
+[13:09:55] 📤 Trimis thread #8 către student
+[13:09:55] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:8
+[13:09:55] 📥 Primit de la student: GET_COMMENTS:8
+[13:09:55] 📤 Trimis 3 comentarii pentru thread #8
+[13:09:55] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:09:59] 📥 Primit de la student: GET_THREAD:7
+[13:09:59] 📤 Trimis thread #7 către student
+[13:09:59] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:09:59] 📥 Primit de la student: GET_COMMENTS:7
+[13:09:59] 📤 Trimis 0 comentarii pentru thread #7
+[13:09:59] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:10:02] 📥 Primit de la student: GET_THREAD:5
+[13:10:02] 📤 Trimis thread #5 către student
+[13:10:02] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:5
+[13:10:02] 📥 Primit de la student: GET_COMMENTS:5
+[13:10:02] 📤 Trimis 3 comentarii pentru thread #5
+[13:10:02] 📥 Primit de la student: GET_ACTIVE_USERS:5
+[13:10:05] 📥 Primit de la student: GET_THREAD:2
+[13:10:05] 📤 Trimis thread #2 către student
+[13:10:05] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:2
+[13:10:05] 📥 Primit de la student: GET_COMMENTS:2
+[13:10:05] 📤 Trimis 0 comentarii pentru thread #2
+[13:10:05] 📥 Primit de la student: GET_ACTIVE_USERS:2
+[13:10:06] 📥 Primit de la student: GET_THREAD:4
+[13:10:06] 📤 Trimis thread #4 către student
+[13:10:06] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:4
+[13:10:06] 📥 Primit de la student: GET_COMMENTS:4
+[13:10:06] 📤 Trimis 4 comentarii pentru thread #4
+[13:10:06] 📥 Primit de la student: GET_ACTIVE_USERS:4
+[13:10:08] 📥 Primit de la student: GET_THREAD:6
+[13:10:08] 📤 Trimis thread #6 către student
+[13:10:08] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:6
+[13:10:08] 📥 Primit de la student: GET_COMMENTS:6
+[13:10:08] 📤 Trimis 0 comentarii pentru thread #6
+[13:10:08] 📥 Primit de la student: GET_ACTIVE_USERS:6
+[13:10:08] 📥 Primit de la student: GET_THREAD:7
+[13:10:08] 📤 Trimis thread #7 către student
+[13:10:09] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:10:09] 📥 Primit de la student: GET_COMMENTS:7
+[13:10:09] 📤 Trimis 0 comentarii pentru thread #7
+[13:10:09] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:10:10] 📥 Primit de la student: GET_THREAD:8
+[13:10:10] 📤 Trimis thread #8 către student
+[13:10:10] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:8
+[13:10:10] 📥 Primit de la student: GET_COMMENTS:8
+[13:10:10] 📤 Trimis 3 comentarii pentru thread #8
+[13:10:10] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:10:13] 📥 Primit de la student: GET_THREAD:8
+[13:10:13] 📤 Trimis thread #8 către student
+[13:10:13] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:8
+[13:10:13] 📥 Primit de la student: GET_COMMENTS:8
+[13:10:13] 📤 Trimis 3 comentarii pentru thread #8
+[13:10:13] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:10:16] 📥 Primit de la student: GET_THREADS
+[13:10:16] 📤 Trimis 9 thread-uri către student
+[13:10:16] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:10:16] 📥 Primit de la student: HEARTBEAT:sess_1765192186470_1:1:8
+[13:10:20] 📥 Primit de la student: GET_THREAD:8
+[13:10:20] 📤 Trimis thread #8 către student
+[13:10:20] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:8
+[13:10:20] 📥 Primit de la student: GET_COMMENTS:8
+[13:10:20] 📤 Trimis 3 comentarii pentru thread #8
+[13:10:20] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:10:20] 📥 Primit de la student: GET_THREAD:7
+[13:10:20] 📤 Trimis thread #7 către student
+[13:10:20] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:10:20] 📥 Primit de la student: GET_COMMENTS:7
+[13:10:20] 📤 Trimis 0 comentarii pentru thread #7
+[13:10:20] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:10:21] 📥 Primit de la student: GET_THREAD:6
+[13:10:21] 📤 Trimis thread #6 către student
+[13:10:22] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:6
+[13:10:22] 📥 Primit de la student: GET_COMMENTS:6
+[13:10:22] 📤 Trimis 0 comentarii pentru thread #6
+[13:10:22] 📥 Primit de la student: GET_ACTIVE_USERS:6
+[13:10:22] 📥 Primit de la student: GET_THREAD:1
+[13:10:22] 📤 Trimis thread #1 către student
+[13:10:22] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:1
+[13:10:22] 📥 Primit de la student: GET_COMMENTS:1
+[13:10:22] 📤 Trimis 3 comentarii pentru thread #1
+[13:10:22] 📥 Primit de la student: GET_ACTIVE_USERS:1
+[13:10:23] 📥 Primit de la student: GET_THREAD:5
+[13:10:23] 📤 Trimis thread #5 către student
+[13:10:23] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:5
+[13:10:23] 📥 Primit de la student: GET_COMMENTS:5
+[13:10:23] 📤 Trimis 3 comentarii pentru thread #5
+[13:10:23] 📥 Primit de la student: GET_ACTIVE_USERS:5
+[13:10:24] 📥 Primit de la student: GET_THREAD:1
+[13:10:24] 📤 Trimis thread #1 către student
+[13:10:24] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:1
+[13:10:24] 📥 Primit de la student: GET_COMMENTS:1
+[13:10:24] 📤 Trimis 3 comentarii pentru thread #1
+[13:10:24] 📥 Primit de la student: GET_ACTIVE_USERS:1
+[13:10:25] 📥 Primit de la student: GET_THREAD:6
+[13:10:25] 📤 Trimis thread #6 către student
+[13:10:25] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:6
+[13:10:25] 📥 Primit de la student: GET_COMMENTS:6
+[13:10:25] 📤 Trimis 0 comentarii pentru thread #6
+[13:10:25] 📥 Primit de la student: GET_ACTIVE_USERS:6
+[13:10:32] 📥 Primit de la student: GET_COMMENTS:6
+[13:10:32] 📤 Trimis 0 comentarii pentru thread #6
+[13:10:32] 📥 Primit de la student: GET_ACTIVE_USERS:6
+[13:10:39] 📥 Primit de la student: GET_COMMENTS:6
+[13:10:39] 📤 Trimis 0 comentarii pentru thread #6
+[13:10:39] 📥 Primit de la student: GET_ACTIVE_USERS:6
+[13:10:46] 📥 Primit de la student: GET_COMMENTS:6
+[13:10:46] 📤 Trimis 0 comentarii pentru thread #6
+[13:10:46] 📥 Primit de la student: GET_ACTIVE_USERS:6
+[13:10:46] 📥 Primit de la student: GET_THREADS
+[13:10:46] 📤 Trimis 9 thread-uri către student
+[13:10:46] 📥 Primit de la student: GET_ACTIVE_USERS:6
+[13:10:46] 📥 Primit de la student: HEARTBEAT:sess_1765192186470_1:1:6
+[13:10:53] 📥 Primit de la student: GET_COMMENTS:6
+[13:10:53] 📤 Trimis 0 comentarii pentru thread #6
+[13:10:53] 📥 Primit de la student: GET_ACTIVE_USERS:6
+[13:11:00] 📥 Primit de la student: GET_COMMENTS:6
+[13:11:00] 📤 Trimis 0 comentarii pentru thread #6
+[13:11:00] 📥 Primit de la student: GET_ACTIVE_USERS:6
+[13:11:07] 📥 Primit de la student: GET_COMMENTS:6
+[13:11:07] 📤 Trimis 0 comentarii pentru thread #6
+[13:11:07] 📥 Primit de la student: GET_ACTIVE_USERS:6
+[13:11:14] 📥 Primit de la student: GET_COMMENTS:6
+[13:11:14] 📤 Trimis 0 comentarii pentru thread #6
+[13:11:14] 📥 Primit de la student: GET_ACTIVE_USERS:6
+[13:11:16] 📥 Primit de la student: GET_THREADS
+[13:11:16] 📤 Trimis 9 thread-uri către student
+[13:11:16] 📥 Primit de la student: GET_ACTIVE_USERS:6
+[13:11:16] 📥 Primit de la student: HEARTBEAT:sess_1765192186470_1:1:6
+[13:11:21] 📥 Primit de la student: GET_COMMENTS:6
+[13:11:21] 📤 Trimis 0 comentarii pentru thread #6
+[13:11:21] 📥 Primit de la student: GET_ACTIVE_USERS:6
+[13:11:25] 📥 Primit de la student: GET_THREAD:8
+[13:11:25] 📤 Trimis thread #8 către student
+[13:11:25] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:8
+[13:11:25] 📥 Primit de la student: GET_COMMENTS:8
+[13:11:25] 📤 Trimis 3 comentarii pentru thread #8
+[13:11:25] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:11:32] 📥 Primit de la student: GET_COMMENTS:8
+[13:11:32] 📤 Trimis 3 comentarii pentru thread #8
+[13:11:32] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:11:33] 🔗 Client conectat: 127.0.0.1
+[13:11:33] 🎬 ClientHandler pornit pentru: /127.0.0.1
+[13:11:39] 📥 Primit de la student: GET_COMMENTS:8
+[13:11:39] 📤 Trimis 3 comentarii pentru thread #8
+[13:11:39] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:11:40] 📥 Primit de la anonim: LOGIN:ktqmd:1111
+[13:11:40] ✅ ktqmd autentificat (session: sess_1765192300142_6)
+[13:11:40] 📥 Primit de la ktqmd: GET_THREADS
+[13:11:40] 📤 Trimis 9 thread-uri către ktqmd
+[13:11:40] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:null
+[13:11:41] 📥 Primit de la ktqmd: GET_THREAD:8
+[13:11:41] 📤 Trimis thread #8 către ktqmd
+[13:11:41] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765192300142_6:6:8
+[13:11:41] 📥 Primit de la ktqmd: GET_COMMENTS:8
+[13:11:41] 📤 Trimis 3 comentarii pentru thread #8
+[13:11:41] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:8
+[13:11:46] 📥 Primit de la student: GET_THREADS
+[13:11:46] 📤 Trimis 9 thread-uri către student
+[13:11:46] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:11:46] 📥 Primit de la student: HEARTBEAT:sess_1765192186470_1:1:8
+[13:11:46] 📥 Primit de la student: GET_COMMENTS:8
+[13:11:46] 📤 Trimis 3 comentarii pentru thread #8
+[13:11:46] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:11:48] 📥 Primit de la ktqmd: GET_COMMENTS:8
+[13:11:48] 📤 Trimis 3 comentarii pentru thread #8
+[13:11:48] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:8
+[13:11:51] 📥 Primit de la student: GET_THREAD:7
+[13:11:51] 📤 Trimis thread #7 către student
+[13:11:51] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:11:51] 📥 Primit de la student: GET_COMMENTS:7
+[13:11:51] 📤 Trimis 0 comentarii pentru thread #7
+[13:11:51] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:11:53] 📥 Primit de la student: GET_THREAD:8
+[13:11:53] 📤 Trimis thread #8 către student
+[13:11:53] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:8
+[13:11:53] 📥 Primit de la student: GET_COMMENTS:8
+[13:11:53] 📤 Trimis 3 comentarii pentru thread #8
+[13:11:53] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:11:55] 📥 Primit de la student: GET_THREAD:7
+[13:11:55] 📤 Trimis thread #7 către student
+[13:11:55] 📥 Primit de la ktqmd: GET_COMMENTS:8
+[13:11:55] 📤 Trimis 3 comentarii pentru thread #8
+[13:11:55] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:8
+[13:11:55] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:11:55] 📥 Primit de la student: GET_COMMENTS:7
+[13:11:55] 📤 Trimis 0 comentarii pentru thread #7
+[13:11:55] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:12:01] 📥 Primit de la ktqmd: GET_THREAD:8
+[13:12:01] 📤 Trimis thread #8 către ktqmd
+[13:12:02] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765192300142_6:6:8
+[13:12:02] 📥 Primit de la ktqmd: GET_COMMENTS:8
+[13:12:02] 📤 Trimis 3 comentarii pentru thread #8
+[13:12:02] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:8
+[13:12:02] 📥 Primit de la student: GET_COMMENTS:7
+[13:12:02] 📤 Trimis 0 comentarii pentru thread #7
+[13:12:02] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:12:03] 📥 Primit de la ktqmd: GET_THREAD:7
+[13:12:03] 📤 Trimis thread #7 către ktqmd
+[13:12:03] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765192300142_6:6:7
+[13:12:03] 📥 Primit de la ktqmd: GET_COMMENTS:7
+[13:12:03] 📤 Trimis 0 comentarii pentru thread #7
+[13:12:03] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:7
+[13:12:04] 📥 Primit de la ktqmd: GET_THREAD:8
+[13:12:04] 📤 Trimis thread #8 către ktqmd
+[13:12:04] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765192300142_6:6:8
+[13:12:04] 📥 Primit de la ktqmd: GET_COMMENTS:8
+[13:12:04] 📤 Trimis 3 comentarii pentru thread #8
+[13:12:04] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:8
+[13:12:05] 📥 Primit de la ktqmd: GET_THREAD:9
+[13:12:05] 📤 Trimis thread #9 către ktqmd
+[13:12:05] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765192300142_6:6:9
+[13:12:05] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[13:12:05] 📤 Trimis 1 comentarii pentru thread #9
+[13:12:05] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[13:12:05] 📥 Primit de la ktqmd: GET_THREAD:3
+[13:12:05] 📤 Trimis thread #3 către ktqmd
+[13:12:05] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765192300142_6:6:3
+[13:12:05] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[13:12:05] 📤 Trimis 6 comentarii pentru thread #3
+[13:12:05] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[13:12:07] 📥 Primit de la ktqmd: GET_THREAD:9
+[13:12:07] 📤 Trimis thread #9 către ktqmd
+[13:12:07] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765192300142_6:6:9
+[13:12:07] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[13:12:07] 📤 Trimis 1 comentarii pentru thread #9
+[13:12:07] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[13:12:07] 📥 Primit de la ktqmd: GET_THREAD:7
+[13:12:07] 📤 Trimis thread #7 către ktqmd
+[13:12:07] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765192300142_6:6:7
+[13:12:07] 📥 Primit de la ktqmd: GET_COMMENTS:7
+[13:12:07] 📤 Trimis 0 comentarii pentru thread #7
+[13:12:07] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:7
+[13:12:08] 📥 Primit de la ktqmd: GET_THREAD:6
+[13:12:08] 📤 Trimis thread #6 către ktqmd
+[13:12:08] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765192300142_6:6:6
+[13:12:08] 📥 Primit de la ktqmd: GET_COMMENTS:6
+[13:12:08] 📤 Trimis 0 comentarii pentru thread #6
+[13:12:08] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:6
+[13:12:09] 📥 Primit de la ktqmd: GET_THREAD:2
+[13:12:09] 📤 Trimis thread #2 către ktqmd
+[13:12:09] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765192300142_6:6:2
+[13:12:09] 📥 Primit de la ktqmd: GET_COMMENTS:2
+[13:12:09] 📤 Trimis 0 comentarii pentru thread #2
+[13:12:09] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:2
+[13:12:09] 📥 Primit de la student: GET_COMMENTS:7
+[13:12:09] 📤 Trimis 0 comentarii pentru thread #7
+[13:12:09] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:12:10] 📥 Primit de la ktqmd: GET_THREAD:4
+[13:12:10] 📤 Trimis thread #4 către ktqmd
+[13:12:10] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765192300142_6:6:4
+[13:12:10] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:12:10] 📤 Trimis 4 comentarii pentru thread #4
+[13:12:10] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:12:10] 📥 Primit de la ktqmd: GET_THREADS
+[13:12:10] 📤 Trimis 9 thread-uri către ktqmd
+[13:12:10] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:12:10] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765192300142_6:6:4
+[13:12:16] 📥 Primit de la student: GET_THREADS
+[13:12:16] 📤 Trimis 9 thread-uri către student
+[13:12:16] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:12:16] 📥 Primit de la student: HEARTBEAT:sess_1765192186470_1:1:7
+[13:12:16] 📥 Primit de la student: GET_COMMENTS:7
+[13:12:16] 📤 Trimis 0 comentarii pentru thread #7
+[13:12:16] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:12:17] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:12:17] 📤 Trimis 4 comentarii pentru thread #4
+[13:12:17] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:12:23] 📥 Primit de la student: GET_COMMENTS:7
+[13:12:23] 📤 Trimis 0 comentarii pentru thread #7
+[13:12:23] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:12:24] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:12:24] 📤 Trimis 4 comentarii pentru thread #4
+[13:12:24] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:12:30] 📥 Primit de la student: GET_COMMENTS:7
+[13:12:30] 📤 Trimis 0 comentarii pentru thread #7
+[13:12:30] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:12:31] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:12:31] 📤 Trimis 4 comentarii pentru thread #4
+[13:12:31] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:12:37] 📥 Primit de la student: GET_COMMENTS:7
+[13:12:37] 📤 Trimis 0 comentarii pentru thread #7
+[13:12:37] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:12:38] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:12:38] 📤 Trimis 4 comentarii pentru thread #4
+[13:12:38] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:12:40] 📥 Primit de la ktqmd: GET_THREADS
+[13:12:40] 📤 Trimis 9 thread-uri către ktqmd
+[13:12:40] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:12:40] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765192300142_6:6:4
+[13:12:44] 📥 Primit de la student: GET_COMMENTS:7
+[13:12:44] 📤 Trimis 0 comentarii pentru thread #7
+[13:12:44] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:12:45] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:12:45] 📤 Trimis 4 comentarii pentru thread #4
+[13:12:45] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:12:46] 📥 Primit de la student: GET_THREADS
+[13:12:46] 📤 Trimis 9 thread-uri către student
+[13:12:46] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:12:46] 📥 Primit de la student: HEARTBEAT:sess_1765192186470_1:1:7
+[13:12:51] 📥 Primit de la student: GET_COMMENTS:7
+[13:12:51] 📤 Trimis 0 comentarii pentru thread #7
+[13:12:51] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:12:52] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:12:52] 📤 Trimis 4 comentarii pentru thread #4
+[13:12:52] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:12:58] 📥 Primit de la student: GET_COMMENTS:7
+[13:12:58] 📤 Trimis 0 comentarii pentru thread #7
+[13:12:58] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:12:59] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:12:59] 📤 Trimis 4 comentarii pentru thread #4
+[13:12:59] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:13:05] 📥 Primit de la student: GET_COMMENTS:7
+[13:13:05] 📤 Trimis 0 comentarii pentru thread #7
+[13:13:05] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:13:06] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:13:06] 📤 Trimis 4 comentarii pentru thread #4
+[13:13:06] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:13:10] 📥 Primit de la ktqmd: GET_THREADS
+[13:13:10] 📤 Trimis 9 thread-uri către ktqmd
+[13:13:10] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:13:10] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765192300142_6:6:4
+[13:13:12] 📥 Primit de la student: GET_COMMENTS:7
+[13:13:12] 📤 Trimis 0 comentarii pentru thread #7
+[13:13:12] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:13:13] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:13:13] 📤 Trimis 4 comentarii pentru thread #4
+[13:13:13] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:13:16] 📥 Primit de la student: GET_THREADS
+[13:13:16] 📤 Trimis 9 thread-uri către student
+[13:13:16] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:13:16] 📥 Primit de la student: HEARTBEAT:sess_1765192186470_1:1:7
+[13:13:19] 📥 Primit de la student: GET_COMMENTS:7
+[13:13:19] 📤 Trimis 0 comentarii pentru thread #7
+[13:13:19] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:13:20] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:13:20] 📤 Trimis 4 comentarii pentru thread #4
+[13:13:20] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:13:26] 📥 Primit de la student: GET_COMMENTS:7
+[13:13:26] 📤 Trimis 0 comentarii pentru thread #7
+[13:13:26] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:13:27] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:13:27] 📤 Trimis 4 comentarii pentru thread #4
+[13:13:27] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:13:33] 📥 Primit de la student: GET_COMMENTS:7
+[13:13:33] 📤 Trimis 0 comentarii pentru thread #7
+[13:13:33] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:13:34] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:13:34] 📤 Trimis 4 comentarii pentru thread #4
+[13:13:34] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:13:40] 📥 Primit de la ktqmd: GET_THREADS
+[13:13:40] 📤 Trimis 9 thread-uri către ktqmd
+[13:13:40] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:13:40] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765192300142_6:6:4
+[13:13:40] 📥 Primit de la student: GET_COMMENTS:7
+[13:13:40] 📤 Trimis 0 comentarii pentru thread #7
+[13:13:40] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:13:41] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:13:41] 📤 Trimis 4 comentarii pentru thread #4
+[13:13:41] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:13:46] 📥 Primit de la student: GET_THREADS
+[13:13:46] 📤 Trimis 9 thread-uri către student
+[13:13:46] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:13:46] 📥 Primit de la student: HEARTBEAT:sess_1765192186470_1:1:7
+[13:13:47] 📥 Primit de la student: GET_COMMENTS:7
+[13:13:47] 📤 Trimis 0 comentarii pentru thread #7
+[13:13:47] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:13:48] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:13:48] 📤 Trimis 4 comentarii pentru thread #4
+[13:13:48] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:13:54] 📥 Primit de la student: GET_COMMENTS:7
+[13:13:54] 📤 Trimis 0 comentarii pentru thread #7
+[13:13:54] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:13:55] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:13:55] 📤 Trimis 4 comentarii pentru thread #4
+[13:13:55] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:14:01] 📥 Primit de la student: GET_COMMENTS:7
+[13:14:01] 📤 Trimis 0 comentarii pentru thread #7
+[13:14:01] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:14:02] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:14:02] 📤 Trimis 4 comentarii pentru thread #4
+[13:14:02] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:14:08] 📥 Primit de la student: GET_COMMENTS:7
+[13:14:08] 📤 Trimis 0 comentarii pentru thread #7
+[13:14:08] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:14:09] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:14:09] 📤 Trimis 4 comentarii pentru thread #4
+[13:14:09] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:14:10] 📥 Primit de la ktqmd: GET_THREADS
+[13:14:10] 📤 Trimis 9 thread-uri către ktqmd
+[13:14:10] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:14:10] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765192300142_6:6:4
+[13:14:15] 📥 Primit de la student: GET_COMMENTS:7
+[13:14:15] 📤 Trimis 0 comentarii pentru thread #7
+[13:14:15] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:14:16] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:14:16] 📤 Trimis 4 comentarii pentru thread #4
+[13:14:16] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:14:16] 📥 Primit de la student: GET_THREADS
+[13:14:16] 📤 Trimis 9 thread-uri către student
+[13:14:16] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:14:16] 📥 Primit de la student: HEARTBEAT:sess_1765192186470_1:1:7
+[13:14:22] 📥 Primit de la student: GET_COMMENTS:7
+[13:14:22] 📤 Trimis 0 comentarii pentru thread #7
+[13:14:22] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:14:23] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:14:23] 📤 Trimis 4 comentarii pentru thread #4
+[13:14:23] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:14:29] 📥 Primit de la student: GET_COMMENTS:7
+[13:14:29] 📤 Trimis 0 comentarii pentru thread #7
+[13:14:29] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:14:30] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:14:30] 📤 Trimis 4 comentarii pentru thread #4
+[13:14:30] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:14:36] 📥 Primit de la student: GET_COMMENTS:7
+[13:14:36] 📤 Trimis 0 comentarii pentru thread #7
+[13:14:36] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:14:37] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:14:37] 📤 Trimis 4 comentarii pentru thread #4
+[13:14:37] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:14:40] 📥 Primit de la ktqmd: GET_THREADS
+[13:14:40] 📤 Trimis 9 thread-uri către ktqmd
+[13:14:40] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:14:40] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765192300142_6:6:4
+[13:14:43] 📥 Primit de la student: GET_COMMENTS:7
+[13:14:43] 📤 Trimis 0 comentarii pentru thread #7
+[13:14:43] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:14:44] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:14:44] 📤 Trimis 4 comentarii pentru thread #4
+[13:14:44] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:14:46] 📥 Primit de la student: GET_THREADS
+[13:14:46] 📤 Trimis 9 thread-uri către student
+[13:14:46] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:14:46] 📥 Primit de la student: HEARTBEAT:sess_1765192186470_1:1:7
+[13:14:50] 📥 Primit de la student: GET_COMMENTS:7
+[13:14:50] 📤 Trimis 0 comentarii pentru thread #7
+[13:14:50] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:14:51] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:14:51] 📤 Trimis 4 comentarii pentru thread #4
+[13:14:51] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:14:57] 📥 Primit de la student: GET_COMMENTS:7
+[13:14:57] 📤 Trimis 0 comentarii pentru thread #7
+[13:14:57] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:14:58] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:14:58] 📤 Trimis 4 comentarii pentru thread #4
+[13:14:58] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:15:04] 📥 Primit de la student: GET_COMMENTS:7
+[13:15:04] 📤 Trimis 0 comentarii pentru thread #7
+[13:15:04] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:15:05] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:15:05] 📤 Trimis 4 comentarii pentru thread #4
+[13:15:05] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:15:10] 📥 Primit de la ktqmd: GET_THREADS
+[13:15:10] 📤 Trimis 9 thread-uri către ktqmd
+[13:15:10] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:15:10] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765192300142_6:6:4
+[13:15:11] 📥 Primit de la student: GET_COMMENTS:7
+[13:15:11] 📤 Trimis 0 comentarii pentru thread #7
+[13:15:11] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:15:12] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:15:12] 📤 Trimis 4 comentarii pentru thread #4
+[13:15:12] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:15:16] 📥 Primit de la student: GET_THREADS
+[13:15:16] 📤 Trimis 9 thread-uri către student
+[13:15:16] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:15:16] 📥 Primit de la student: HEARTBEAT:sess_1765192186470_1:1:7
+[13:15:18] 📥 Primit de la student: GET_COMMENTS:7
+[13:15:18] 📤 Trimis 0 comentarii pentru thread #7
+[13:15:18] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:15:19] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:15:19] 📤 Trimis 4 comentarii pentru thread #4
+[13:15:19] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:15:25] 📥 Primit de la student: GET_COMMENTS:7
+[13:15:25] 📤 Trimis 0 comentarii pentru thread #7
+[13:15:25] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:15:26] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:15:26] 📤 Trimis 4 comentarii pentru thread #4
+[13:15:26] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:15:32] 📥 Primit de la student: GET_COMMENTS:7
+[13:15:32] 📤 Trimis 0 comentarii pentru thread #7
+[13:15:32] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:15:33] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:15:33] 📤 Trimis 4 comentarii pentru thread #4
+[13:15:33] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:15:39] 📥 Primit de la student: GET_COMMENTS:7
+[13:15:39] 📤 Trimis 0 comentarii pentru thread #7
+[13:15:39] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:15:40] 📥 Primit de la ktqmd: GET_THREADS
+[13:15:40] 📤 Trimis 9 thread-uri către ktqmd
+[13:15:40] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:15:40] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765192300142_6:6:4
+[13:15:40] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:15:40] 📤 Trimis 4 comentarii pentru thread #4
+[13:15:40] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:15:46] 📥 Primit de la student: GET_THREADS
+[13:15:46] 📤 Trimis 9 thread-uri către student
+[13:15:46] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:15:46] 📥 Primit de la student: HEARTBEAT:sess_1765192186470_1:1:7
+[13:15:46] 📥 Primit de la student: GET_COMMENTS:7
+[13:15:46] 📤 Trimis 0 comentarii pentru thread #7
+[13:15:46] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:15:47] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:15:47] 📤 Trimis 4 comentarii pentru thread #4
+[13:15:47] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:15:53] 📥 Primit de la student: GET_COMMENTS:7
+[13:15:53] 📤 Trimis 0 comentarii pentru thread #7
+[13:15:53] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:15:54] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:15:54] 📤 Trimis 4 comentarii pentru thread #4
+[13:15:54] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:16:00] 📥 Primit de la student: GET_COMMENTS:7
+[13:16:00] 📤 Trimis 0 comentarii pentru thread #7
+[13:16:00] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:16:01] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:16:01] 📤 Trimis 4 comentarii pentru thread #4
+[13:16:01] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:16:07] 📥 Primit de la student: GET_COMMENTS:7
+[13:16:07] 📤 Trimis 0 comentarii pentru thread #7
+[13:16:07] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:16:08] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:16:08] 📤 Trimis 4 comentarii pentru thread #4
+[13:16:08] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:16:10] 📥 Primit de la ktqmd: GET_THREADS
+[13:16:10] 📤 Trimis 9 thread-uri către ktqmd
+[13:16:10] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:16:10] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765192300142_6:6:4
+[13:16:14] 📥 Primit de la student: GET_COMMENTS:7
+[13:16:14] 📤 Trimis 0 comentarii pentru thread #7
+[13:16:14] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:16:15] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:16:15] 📤 Trimis 4 comentarii pentru thread #4
+[13:16:15] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:16:16] 📥 Primit de la student: GET_THREADS
+[13:16:16] 📤 Trimis 9 thread-uri către student
+[13:16:16] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:16:16] 📥 Primit de la student: HEARTBEAT:sess_1765192186470_1:1:7
+[13:16:21] 📥 Primit de la student: GET_COMMENTS:7
+[13:16:21] 📤 Trimis 0 comentarii pentru thread #7
+[13:16:21] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:16:22] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:16:22] 📤 Trimis 4 comentarii pentru thread #4
+[13:16:22] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:16:28] 📥 Primit de la student: GET_COMMENTS:7
+[13:16:28] 📤 Trimis 0 comentarii pentru thread #7
+[13:16:28] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:16:29] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:16:29] 📤 Trimis 4 comentarii pentru thread #4
+[13:16:29] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:16:35] 📥 Primit de la student: GET_COMMENTS:7
+[13:16:35] 📤 Trimis 0 comentarii pentru thread #7
+[13:16:35] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:16:36] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:16:36] 📤 Trimis 4 comentarii pentru thread #4
+[13:16:36] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:16:40] 📥 Primit de la ktqmd: GET_THREADS
+[13:16:40] 📤 Trimis 9 thread-uri către ktqmd
+[13:16:40] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:16:40] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765192300142_6:6:4
+[13:16:42] 📥 Primit de la student: GET_COMMENTS:7
+[13:16:42] 📤 Trimis 0 comentarii pentru thread #7
+[13:16:42] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:16:43] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:16:43] 📤 Trimis 4 comentarii pentru thread #4
+[13:16:43] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:16:46] 📥 Primit de la student: GET_THREADS
+[13:16:46] 📤 Trimis 9 thread-uri către student
+[13:16:46] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:16:46] 📥 Primit de la student: HEARTBEAT:sess_1765192186470_1:1:7
+[13:16:49] 📥 Primit de la student: GET_COMMENTS:7
+[13:16:49] 📤 Trimis 0 comentarii pentru thread #7
+[13:16:49] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:16:50] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:16:50] 📤 Trimis 4 comentarii pentru thread #4
+[13:16:50] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:16:56] 📥 Primit de la student: GET_COMMENTS:7
+[13:16:56] 📤 Trimis 0 comentarii pentru thread #7
+[13:16:56] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:16:57] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:16:57] 📤 Trimis 4 comentarii pentru thread #4
+[13:16:57] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:17:03] 📥 Primit de la student: GET_COMMENTS:7
+[13:17:03] 📤 Trimis 0 comentarii pentru thread #7
+[13:17:03] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:17:04] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:17:04] 📤 Trimis 4 comentarii pentru thread #4
+[13:17:04] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:17:10] 📥 Primit de la ktqmd: GET_THREADS
+[13:17:10] 📤 Trimis 9 thread-uri către ktqmd
+[13:17:10] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:17:10] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765192300142_6:6:4
+[13:17:10] 📥 Primit de la student: GET_COMMENTS:7
+[13:17:10] 📤 Trimis 0 comentarii pentru thread #7
+[13:17:10] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:17:11] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:17:11] 📤 Trimis 4 comentarii pentru thread #4
+[13:17:11] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:17:16] 📥 Primit de la student: GET_THREADS
+[13:17:16] 📤 Trimis 9 thread-uri către student
+[13:17:16] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:17:16] 📥 Primit de la student: HEARTBEAT:sess_1765192186470_1:1:7
+[13:17:17] 📥 Primit de la student: GET_COMMENTS:7
+[13:17:17] 📤 Trimis 0 comentarii pentru thread #7
+[13:17:17] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:17:18] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:17:18] 📤 Trimis 4 comentarii pentru thread #4
+[13:17:18] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:17:24] 📥 Primit de la student: GET_COMMENTS:7
+[13:17:24] 📤 Trimis 0 comentarii pentru thread #7
+[13:17:24] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:17:25] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:17:25] 📤 Trimis 4 comentarii pentru thread #4
+[13:17:25] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:17:31] 📥 Primit de la student: GET_COMMENTS:7
+[13:17:31] 📤 Trimis 0 comentarii pentru thread #7
+[13:17:31] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:17:32] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:17:32] 📤 Trimis 4 comentarii pentru thread #4
+[13:17:32] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:17:38] 📥 Primit de la student: GET_COMMENTS:7
+[13:17:38] 📤 Trimis 0 comentarii pentru thread #7
+[13:17:38] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:17:39] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:17:39] 📤 Trimis 4 comentarii pentru thread #4
+[13:17:39] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:17:40] 📥 Primit de la ktqmd: GET_THREADS
+[13:17:40] 📤 Trimis 9 thread-uri către ktqmd
+[13:17:40] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:17:40] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765192300142_6:6:4
+[13:17:45] 📥 Primit de la student: GET_COMMENTS:7
+[13:17:45] 📤 Trimis 0 comentarii pentru thread #7
+[13:17:45] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:17:46] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:17:46] 📤 Trimis 4 comentarii pentru thread #4
+[13:17:46] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:17:46] 📥 Primit de la student: GET_THREADS
+[13:17:46] 📤 Trimis 9 thread-uri către student
+[13:17:46] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:17:46] 📥 Primit de la student: HEARTBEAT:sess_1765192186470_1:1:7
+[13:17:52] 📥 Primit de la student: GET_COMMENTS:7
+[13:17:52] 📤 Trimis 0 comentarii pentru thread #7
+[13:17:52] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:17:53] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:17:53] 📤 Trimis 4 comentarii pentru thread #4
+[13:17:53] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:17:59] 📥 Primit de la student: GET_COMMENTS:7
+[13:17:59] 📤 Trimis 0 comentarii pentru thread #7
+[13:17:59] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:18:00] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:18:00] 📤 Trimis 4 comentarii pentru thread #4
+[13:18:00] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:18:06] 📥 Primit de la student: GET_COMMENTS:7
+[13:18:06] 📤 Trimis 0 comentarii pentru thread #7
+[13:18:06] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:18:07] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:18:07] 📤 Trimis 4 comentarii pentru thread #4
+[13:18:07] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:18:10] 📥 Primit de la ktqmd: GET_THREADS
+[13:18:10] 📤 Trimis 9 thread-uri către ktqmd
+[13:18:10] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:18:10] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765192300142_6:6:4
+[13:18:13] 📥 Primit de la student: GET_COMMENTS:7
+[13:18:13] 📤 Trimis 0 comentarii pentru thread #7
+[13:18:13] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:18:14] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:18:14] 📤 Trimis 4 comentarii pentru thread #4
+[13:18:14] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:18:16] 📥 Primit de la student: GET_THREADS
+[13:18:16] 📤 Trimis 9 thread-uri către student
+[13:18:16] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:18:16] 📥 Primit de la student: HEARTBEAT:sess_1765192186470_1:1:7
+[13:18:20] 📥 Primit de la student: GET_COMMENTS:7
+[13:18:20] 📤 Trimis 0 comentarii pentru thread #7
+[13:18:20] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:18:21] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:18:21] 📤 Trimis 4 comentarii pentru thread #4
+[13:18:21] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:18:27] 📥 Primit de la student: GET_COMMENTS:7
+[13:18:27] 📤 Trimis 0 comentarii pentru thread #7
+[13:18:27] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:18:28] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:18:28] 📤 Trimis 4 comentarii pentru thread #4
+[13:18:28] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:18:35] 📥 Primit de la student: GET_COMMENTS:7
+[13:18:35] 📤 Trimis 0 comentarii pentru thread #7
+[13:18:35] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:18:35] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:18:35] 📤 Trimis 4 comentarii pentru thread #4
+[13:18:35] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:18:40] 📥 Primit de la ktqmd: GET_THREADS
+[13:18:40] 📤 Trimis 9 thread-uri către ktqmd
+[13:18:40] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:18:40] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765192300142_6:6:4
+[13:18:42] 📥 Primit de la student: GET_COMMENTS:7
+[13:18:42] 📤 Trimis 0 comentarii pentru thread #7
+[13:18:42] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:18:42] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:18:42] 📤 Trimis 4 comentarii pentru thread #4
+[13:18:42] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:18:46] 📥 Primit de la student: GET_THREADS
+[13:18:46] 📤 Trimis 9 thread-uri către student
+[13:18:46] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:18:46] 📥 Primit de la student: HEARTBEAT:sess_1765192186470_1:1:7
+[13:18:49] 📥 Primit de la student: GET_COMMENTS:7
+[13:18:49] 📤 Trimis 0 comentarii pentru thread #7
+[13:18:49] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:18:49] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:18:49] 📤 Trimis 4 comentarii pentru thread #4
+[13:18:49] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:18:56] 📥 Primit de la student: GET_COMMENTS:7
+[13:18:56] 📤 Trimis 0 comentarii pentru thread #7
+[13:18:56] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:18:56] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:18:56] 📤 Trimis 4 comentarii pentru thread #4
+[13:18:56] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:19:03] 📥 Primit de la student: GET_COMMENTS:7
+[13:19:03] 📤 Trimis 0 comentarii pentru thread #7
+[13:19:03] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:19:03] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:19:03] 📤 Trimis 4 comentarii pentru thread #4
+[13:19:03] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:19:10] 📥 Primit de la student: GET_COMMENTS:7
+[13:19:10] 📤 Trimis 0 comentarii pentru thread #7
+[13:19:10] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:19:10] 📥 Primit de la ktqmd: GET_THREADS
+[13:19:10] 📤 Trimis 9 thread-uri către ktqmd
+[13:19:10] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:19:10] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765192300142_6:6:4
+[13:19:10] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:19:10] 📤 Trimis 4 comentarii pentru thread #4
+[13:19:10] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:19:16] 📥 Primit de la student: GET_THREADS
+[13:19:16] 📤 Trimis 9 thread-uri către student
+[13:19:16] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:19:16] 📥 Primit de la student: HEARTBEAT:sess_1765192186470_1:1:7
+[13:19:17] 📥 Primit de la student: GET_COMMENTS:7
+[13:19:17] 📤 Trimis 0 comentarii pentru thread #7
+[13:19:17] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:19:17] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:19:17] 📤 Trimis 4 comentarii pentru thread #4
+[13:19:17] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:19:24] 📥 Primit de la student: GET_COMMENTS:7
+[13:19:24] 📤 Trimis 0 comentarii pentru thread #7
+[13:19:24] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:19:24] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:19:24] 📤 Trimis 4 comentarii pentru thread #4
+[13:19:24] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:19:31] 📥 Primit de la student: GET_COMMENTS:7
+[13:19:31] 📤 Trimis 0 comentarii pentru thread #7
+[13:19:31] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:19:31] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:19:31] 📤 Trimis 4 comentarii pentru thread #4
+[13:19:31] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:19:38] 📥 Primit de la student: GET_COMMENTS:7
+[13:19:38] 📤 Trimis 0 comentarii pentru thread #7
+[13:19:38] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:19:38] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:19:38] 📤 Trimis 4 comentarii pentru thread #4
+[13:19:38] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:19:40] 📥 Primit de la ktqmd: GET_THREADS
+[13:19:40] 📤 Trimis 9 thread-uri către ktqmd
+[13:19:40] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:19:40] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765192300142_6:6:4
+[13:19:45] 📥 Primit de la student: GET_COMMENTS:7
+[13:19:45] 📤 Trimis 0 comentarii pentru thread #7
+[13:19:45] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:19:45] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:19:45] 📤 Trimis 4 comentarii pentru thread #4
+[13:19:45] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:19:46] 📥 Primit de la student: GET_THREADS
+[13:19:46] 📤 Trimis 9 thread-uri către student
+[13:19:46] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:19:46] 📥 Primit de la student: HEARTBEAT:sess_1765192186470_1:1:7
+[13:19:52] 📥 Primit de la student: GET_COMMENTS:7
+[13:19:52] 📤 Trimis 0 comentarii pentru thread #7
+[13:19:52] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:19:52] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:19:52] 📤 Trimis 4 comentarii pentru thread #4
+[13:19:52] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:19:59] 📥 Primit de la student: GET_COMMENTS:7
+[13:19:59] 📤 Trimis 0 comentarii pentru thread #7
+[13:19:59] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:19:59] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:19:59] 📤 Trimis 4 comentarii pentru thread #4
+[13:19:59] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:20:06] 📥 Primit de la student: GET_COMMENTS:7
+[13:20:06] 📤 Trimis 0 comentarii pentru thread #7
+[13:20:06] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:20:06] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:20:06] 📤 Trimis 4 comentarii pentru thread #4
+[13:20:06] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:20:10] 📥 Primit de la ktqmd: GET_THREADS
+[13:20:10] 📤 Trimis 9 thread-uri către ktqmd
+[13:20:10] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:20:10] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765192300142_6:6:4
+[13:20:13] 📥 Primit de la student: GET_COMMENTS:7
+[13:20:13] 📤 Trimis 0 comentarii pentru thread #7
+[13:20:13] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:20:13] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:20:13] 📤 Trimis 4 comentarii pentru thread #4
+[13:20:13] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:20:16] 📥 Primit de la student: GET_THREADS
+[13:20:16] 📤 Trimis 9 thread-uri către student
+[13:20:16] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:20:16] 📥 Primit de la student: HEARTBEAT:sess_1765192186470_1:1:7
+[13:20:20] 📥 Primit de la student: GET_COMMENTS:7
+[13:20:20] 📤 Trimis 0 comentarii pentru thread #7
+[13:20:20] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:20:20] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:20:20] 📤 Trimis 4 comentarii pentru thread #4
+[13:20:20] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:20:27] 📥 Primit de la student: GET_COMMENTS:7
+[13:20:27] 📤 Trimis 0 comentarii pentru thread #7
+[13:20:27] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:20:27] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:20:27] 📤 Trimis 4 comentarii pentru thread #4
+[13:20:27] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:20:34] 📥 Primit de la student: GET_COMMENTS:7
+[13:20:34] 📤 Trimis 0 comentarii pentru thread #7
+[13:20:34] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:20:34] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:20:34] 📤 Trimis 4 comentarii pentru thread #4
+[13:20:34] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:20:40] 📥 Primit de la ktqmd: GET_THREADS
+[13:20:40] 📤 Trimis 9 thread-uri către ktqmd
+[13:20:40] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:20:40] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765192300142_6:6:4
+[13:20:41] 📥 Primit de la student: GET_COMMENTS:7
+[13:20:41] 📤 Trimis 0 comentarii pentru thread #7
+[13:20:41] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:20:41] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:20:41] 📤 Trimis 4 comentarii pentru thread #4
+[13:20:41] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:20:46] 📥 Primit de la student: GET_THREADS
+[13:20:46] 📤 Trimis 9 thread-uri către student
+[13:20:46] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:20:46] 📥 Primit de la student: HEARTBEAT:sess_1765192186470_1:1:7
+[13:20:48] 📥 Primit de la student: GET_COMMENTS:7
+[13:20:48] 📤 Trimis 0 comentarii pentru thread #7
+[13:20:48] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:20:48] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:20:48] 📤 Trimis 4 comentarii pentru thread #4
+[13:20:48] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:20:55] 📥 Primit de la student: GET_COMMENTS:7
+[13:20:55] 📤 Trimis 0 comentarii pentru thread #7
+[13:20:55] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:20:55] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:20:55] 📤 Trimis 4 comentarii pentru thread #4
+[13:20:55] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:21:02] 📥 Primit de la student: GET_COMMENTS:7
+[13:21:02] 📤 Trimis 0 comentarii pentru thread #7
+[13:21:02] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:21:02] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:21:02] 📤 Trimis 4 comentarii pentru thread #4
+[13:21:02] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:21:09] 📥 Primit de la student: GET_COMMENTS:7
+[13:21:09] 📤 Trimis 0 comentarii pentru thread #7
+[13:21:09] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:21:09] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:21:09] 📤 Trimis 4 comentarii pentru thread #4
+[13:21:09] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:21:10] 📥 Primit de la ktqmd: GET_THREADS
+[13:21:10] 📤 Trimis 9 thread-uri către ktqmd
+[13:21:10] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:21:10] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765192300142_6:6:4
+[13:21:16] 📥 Primit de la student: GET_COMMENTS:7
+[13:21:16] 📤 Trimis 0 comentarii pentru thread #7
+[13:21:16] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:21:16] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:21:16] 📤 Trimis 4 comentarii pentru thread #4
+[13:21:16] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:21:16] 📥 Primit de la student: GET_THREADS
+[13:21:16] 📤 Trimis 9 thread-uri către student
+[13:21:16] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:21:16] 📥 Primit de la student: HEARTBEAT:sess_1765192186470_1:1:7
+[13:21:23] 📥 Primit de la student: GET_COMMENTS:7
+[13:21:23] 📤 Trimis 0 comentarii pentru thread #7
+[13:21:23] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:21:23] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:21:23] 📤 Trimis 4 comentarii pentru thread #4
+[13:21:23] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:21:30] 📥 Primit de la student: GET_COMMENTS:7
+[13:21:30] 📤 Trimis 0 comentarii pentru thread #7
+[13:21:30] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:21:30] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:21:30] 📤 Trimis 4 comentarii pentru thread #4
+[13:21:30] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:21:37] 📥 Primit de la student: GET_COMMENTS:7
+[13:21:37] 📤 Trimis 0 comentarii pentru thread #7
+[13:21:37] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:21:37] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:21:37] 📤 Trimis 4 comentarii pentru thread #4
+[13:21:37] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:21:40] 📥 Primit de la ktqmd: GET_THREADS
+[13:21:40] 📤 Trimis 9 thread-uri către ktqmd
+[13:21:40] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:21:40] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765192300142_6:6:4
+[13:21:44] 📥 Primit de la student: GET_COMMENTS:7
+[13:21:44] 📤 Trimis 0 comentarii pentru thread #7
+[13:21:44] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:21:44] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:21:44] 📤 Trimis 4 comentarii pentru thread #4
+[13:21:44] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:21:46] 📥 Primit de la student: GET_THREADS
+[13:21:46] 📤 Trimis 9 thread-uri către student
+[13:21:46] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:21:46] 📥 Primit de la student: HEARTBEAT:sess_1765192186470_1:1:7
+[13:21:51] 📥 Primit de la student: GET_COMMENTS:7
+[13:21:51] 📤 Trimis 0 comentarii pentru thread #7
+[13:21:51] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:21:51] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:21:51] 📤 Trimis 4 comentarii pentru thread #4
+[13:21:51] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:21:58] 📥 Primit de la student: GET_COMMENTS:7
+[13:21:58] 📤 Trimis 0 comentarii pentru thread #7
+[13:21:58] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:21:58] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:21:58] 📤 Trimis 4 comentarii pentru thread #4
+[13:21:58] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:22:00] 📥 Primit de la student: VOTE:1:7:null:upvote
+[13:22:00] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:00] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:00] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:00] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:00] 📥 Primit de la student: VOTE:1:7:null:upvote
+[13:22:00] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:00] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:00] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:00] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:01] 📥 Primit de la student: VOTE:1:7:null:upvote
+[13:22:01] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:01] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:01] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:01] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:01] 📥 Primit de la student: VOTE:1:7:null:upvote
+[13:22:01] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:01] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:01] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:01] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:01] 📥 Primit de la student: VOTE:1:7:null:upvote
+[13:22:01] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:01] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:01] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:01] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:01] 📥 Primit de la student: VOTE:1:7:null:upvote
+[13:22:01] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:01] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:01] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:01] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:01] 📥 Primit de la student: VOTE:1:7:null:upvote
+[13:22:01] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:01] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:01] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:01] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:02] 📥 Primit de la student: VOTE:1:7:null:upvote
+[13:22:02] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:02] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:02] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:02] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:02] 📥 Primit de la student: VOTE:1:7:null:upvote
+[13:22:02] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:02] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:02] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:02] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:02] 📥 Primit de la student: VOTE:1:7:null:upvote
+[13:22:02] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:02] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:02] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:02] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:02] 📥 Primit de la student: VOTE:1:7:null:upvote
+[13:22:02] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:02] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:02] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:02] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:02] 📥 Primit de la student: VOTE:1:7:null:upvote
+[13:22:02] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:02] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:02] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:02] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:03] 📥 Primit de la student: VOTE:1:7:null:upvote
+[13:22:03] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:03] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:03] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:03] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:03] 📥 Primit de la student: VOTE:1:7:null:upvote
+[13:22:03] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:03] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:03] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:03] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:03] 📥 Primit de la student: VOTE:1:7:null:upvote
+[13:22:03] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:03] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:03] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:03] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:03] 📥 Primit de la student: VOTE:1:7:null:upvote
+[13:22:03] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:03] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:03] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:03] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:03] 📥 Primit de la student: VOTE:1:7:null:upvote
+[13:22:03] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:03] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:03] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:03] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:03] 📥 Primit de la student: VOTE:1:7:null:upvote
+[13:22:04] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:04] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:04] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:04] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:04] 📥 Primit de la student: VOTE:1:7:null:upvote
+[13:22:04] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:04] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:04] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:04] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:04] 📥 Primit de la student: VOTE:1:7:null:upvote
+[13:22:04] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:04] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:04] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:04] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:04] 📥 Primit de la student: VOTE:1:7:null:upvote
+[13:22:04] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:04] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:04] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:04] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:04] 📥 Primit de la student: VOTE:1:7:null:upvote
+[13:22:04] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:04] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:04] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:04] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:04] 📥 Primit de la student: VOTE:1:7:null:upvote
+[13:22:04] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:04] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:04] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:04] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:04] 📥 Primit de la student: VOTE:1:7:null:upvote
+[13:22:05] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:05] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:05] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:05] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:05] 📥 Primit de la student: VOTE:1:7:null:upvote
+[13:22:05] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:05] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:05] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:05] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:05] 📥 Primit de la student: VOTE:1:7:null:upvote
+[13:22:05] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:05] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:05] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:05] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:05] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:22:05] 📤 Trimis 4 comentarii pentru thread #4
+[13:22:05] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:22:05] 📥 Primit de la student: VOTE:1:7:null:downvote
+[13:22:05] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:05] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:05] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:05] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:06] 📥 Primit de la student: VOTE:1:7:null:downvote
+[13:22:06] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:06] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:06] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:06] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:07] 📥 Primit de la student: VOTE:1:7:null:downvote
+[13:22:07] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:07] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:07] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:07] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:07] 📥 Primit de la student: VOTE:1:7:null:downvote
+[13:22:07] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:07] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:07] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:07] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:07] 📥 Primit de la student: VOTE:1:7:null:downvote
+[13:22:07] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:07] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:07] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:07] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:07] 📥 Primit de la student: VOTE:1:7:null:downvote
+[13:22:07] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:07] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:07] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:07] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:08] 📥 Primit de la student: VOTE:1:7:null:upvote
+[13:22:08] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:08] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:08] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:08] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:08] 📥 Primit de la student: VOTE:1:7:null:upvote
+[13:22:08] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:08] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:08] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:08] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:08] 📥 Primit de la student: VOTE:1:7:null:upvote
+[13:22:08] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:08] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:08] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:08] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:09] 📥 Primit de la student: VOTE:1:7:null:downvote
+[13:22:09] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:09] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:09] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:09] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:09] 📥 Primit de la student: VOTE:1:7:null:downvote
+[13:22:09] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:09] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:09] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:09] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:09] 📥 Primit de la student: VOTE:1:7:null:downvote
+[13:22:09] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:09] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:09] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:09] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:09] 📥 Primit de la student: VOTE:1:7:null:downvote
+[13:22:09] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:09] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:09] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:09] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:09] 📥 Primit de la student: VOTE:1:7:null:downvote
+[13:22:09] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:09] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:09] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:09] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:09] 📥 Primit de la student: VOTE:1:7:null:downvote
+[13:22:09] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:09] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:09] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:09] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:10] 📥 Primit de la student: VOTE:1:7:null:downvote
+[13:22:10] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:10] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:10] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:10] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:10] 📥 Primit de la ktqmd: GET_THREADS
+[13:22:10] 📤 Trimis 9 thread-uri către ktqmd
+[13:22:10] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:22:10] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765192300142_6:6:4
+[13:22:10] 📥 Primit de la student: VOTE:1:7:null:downvote
+[13:22:10] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:10] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:10] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:10] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:10] 📥 Primit de la student: VOTE:1:7:null:downvote
+[13:22:10] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:10] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:10] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:10] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:10] 📥 Primit de la student: VOTE:1:7:null:downvote
+[13:22:10] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:10] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:10] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:10] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:10] 📥 Primit de la student: VOTE:1:7:null:downvote
+[13:22:10] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:10] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:10] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:10] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:11] 📥 Primit de la student: VOTE:1:7:null:downvote
+[13:22:11] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:11] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:11] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:11] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:11] 📥 Primit de la student: VOTE:1:7:null:upvote
+[13:22:11] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:11] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:11] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:11] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:11] 📥 Primit de la student: VOTE:1:7:null:upvote
+[13:22:11] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:11] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:11] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:11] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:11] 📥 Primit de la student: VOTE:1:7:null:upvote
+[13:22:11] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:11] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:11] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:11] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:11] 📥 Primit de la student: VOTE:1:7:null:upvote
+[13:22:11] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:12] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:12] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:12] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:12] 📥 Primit de la student: VOTE:1:7:null:upvote
+[13:22:12] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:12] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:12] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:12] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:12] 📥 Primit de la student: VOTE:1:7:null:upvote
+[13:22:12] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:12] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:12] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:12] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:12] 📥 Primit de la student: VOTE:1:7:null:upvote
+[13:22:12] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:7
+[13:22:12] 📥 Primit de la student: GET_COMMENTS:7
+[13:22:12] 📤 Trimis 0 comentarii pentru thread #7
+[13:22:12] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[13:22:12] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:22:12] 📤 Trimis 4 comentarii pentru thread #4
+[13:22:12] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:22:15] 📥 Primit de la student: GET_THREAD:8
+[13:22:15] 📤 Trimis thread #8 către student
+[13:22:15] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:8
+[13:22:15] 📥 Primit de la student: GET_COMMENTS:8
+[13:22:15] 📤 Trimis 3 comentarii pentru thread #8
+[13:22:15] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:22:16] 📥 Primit de la student: GET_THREADS
+[13:22:16] 📤 Trimis 9 thread-uri către student
+[13:22:16] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:22:16] 📥 Primit de la student: HEARTBEAT:sess_1765192186470_1:1:8
+[13:22:19] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:22:19] 📤 Trimis 4 comentarii pentru thread #4
+[13:22:19] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:22:22] 📥 Primit de la student: GET_COMMENTS:8
+[13:22:22] 📤 Trimis 3 comentarii pentru thread #8
+[13:22:22] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:22:26] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:22:26] 📤 Trimis 4 comentarii pentru thread #4
+[13:22:26] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:22:29] 📥 Primit de la student: GET_COMMENTS:8
+[13:22:29] 📤 Trimis 3 comentarii pentru thread #8
+[13:22:29] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:22:33] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:22:33] 📤 Trimis 4 comentarii pentru thread #4
+[13:22:33] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:22:36] 📥 Primit de la student: GET_COMMENTS:8
+[13:22:36] 📤 Trimis 3 comentarii pentru thread #8
+[13:22:36] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:22:40] 📥 Primit de la ktqmd: GET_THREADS
+[13:22:40] 📤 Trimis 9 thread-uri către ktqmd
+[13:22:40] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:22:40] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765192300142_6:6:4
+[13:22:40] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:22:40] 📤 Trimis 4 comentarii pentru thread #4
+[13:22:40] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:22:43] 📥 Primit de la student: GET_COMMENTS:8
+[13:22:43] 📤 Trimis 3 comentarii pentru thread #8
+[13:22:43] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:22:45] 📥 Primit de la student: GET_THREAD:8
+[13:22:45] 📤 Trimis thread #8 către student
+[13:22:45] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765192186470_1:1:8
+[13:22:45] 📥 Primit de la student: GET_COMMENTS:8
+[13:22:45] 📤 Trimis 3 comentarii pentru thread #8
+[13:22:45] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:22:46] 📥 Primit de la student: GET_THREADS
+[13:22:46] 📤 Trimis 9 thread-uri către student
+[13:22:46] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:22:46] 📥 Primit de la student: HEARTBEAT:sess_1765192186470_1:1:8
+[13:22:47] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:22:47] 📤 Trimis 4 comentarii pentru thread #4
+[13:22:47] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:22:52] 📥 Primit de la student: GET_COMMENTS:8
+[13:22:52] 📤 Trimis 3 comentarii pentru thread #8
+[13:22:52] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:22:54] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:22:54] 📤 Trimis 4 comentarii pentru thread #4
+[13:22:54] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:22:59] 📥 Primit de la student: GET_COMMENTS:8
+[13:22:59] 📤 Trimis 3 comentarii pentru thread #8
+[13:22:59] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:23:01] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:23:01] 📤 Trimis 4 comentarii pentru thread #4
+[13:23:01] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:23:06] 📥 Primit de la student: GET_COMMENTS:8
+[13:23:06] 📤 Trimis 3 comentarii pentru thread #8
+[13:23:06] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:23:08] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:23:08] 📤 Trimis 4 comentarii pentru thread #4
+[13:23:08] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:23:10] 📥 Primit de la ktqmd: GET_THREADS
+[13:23:10] 📤 Trimis 9 thread-uri către ktqmd
+[13:23:10] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:23:10] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765192300142_6:6:4
+[13:23:13] 📥 Primit de la student: GET_COMMENTS:8
+[13:23:13] 📤 Trimis 3 comentarii pentru thread #8
+[13:23:13] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:23:15] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:23:15] 📤 Trimis 4 comentarii pentru thread #4
+[13:23:15] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:23:16] 📥 Primit de la student: GET_THREADS
+[13:23:16] 📤 Trimis 9 thread-uri către student
+[13:23:16] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:23:16] 📥 Primit de la student: HEARTBEAT:sess_1765192186470_1:1:8
+[13:23:20] 📥 Primit de la student: GET_COMMENTS:8
+[13:23:20] 📤 Trimis 3 comentarii pentru thread #8
+[13:23:20] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:23:22] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:23:22] 📤 Trimis 4 comentarii pentru thread #4
+[13:23:22] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:23:27] 📥 Primit de la student: GET_COMMENTS:8
+[13:23:27] 📤 Trimis 3 comentarii pentru thread #8
+[13:23:27] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:23:29] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:23:29] 📤 Trimis 4 comentarii pentru thread #4
+[13:23:29] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:23:34] 📥 Primit de la student: GET_COMMENTS:8
+[13:23:34] 📤 Trimis 3 comentarii pentru thread #8
+[13:23:34] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:23:36] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:23:36] 📤 Trimis 4 comentarii pentru thread #4
+[13:23:36] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:23:40] 📥 Primit de la ktqmd: GET_THREADS
+[13:23:40] 📤 Trimis 9 thread-uri către ktqmd
+[13:23:40] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:23:40] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765192300142_6:6:4
+[13:23:41] 📥 Primit de la student: GET_COMMENTS:8
+[13:23:41] 📤 Trimis 3 comentarii pentru thread #8
+[13:23:41] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:23:43] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:23:43] 📤 Trimis 4 comentarii pentru thread #4
+[13:23:43] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:23:46] 📥 Primit de la student: GET_THREADS
+[13:23:46] 📤 Trimis 9 thread-uri către student
+[13:23:46] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:23:46] 📥 Primit de la student: HEARTBEAT:sess_1765192186470_1:1:8
+[13:23:48] 📥 Primit de la student: GET_COMMENTS:8
+[13:23:48] 📤 Trimis 3 comentarii pentru thread #8
+[13:23:48] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:23:50] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:23:50] 📤 Trimis 4 comentarii pentru thread #4
+[13:23:50] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:23:55] 📥 Primit de la student: GET_COMMENTS:8
+[13:23:55] 📤 Trimis 3 comentarii pentru thread #8
+[13:23:55] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:23:57] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:23:57] 📤 Trimis 4 comentarii pentru thread #4
+[13:23:57] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:24:02] 📥 Primit de la student: GET_COMMENTS:8
+[13:24:02] 📤 Trimis 3 comentarii pentru thread #8
+[13:24:02] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:24:04] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:24:04] 📤 Trimis 4 comentarii pentru thread #4
+[13:24:04] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:24:09] 📥 Primit de la student: GET_COMMENTS:8
+[13:24:09] 📤 Trimis 3 comentarii pentru thread #8
+[13:24:09] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:24:10] 📥 Primit de la ktqmd: GET_THREADS
+[13:24:10] 📤 Trimis 9 thread-uri către ktqmd
+[13:24:10] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:24:10] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765192300142_6:6:4
+[13:24:11] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:24:11] 📤 Trimis 4 comentarii pentru thread #4
+[13:24:11] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:24:16] 📥 Primit de la student: GET_COMMENTS:8
+[13:24:16] 📤 Trimis 3 comentarii pentru thread #8
+[13:24:16] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:24:16] 📥 Primit de la student: GET_THREADS
+[13:24:16] 📤 Trimis 9 thread-uri către student
+[13:24:16] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:24:16] 📥 Primit de la student: HEARTBEAT:sess_1765192186470_1:1:8
+[13:24:18] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:24:18] 📤 Trimis 4 comentarii pentru thread #4
+[13:24:18] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:24:23] 📥 Primit de la student: GET_COMMENTS:8
+[13:24:23] 📤 Trimis 3 comentarii pentru thread #8
+[13:24:23] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:24:25] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:24:25] 📤 Trimis 4 comentarii pentru thread #4
+[13:24:25] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:24:30] 📥 Primit de la student: GET_COMMENTS:8
+[13:24:30] 📤 Trimis 3 comentarii pentru thread #8
+[13:24:30] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:24:32] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:24:32] 📤 Trimis 4 comentarii pentru thread #4
+[13:24:32] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:24:37] 📥 Primit de la student: GET_COMMENTS:8
+[13:24:37] 📤 Trimis 3 comentarii pentru thread #8
+[13:24:37] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:24:39] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:24:39] 📤 Trimis 4 comentarii pentru thread #4
+[13:24:39] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:24:40] 📥 Primit de la ktqmd: GET_THREADS
+[13:24:40] 📤 Trimis 9 thread-uri către ktqmd
+[13:24:40] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:24:40] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765192300142_6:6:4
+[13:24:42] 📥 Primit de la student: LOGOUT
+[13:24:42] 👋 student logged out
+[13:24:42] 📴 Client disconnected: student
+[13:24:42] 👋 Deconectare client: student
+[13:24:46] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:24:46] 📤 Trimis 4 comentarii pentru thread #4
+[13:24:46] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:24:53] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:24:53] 📤 Trimis 4 comentarii pentru thread #4
+[13:24:53] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:25:00] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:25:00] 📤 Trimis 4 comentarii pentru thread #4
+[13:25:00] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:25:07] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:25:07] 📤 Trimis 4 comentarii pentru thread #4
+[13:25:07] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:25:10] 📥 Primit de la ktqmd: GET_THREADS
+[13:25:10] 📤 Trimis 9 thread-uri către ktqmd
+[13:25:10] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:25:10] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765192300142_6:6:4
+[13:25:14] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:25:14] 📤 Trimis 4 comentarii pentru thread #4
+[13:25:14] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:25:21] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:25:21] 📤 Trimis 4 comentarii pentru thread #4
+[13:25:21] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:25:28] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:25:28] 📤 Trimis 4 comentarii pentru thread #4
+[13:25:28] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:25:35] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:25:35] 📤 Trimis 4 comentarii pentru thread #4
+[13:25:35] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:25:40] 📥 Primit de la ktqmd: GET_THREADS
+[13:25:40] 📤 Trimis 9 thread-uri către ktqmd
+[13:25:40] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:25:40] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765192300142_6:6:4
+[13:25:42] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:25:42] 📤 Trimis 4 comentarii pentru thread #4
+[13:25:42] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:25:49] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:25:49] 📤 Trimis 4 comentarii pentru thread #4
+[13:25:49] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:25:56] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:25:56] 📤 Trimis 4 comentarii pentru thread #4
+[13:25:56] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:26:03] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:26:03] 📤 Trimis 4 comentarii pentru thread #4
+[13:26:03] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:26:10] 📥 Primit de la ktqmd: GET_THREADS
+[13:26:10] 📤 Trimis 9 thread-uri către ktqmd
+[13:26:10] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:26:10] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765192300142_6:6:4
+[13:26:10] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:26:10] 📤 Trimis 4 comentarii pentru thread #4
+[13:26:10] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:26:17] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:26:17] 📤 Trimis 4 comentarii pentru thread #4
+[13:26:17] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:26:24] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:26:24] 📤 Trimis 4 comentarii pentru thread #4
+[13:26:24] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:26:31] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:26:31] 📤 Trimis 4 comentarii pentru thread #4
+[13:26:31] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:26:38] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:26:38] 📤 Trimis 4 comentarii pentru thread #4
+[13:26:38] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:26:40] 📥 Primit de la ktqmd: GET_THREADS
+[13:26:40] 📤 Trimis 9 thread-uri către ktqmd
+[13:26:40] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:26:40] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765192300142_6:6:4
+[13:26:45] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:26:45] 📤 Trimis 4 comentarii pentru thread #4
+[13:26:45] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:26:52] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:26:52] 📤 Trimis 4 comentarii pentru thread #4
+[13:26:52] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:26:59] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:26:59] 📤 Trimis 4 comentarii pentru thread #4
+[13:26:59] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:27:06] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:27:06] 📤 Trimis 4 comentarii pentru thread #4
+[13:27:06] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:27:10] 📥 Primit de la ktqmd: GET_THREADS
+[13:27:10] 📤 Trimis 9 thread-uri către ktqmd
+[13:27:10] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:27:10] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765192300142_6:6:4
+[13:27:13] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:27:13] 📤 Trimis 4 comentarii pentru thread #4
+[13:27:13] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:27:20] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:27:20] 📤 Trimis 4 comentarii pentru thread #4
+[13:27:20] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:27:27] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:27:27] 📤 Trimis 4 comentarii pentru thread #4
+[13:27:27] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:27:34] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:27:34] 📤 Trimis 4 comentarii pentru thread #4
+[13:27:34] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:27:40] 📥 Primit de la ktqmd: GET_THREADS
+[13:27:40] 📤 Trimis 9 thread-uri către ktqmd
+[13:27:40] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:27:40] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765192300142_6:6:4
+[13:27:41] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:27:41] 📤 Trimis 4 comentarii pentru thread #4
+[13:27:41] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:27:48] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:27:48] 📤 Trimis 4 comentarii pentru thread #4
+[13:27:48] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:27:55] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:27:55] 📤 Trimis 4 comentarii pentru thread #4
+[13:27:55] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:28:02] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:28:02] 📤 Trimis 4 comentarii pentru thread #4
+[13:28:02] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:28:09] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:28:09] 📤 Trimis 4 comentarii pentru thread #4
+[13:28:09] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:28:10] 📥 Primit de la ktqmd: GET_THREADS
+[13:28:10] 📤 Trimis 9 thread-uri către ktqmd
+[13:28:10] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:28:10] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765192300142_6:6:4
+[13:28:16] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:28:16] 📤 Trimis 4 comentarii pentru thread #4
+[13:28:16] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:28:23] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:28:23] 📤 Trimis 4 comentarii pentru thread #4
+[13:28:23] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:28:30] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:28:30] 📤 Trimis 4 comentarii pentru thread #4
+[13:28:30] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:28:37] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:28:37] 📤 Trimis 4 comentarii pentru thread #4
+[13:28:37] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:28:40] 📥 Primit de la ktqmd: GET_THREADS
+[13:28:40] 📤 Trimis 9 thread-uri către ktqmd
+[13:28:40] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:28:40] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765192300142_6:6:4
+[13:28:44] 📥 Primit de la ktqmd: GET_COMMENTS:4
+[13:28:44] 📤 Trimis 4 comentarii pentru thread #4
+[13:28:44] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:4
+[13:30:24] 📁 Log file opened: logs/server_08.12.2025.log
+[13:30:24] ===========================================
+[13:30:24]       FORUM APP SERVER - UTM FCIM
+[13:30:24]       Autor: Buga Pavel - CR-231
+[13:30:24]       Port: 12345
+[13:30:24]       Data: 08.12.2025 13:30:24
+[13:30:24] ===========================================
+
+[13:30:24] 🚀 Initializare server...
+[13:30:24] 🧪 Test baza de date...
+[13:30:24] ✅ Test autentificare: PASSED (student)
+[13:30:24] ✅ Test thread-uri: 9 thread-uri găsite
+[13:30:24] ✅ Test tag-uri: 8 tag-uri găsite
+[13:30:24] ✅ Server pornit pe portul 12345
+[13:30:24] 📍 Accesează: localhost:12345
+[13:30:24] ⏳ Aștept conexiuni...
+
+[13:30:27] 🔗 Client conectat: 127.0.0.1
+[13:30:27] 🎬 ClientHandler pornit pentru: /127.0.0.1
+[13:30:27] 📥 Primit de la anonim: LOGIN:student:student123
+[13:30:27] ✅ student autentificat (session: sess_1765193427854_1)
+[13:30:27] 📥 Primit de la student: GET_THREADS
+[13:30:27] 📤 Trimis 9 thread-uri către student
+[13:30:27] 📥 Primit de la student: GET_ACTIVE_USERS:null
+[13:30:30] 📥 Primit de la student: GET_THREAD:3
+[13:30:30] 📤 Trimis thread #3 către student
+[13:30:30] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765193427854_1:1:3
+[13:30:30] 📥 Primit de la student: GET_COMMENTS:3
+[13:30:30] 📤 Trimis 6 comentarii pentru thread #3
+[13:30:30] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[13:30:34] 📥 Primit de la student: GET_THREAD:9
+[13:30:34] 📤 Trimis thread #9 către student
+[13:30:34] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765193427854_1:1:9
+[13:30:34] 📥 Primit de la student: GET_COMMENTS:9
+[13:30:34] 📤 Trimis 1 comentarii pentru thread #9
+[13:30:34] 📥 Primit de la student: GET_ACTIVE_USERS:9
+[13:30:35] 📥 Primit de la student: GET_THREAD:8
+[13:30:35] 📤 Trimis thread #8 către student
+[13:30:36] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765193427854_1:1:8
+[13:30:36] 📥 Primit de la student: GET_COMMENTS:8
+[13:30:36] 📤 Trimis 3 comentarii pentru thread #8
+[13:30:36] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:30:43] 📥 Primit de la student: GET_COMMENTS:8
+[13:30:43] 📤 Trimis 3 comentarii pentru thread #8
+[13:30:43] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:30:50] 📥 Primit de la student: GET_COMMENTS:8
+[13:30:50] 📤 Trimis 3 comentarii pentru thread #8
+[13:30:50] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:30:57] 📥 Primit de la student: GET_COMMENTS:8
+[13:30:57] 📤 Trimis 3 comentarii pentru thread #8
+[13:30:57] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:30:57] 📥 Primit de la student: GET_THREADS
+[13:30:57] 📤 Trimis 9 thread-uri către student
+[13:30:57] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:30:57] 📥 Primit de la student: HEARTBEAT:sess_1765193427854_1:1:8
+[13:31:04] 📥 Primit de la student: GET_COMMENTS:8
+[13:31:04] 📤 Trimis 3 comentarii pentru thread #8
+[13:31:04] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:31:11] 📥 Primit de la student: GET_COMMENTS:8
+[13:31:11] 📤 Trimis 3 comentarii pentru thread #8
+[13:31:11] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:31:18] 📥 Primit de la student: GET_COMMENTS:8
+[13:31:18] 📤 Trimis 3 comentarii pentru thread #8
+[13:31:18] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:31:25] 📥 Primit de la student: GET_COMMENTS:8
+[13:31:25] 📤 Trimis 3 comentarii pentru thread #8
+[13:31:25] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:32:57] 📥 Primit de la student: GET_THREADS
+[13:32:57] 📤 Trimis 9 thread-uri către student
+[13:32:57] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:32:57] 📥 Primit de la student: HEARTBEAT:sess_1765193427854_1:1:8
+[13:33:01] 📥 Primit de la student: GET_COMMENTS:8
+[13:33:01] 📤 Trimis 3 comentarii pentru thread #8
+[13:33:01] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:33:08] 📥 Primit de la student: GET_COMMENTS:8
+[13:33:08] 📤 Trimis 3 comentarii pentru thread #8
+[13:33:08] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:33:15] 📥 Primit de la student: GET_COMMENTS:8
+[13:33:15] 📤 Trimis 3 comentarii pentru thread #8
+[13:33:15] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:33:22] 📥 Primit de la student: GET_COMMENTS:8
+[13:33:22] 📤 Trimis 3 comentarii pentru thread #8
+[13:33:22] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:33:27] 📥 Primit de la student: GET_THREADS
+[13:33:27] 📤 Trimis 9 thread-uri către student
+[13:33:27] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:33:27] 📥 Primit de la student: HEARTBEAT:sess_1765193427854_1:1:8
+[13:33:29] 📥 Primit de la student: GET_COMMENTS:8
+[13:33:29] 📤 Trimis 3 comentarii pentru thread #8
+[13:33:29] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:33:36] 📥 Primit de la student: GET_COMMENTS:8
+[13:33:36] 📤 Trimis 3 comentarii pentru thread #8
+[13:33:36] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:33:40] 📥 Primit de la student: GET_THREAD:8
+[13:33:40] 📤 Trimis thread #8 către student
+[13:33:40] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765193427854_1:1:8
+[13:33:40] 📥 Primit de la student: GET_COMMENTS:8
+[13:33:40] 📤 Trimis 3 comentarii pentru thread #8
+[13:33:40] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:33:47] 📥 Primit de la student: GET_COMMENTS:8
+[13:33:47] 📤 Trimis 3 comentarii pentru thread #8
+[13:33:47] 📥 Primit de la student: GET_ACTIVE_USERS:8
+[13:33:52] 📥 Primit de la student: GET_THREAD:5
+[13:33:52] 📤 Trimis thread #5 către student
+[13:33:52] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765193427854_1:1:5
+[13:33:52] 📥 Primit de la student: GET_COMMENTS:5
+[13:33:52] 📤 Trimis 3 comentarii pentru thread #5
+[13:33:52] 📥 Primit de la student: GET_ACTIVE_USERS:5
+[13:33:57] 📥 Primit de la student: GET_THREADS
+[13:33:57] 📤 Trimis 9 thread-uri către student
+[13:33:57] 📥 Primit de la student: GET_ACTIVE_USERS:5
+[13:33:57] 📥 Primit de la student: HEARTBEAT:sess_1765193427854_1:1:5
+[13:33:59] 📥 Primit de la student: GET_COMMENTS:5
+[13:33:59] 📤 Trimis 3 comentarii pentru thread #5
+[13:33:59] 📥 Primit de la student: GET_ACTIVE_USERS:5
+[13:34:05] 📥 Primit de la student: LOGOUT
+[13:34:05] 👋 student logged out
+[13:34:05] 📴 Client disconnected: student
+[13:34:05] 👋 Deconectare client: student
+[14:03:17] 📁 Log file opened: logs/server_08.12.2025.log
+[14:03:17] ===========================================
+[14:03:17]       FORUM APP SERVER - UTM FCIM
+[14:03:17]       Autor: Buga Pavel - CR-231
+[14:03:17]       Port: 12345
+[14:03:17]       Data: 08.12.2025 14:03:17
+[14:03:17] ===========================================
+
+[14:03:17] 🚀 Initializare server...
+[14:03:18] 🧪 Test baza de date...
+[14:03:18] ✅ Test autentificare: PASSED (student)
+[14:03:18] ✅ Test thread-uri: 9 thread-uri găsite
+[14:03:18] ✅ Test tag-uri: 8 tag-uri găsite
+[14:03:18] ✅ Server pornit pe portul 12345
+[14:03:18] 📍 Accesează: localhost:12345
+[14:03:18] ⏳ Aștept conexiuni...
+
+[14:05:02] 🔗 Client conectat: 127.0.0.1
+[14:05:02] 🎬 ClientHandler pornit pentru: /127.0.0.1
+[14:05:08] 📥 Primit de la anonim: LOGIN:ktqmd:1111
+[14:05:08] ✅ ktqmd autentificat (session: sess_1765195508868_6)
+[14:05:08] 📥 Primit de la ktqmd: GET_THREADS
+[14:05:08] 📤 Trimis 9 thread-uri către ktqmd
+[14:05:08] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:null
+[14:05:11] 📥 Primit de la ktqmd: GET_THREAD:3
+[14:05:11] 📤 Trimis thread #3 către ktqmd
+[14:05:11] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765195508868_6:6:3
+[14:05:11] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:05:11] 📤 Trimis 6 comentarii pentru thread #3
+[14:05:11] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:05:13] 📥 Primit de la ktqmd: GET_THREAD:9
+[14:05:13] 📤 Trimis thread #9 către ktqmd
+[14:05:13] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765195508868_6:6:9
+[14:05:13] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:05:13] 📤 Trimis 1 comentarii pentru thread #9
+[14:05:13] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:05:15] 📥 Primit de la ktqmd: GET_THREAD:8
+[14:05:15] 📤 Trimis thread #8 către ktqmd
+[14:05:15] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765195508868_6:6:8
+[14:05:15] 📥 Primit de la ktqmd: GET_COMMENTS:8
+[14:05:15] 📤 Trimis 3 comentarii pentru thread #8
+[14:05:15] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:8
+[14:05:16] 📥 Primit de la ktqmd: GET_THREAD:9
+[14:05:16] 📤 Trimis thread #9 către ktqmd
+[14:05:16] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765195508868_6:6:9
+[14:05:16] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:05:16] 📤 Trimis 1 comentarii pentru thread #9
+[14:05:16] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:05:18] 📥 Primit de la ktqmd: GET_THREAD:9
+[14:05:18] 📤 Trimis thread #9 către ktqmd
+[14:05:18] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765195508868_6:6:9
+[14:05:18] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:05:18] 📤 Trimis 1 comentarii pentru thread #9
+[14:05:18] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:05:25] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:05:25] 📤 Trimis 1 comentarii pentru thread #9
+[14:05:25] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:05:32] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:05:32] 📤 Trimis 1 comentarii pentru thread #9
+[14:05:32] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:05:32] 📥 Primit de la ktqmd: VOTE:6:9:null:upvote
+[14:05:32] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765195508868_6:6:9
+[14:05:32] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:05:32] 📤 Trimis 1 comentarii pentru thread #9
+[14:05:32] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:05:33] 📥 Primit de la ktqmd: VOTE:6:9:null:upvote
+[14:05:33] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765195508868_6:6:9
+[14:05:33] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:05:33] 📤 Trimis 1 comentarii pentru thread #9
+[14:05:33] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:05:33] 📥 Primit de la ktqmd: VOTE:6:9:null:upvote
+[14:05:33] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765195508868_6:6:9
+[14:05:33] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:05:33] 📤 Trimis 1 comentarii pentru thread #9
+[14:05:33] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:05:33] 📥 Primit de la ktqmd: VOTE:6:9:null:upvote
+[14:05:33] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765195508868_6:6:9
+[14:05:33] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:05:33] 📤 Trimis 1 comentarii pentru thread #9
+[14:05:33] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:05:38] 📥 Primit de la ktqmd: GET_THREADS
+[14:05:38] 📤 Trimis 9 thread-uri către ktqmd
+[14:05:38] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:05:38] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765195508868_6:6:9
+[14:05:40] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:05:40] 📤 Trimis 1 comentarii pentru thread #9
+[14:05:40] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:05:46] 📥 Primit de la ktqmd: ADD_COMMENT:9:6:dd
+[14:05:46] ✅ ktqmd a adăugat comentariu la thread #9
+[14:05:46] 📢 Broadcasting comment update for thread #9
+[14:05:46] 📤 Sending 2 comments to ktqmd
+[14:05:46] 📤 Trimis 2 comentarii către ktqmd
+[14:05:46] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:05:46] 📤 Trimis 2 comentarii pentru thread #9
+[14:05:46] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:05:46] 📥 Primit de la ktqmd: GET_THREADS
+[14:05:46] 📤 Trimis 9 thread-uri către ktqmd
+[14:05:46] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765195508868_6:6:9
+[14:05:46] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:05:46] 📤 Trimis 2 comentarii pentru thread #9
+[14:05:46] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:05:46] 📥 Primit de la ktqmd: GET_THREADS
+[14:05:46] 📤 Trimis 9 thread-uri către ktqmd
+[14:05:53] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:05:53] 📤 Trimis 2 comentarii pentru thread #9
+[14:05:53] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:06:00] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:06:00] 📤 Trimis 2 comentarii pentru thread #9
+[14:06:00] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:06:07] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:06:07] 📤 Trimis 2 comentarii pentru thread #9
+[14:06:07] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:06:08] 📥 Primit de la ktqmd: GET_THREADS
+[14:06:08] 📤 Trimis 9 thread-uri către ktqmd
+[14:06:08] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:06:08] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765195508868_6:6:9
+[14:06:14] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:06:14] 📤 Trimis 2 comentarii pentru thread #9
+[14:06:14] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:06:21] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:06:21] 📤 Trimis 2 comentarii pentru thread #9
+[14:06:21] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:06:28] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:06:28] 📤 Trimis 2 comentarii pentru thread #9
+[14:06:28] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:06:35] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:06:35] 📤 Trimis 2 comentarii pentru thread #9
+[14:06:35] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:06:39] 📥 Primit de la ktqmd: GET_THREADS
+[14:06:39] 📤 Trimis 9 thread-uri către ktqmd
+[14:06:39] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:06:39] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765195508868_6:6:9
+[14:06:42] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:06:42] 📤 Trimis 2 comentarii pentru thread #9
+[14:06:42] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:06:49] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:06:49] 📤 Trimis 2 comentarii pentru thread #9
+[14:06:49] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:06:56] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:06:56] 📤 Trimis 2 comentarii pentru thread #9
+[14:06:56] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:07:03] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:07:03] 📤 Trimis 2 comentarii pentru thread #9
+[14:07:03] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:07:09] 📥 Primit de la ktqmd: GET_THREADS
+[14:07:09] 📤 Trimis 9 thread-uri către ktqmd
+[14:07:09] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:07:09] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765195508868_6:6:9
+[14:07:10] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:07:10] 📤 Trimis 2 comentarii pentru thread #9
+[14:07:10] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:07:17] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:07:17] 📤 Trimis 2 comentarii pentru thread #9
+[14:07:17] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:07:24] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:07:24] 📤 Trimis 2 comentarii pentru thread #9
+[14:07:24] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:07:31] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:07:31] 📤 Trimis 2 comentarii pentru thread #9
+[14:07:31] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:07:38] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:07:38] 📤 Trimis 2 comentarii pentru thread #9
+[14:07:38] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:07:39] 📥 Primit de la ktqmd: GET_THREADS
+[14:07:39] 📤 Trimis 9 thread-uri către ktqmd
+[14:07:39] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:07:39] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765195508868_6:6:9
+[14:07:45] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:07:45] 📤 Trimis 2 comentarii pentru thread #9
+[14:07:45] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:07:52] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:07:52] 📤 Trimis 2 comentarii pentru thread #9
+[14:07:52] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:07:59] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:07:59] 📤 Trimis 2 comentarii pentru thread #9
+[14:07:59] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:08:06] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:08:06] 📤 Trimis 2 comentarii pentru thread #9
+[14:08:06] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:08:09] 📥 Primit de la ktqmd: GET_THREADS
+[14:08:09] 📤 Trimis 9 thread-uri către ktqmd
+[14:08:09] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:08:09] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765195508868_6:6:9
+[14:08:13] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:08:13] 📤 Trimis 2 comentarii pentru thread #9
+[14:08:13] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:08:20] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:08:20] 📤 Trimis 2 comentarii pentru thread #9
+[14:08:20] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:08:27] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:08:27] 📤 Trimis 2 comentarii pentru thread #9
+[14:08:27] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:08:34] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:08:34] 📤 Trimis 2 comentarii pentru thread #9
+[14:08:34] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:08:39] 📥 Primit de la ktqmd: GET_THREADS
+[14:08:39] 📤 Trimis 9 thread-uri către ktqmd
+[14:08:39] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:08:39] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765195508868_6:6:9
+[14:08:41] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:08:41] 📤 Trimis 2 comentarii pentru thread #9
+[14:08:41] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:08:48] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:08:48] 📤 Trimis 2 comentarii pentru thread #9
+[14:08:48] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:08:55] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:08:55] 📤 Trimis 2 comentarii pentru thread #9
+[14:08:55] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:09:02] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:09:02] 📤 Trimis 2 comentarii pentru thread #9
+[14:09:02] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:09:09] 📥 Primit de la ktqmd: GET_THREADS
+[14:09:09] 📤 Trimis 9 thread-uri către ktqmd
+[14:09:09] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:09:09] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765195508868_6:6:9
+[14:09:09] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:09:09] 📤 Trimis 2 comentarii pentru thread #9
+[14:09:09] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:09:16] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:09:16] 📤 Trimis 2 comentarii pentru thread #9
+[14:09:16] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:09:23] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:09:23] 📤 Trimis 2 comentarii pentru thread #9
+[14:09:23] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:09:30] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:09:30] 📤 Trimis 2 comentarii pentru thread #9
+[14:09:30] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:09:37] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:09:37] 📤 Trimis 2 comentarii pentru thread #9
+[14:09:37] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:09:39] 📥 Primit de la ktqmd: GET_THREADS
+[14:09:39] 📤 Trimis 9 thread-uri către ktqmd
+[14:09:39] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:09:39] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765195508868_6:6:9
+[14:09:44] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:09:44] 📤 Trimis 2 comentarii pentru thread #9
+[14:09:44] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:09:51] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:09:51] 📤 Trimis 2 comentarii pentru thread #9
+[14:09:51] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:09:58] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:09:58] 📤 Trimis 2 comentarii pentru thread #9
+[14:09:58] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:10:05] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:10:05] 📤 Trimis 2 comentarii pentru thread #9
+[14:10:05] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:10:09] 📥 Primit de la ktqmd: GET_THREADS
+[14:10:09] 📤 Trimis 9 thread-uri către ktqmd
+[14:10:09] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:10:09] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765195508868_6:6:9
+[14:10:12] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:10:12] 📤 Trimis 2 comentarii pentru thread #9
+[14:10:12] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:10:19] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:10:19] 📤 Trimis 2 comentarii pentru thread #9
+[14:10:19] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:10:26] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:10:26] 📤 Trimis 2 comentarii pentru thread #9
+[14:10:26] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:10:33] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:10:33] 📤 Trimis 2 comentarii pentru thread #9
+[14:10:33] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:10:39] 📥 Primit de la ktqmd: GET_THREADS
+[14:10:39] 📤 Trimis 9 thread-uri către ktqmd
+[14:10:39] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:10:39] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765195508868_6:6:9
+[14:10:40] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:10:40] 📤 Trimis 2 comentarii pentru thread #9
+[14:10:40] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:10:47] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:10:47] 📤 Trimis 2 comentarii pentru thread #9
+[14:10:47] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:10:54] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:10:54] 📤 Trimis 2 comentarii pentru thread #9
+[14:10:54] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:11:01] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:11:01] 📤 Trimis 2 comentarii pentru thread #9
+[14:11:01] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:11:08] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:11:08] 📤 Trimis 2 comentarii pentru thread #9
+[14:11:08] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:11:09] 📥 Primit de la ktqmd: GET_THREADS
+[14:11:09] 📤 Trimis 9 thread-uri către ktqmd
+[14:11:09] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:11:09] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765195508868_6:6:9
+[14:11:15] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:11:15] 📤 Trimis 2 comentarii pentru thread #9
+[14:11:15] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:11:22] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:11:22] 📤 Trimis 2 comentarii pentru thread #9
+[14:11:22] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:11:29] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:11:29] 📤 Trimis 2 comentarii pentru thread #9
+[14:11:29] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:11:36] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:11:36] 📤 Trimis 2 comentarii pentru thread #9
+[14:11:36] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:11:39] 📥 Primit de la ktqmd: GET_THREADS
+[14:11:39] 📤 Trimis 9 thread-uri către ktqmd
+[14:11:39] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:11:39] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765195508868_6:6:9
+[14:12:51] 📁 Log file opened: logs/server_08.12.2025.log
+[14:12:51] ===========================================
+[14:12:51]       FORUM APP SERVER - UTM FCIM
+[14:12:51]       Autor: Buga Pavel - CR-231
+[14:12:51]       Port: 12345
+[14:12:51]       Data: 08.12.2025 14:12:51
+[14:12:51] ===========================================
+
+[14:12:51] 🚀 Initializare server...
+[14:12:51] 🧪 Test baza de date...
+[14:12:51] ✅ Test autentificare: PASSED (student)
+[14:12:51] ✅ Test thread-uri: 9 thread-uri găsite
+[14:12:51] ✅ Test tag-uri: 8 tag-uri găsite
+[14:12:51] ✅ Server pornit pe portul 12345
+[14:12:51] 📍 Accesează: localhost:12345
+[14:12:51] ⏳ Aștept conexiuni...
+
+[14:12:53] 🔗 Client conectat: 127.0.0.1
+[14:12:53] 🎬 ClientHandler pornit pentru: /127.0.0.1
+[14:12:57] 📥 Primit de la anonim: LOGIN:student:student123
+[14:12:57] ✅ student autentificat (session: sess_1765195977770_1)
+[14:12:57] 📥 Primit de la student: GET_THREADS
+[14:12:57] 📤 Trimis 9 thread-uri către student
+[14:12:57] 📥 Primit de la student: GET_ACTIVE_USERS:null
+[14:12:59] 📥 Primit de la student: GET_THREAD:3
+[14:12:59] 📤 Trimis thread #3 către student
+[14:12:59] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765195977770_1:1:3
+[14:12:59] 📥 Primit de la student: GET_COMMENTS:3
+[14:12:59] 📤 Trimis 6 comentarii pentru thread #3
+[14:12:59] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:13:01] 📥 Primit de la student: GET_THREAD:7
+[14:13:01] 📤 Trimis thread #7 către student
+[14:13:01] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765195977770_1:1:7
+[14:13:01] 📥 Primit de la student: GET_COMMENTS:7
+[14:13:01] 📤 Trimis 0 comentarii pentru thread #7
+[14:13:01] 📥 Primit de la student: GET_ACTIVE_USERS:7
+[14:13:07] 📥 Primit de la student: LOGOUT
+[14:13:07] 👋 student logged out
+[14:13:07] 📴 Client disconnected: student
+[14:13:07] 👋 Deconectare client: student
+[14:42:19] 🔗 Client conectat: 127.0.0.1
+[14:42:19] 🎬 ClientHandler pornit pentru: /127.0.0.1
+[14:43:55] 📥 Primit de la anonim: LOGIN:ktqmd:1111
+[14:43:55] ✅ ktqmd autentificat (session: sess_1765197835922_6)
+[14:43:56] 📥 Primit de la ktqmd: GET_THREADS
+[14:43:56] 📤 Trimis 9 thread-uri către ktqmd
+[14:43:56] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:null
+[14:43:57] 📥 Primit de la ktqmd: GET_THREAD:3
+[14:43:57] 📤 Trimis thread #3 către ktqmd
+[14:43:57] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765197835922_6:6:3
+[14:43:57] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:43:57] 📤 Trimis 6 comentarii pentru thread #3
+[14:43:57] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:44:04] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:44:04] 📤 Trimis 6 comentarii pentru thread #3
+[14:44:04] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:44:09] 📥 Primit de la ktqmd: GET_THREAD:9
+[14:44:09] 📤 Trimis thread #9 către ktqmd
+[14:44:09] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765197835922_6:6:9
+[14:44:09] 📥 Primit de la ktqmd: GET_COMMENTS:9
+[14:44:09] 📤 Trimis 2 comentarii pentru thread #9
+[14:44:09] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:9
+[14:44:09] 📥 Primit de la ktqmd: GET_THREAD:8
+[14:44:09] 📤 Trimis thread #8 către ktqmd
+[14:44:09] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765197835922_6:6:8
+[14:44:09] 📥 Primit de la ktqmd: GET_COMMENTS:8
+[14:44:09] 📤 Trimis 3 comentarii pentru thread #8
+[14:44:09] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:8
+[14:44:10] 📥 Primit de la ktqmd: GET_THREAD:7
+[14:44:10] 📤 Trimis thread #7 către ktqmd
+[14:44:10] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765197835922_6:6:7
+[14:44:10] 📥 Primit de la ktqmd: GET_COMMENTS:7
+[14:44:10] 📤 Trimis 0 comentarii pentru thread #7
+[14:44:10] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:7
+[14:44:14] 📥 Primit de la ktqmd: GET_THREAD:3
+[14:44:14] 📤 Trimis thread #3 către ktqmd
+[14:44:14] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765197835922_6:6:3
+[14:44:14] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:44:14] 📤 Trimis 6 comentarii pentru thread #3
+[14:44:14] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:44:21] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:44:21] 📤 Trimis 6 comentarii pentru thread #3
+[14:44:21] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:44:26] 📥 Primit de la ktqmd: GET_THREADS
+[14:44:26] 📤 Trimis 9 thread-uri către ktqmd
+[14:44:26] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:44:26] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765197835922_6:6:3
+[14:44:27] 🔗 Client conectat: 127.0.0.1
+[14:44:27] 🎬 ClientHandler pornit pentru: /127.0.0.1
+[14:44:28] 📥 Primit de la anonim: LOGIN:student:student123
+[14:44:28] ✅ student autentificat (session: sess_1765197868254_1)
+[14:44:28] 📥 Primit de la student: GET_THREADS
+[14:44:28] 📤 Trimis 9 thread-uri către student
+[14:44:28] 📥 Primit de la student: GET_ACTIVE_USERS:null
+[14:44:28] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:44:28] 📤 Trimis 6 comentarii pentru thread #3
+[14:44:28] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:44:29] 📥 Primit de la student: GET_THREAD:3
+[14:44:29] 📤 Trimis thread #3 către student
+[14:44:30] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765197868254_1:1:3
+[14:44:30] 📥 Primit de la student: GET_COMMENTS:3
+[14:44:30] 📤 Trimis 6 comentarii pentru thread #3
+[14:44:30] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:44:35] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:44:35] 📤 Trimis 6 comentarii pentru thread #3
+[14:44:35] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:44:37] 📥 Primit de la student: GET_COMMENTS:3
+[14:44:37] 📤 Trimis 6 comentarii pentru thread #3
+[14:44:37] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:44:42] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:44:42] 📤 Trimis 6 comentarii pentru thread #3
+[14:44:42] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:44:44] 📥 Primit de la student: GET_COMMENTS:3
+[14:44:44] 📤 Trimis 6 comentarii pentru thread #3
+[14:44:44] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:44:49] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:44:49] 📤 Trimis 6 comentarii pentru thread #3
+[14:44:49] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:44:51] 📥 Primit de la student: GET_COMMENTS:3
+[14:44:51] 📤 Trimis 6 comentarii pentru thread #3
+[14:44:51] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:44:56] 📥 Primit de la ktqmd: GET_THREADS
+[14:44:56] 📤 Trimis 9 thread-uri către ktqmd
+[14:44:56] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:44:56] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765197835922_6:6:3
+[14:44:57] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:44:57] 📤 Trimis 6 comentarii pentru thread #3
+[14:44:57] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:44:58] 📥 Primit de la student: GET_COMMENTS:3
+[14:44:58] 📤 Trimis 6 comentarii pentru thread #3
+[14:44:58] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:44:58] 📥 Primit de la student: GET_THREADS
+[14:44:58] 📤 Trimis 9 thread-uri către student
+[14:44:58] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:44:58] 📥 Primit de la student: HEARTBEAT:sess_1765197868254_1:1:3
+[14:45:03] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:45:03] 📤 Trimis 6 comentarii pentru thread #3
+[14:45:03] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:45:05] 📥 Primit de la student: GET_COMMENTS:3
+[14:45:05] 📤 Trimis 6 comentarii pentru thread #3
+[14:45:05] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:45:10] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:45:10] 📤 Trimis 6 comentarii pentru thread #3
+[14:45:10] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:45:12] 📥 Primit de la student: GET_COMMENTS:3
+[14:45:12] 📤 Trimis 6 comentarii pentru thread #3
+[14:45:12] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:45:17] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:45:17] 📤 Trimis 6 comentarii pentru thread #3
+[14:45:17] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:45:19] 📥 Primit de la student: GET_COMMENTS:3
+[14:45:19] 📤 Trimis 6 comentarii pentru thread #3
+[14:45:19] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:45:24] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:45:24] 📤 Trimis 6 comentarii pentru thread #3
+[14:45:24] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:45:26] 📥 Primit de la ktqmd: GET_THREADS
+[14:45:26] 📤 Trimis 9 thread-uri către ktqmd
+[14:45:26] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:45:26] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765197835922_6:6:3
+[14:45:26] 📥 Primit de la student: GET_COMMENTS:3
+[14:45:26] 📤 Trimis 6 comentarii pentru thread #3
+[14:45:26] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:45:28] 📥 Primit de la student: GET_THREADS
+[14:45:28] 📤 Trimis 9 thread-uri către student
+[14:45:28] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:45:28] 📥 Primit de la student: HEARTBEAT:sess_1765197868254_1:1:3
+[14:45:30] 📥 Primit de la ktqmd: GET_THREAD:1
+[14:45:30] 📤 Trimis thread #1 către ktqmd
+[14:45:30] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765197835922_6:6:1
+[14:45:30] 📥 Primit de la ktqmd: GET_COMMENTS:1
+[14:45:30] 📤 Trimis 3 comentarii pentru thread #1
+[14:45:30] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:1
+[14:45:32] 📥 Primit de la ktqmd: GET_THREAD:2
+[14:45:32] 📤 Trimis thread #2 către ktqmd
+[14:45:32] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765197835922_6:6:2
+[14:45:32] 📥 Primit de la ktqmd: GET_COMMENTS:2
+[14:45:32] 📤 Trimis 0 comentarii pentru thread #2
+[14:45:32] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:2
+[14:45:33] 📥 Primit de la student: GET_COMMENTS:3
+[14:45:33] 📤 Trimis 6 comentarii pentru thread #3
+[14:45:33] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:45:39] 📥 Primit de la ktqmd: GET_COMMENTS:2
+[14:45:39] 📤 Trimis 0 comentarii pentru thread #2
+[14:45:39] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:2
+[14:45:40] 📥 Primit de la student: GET_COMMENTS:3
+[14:45:40] 📤 Trimis 6 comentarii pentru thread #3
+[14:45:40] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:45:46] 📥 Primit de la ktqmd: GET_COMMENTS:2
+[14:45:46] 📤 Trimis 0 comentarii pentru thread #2
+[14:45:46] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:2
+[14:45:47] 📥 Primit de la student: GET_COMMENTS:3
+[14:45:47] 📤 Trimis 6 comentarii pentru thread #3
+[14:45:47] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:45:53] 📥 Primit de la ktqmd: GET_COMMENTS:2
+[14:45:53] 📤 Trimis 0 comentarii pentru thread #2
+[14:45:53] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:2
+[14:45:54] 📥 Primit de la student: GET_COMMENTS:3
+[14:45:54] 📤 Trimis 6 comentarii pentru thread #3
+[14:45:54] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:45:56] 📥 Primit de la ktqmd: GET_THREADS
+[14:45:56] 📤 Trimis 9 thread-uri către ktqmd
+[14:45:56] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:2
+[14:45:56] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765197835922_6:6:2
+[14:45:58] 📥 Primit de la student: GET_THREADS
+[14:45:58] 📤 Trimis 9 thread-uri către student
+[14:45:58] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:45:58] 📥 Primit de la student: HEARTBEAT:sess_1765197868254_1:1:3
+[14:46:00] 📥 Primit de la ktqmd: GET_COMMENTS:2
+[14:46:00] 📤 Trimis 0 comentarii pentru thread #2
+[14:46:00] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:2
+[14:46:01] 📥 Primit de la student: GET_COMMENTS:3
+[14:46:01] 📤 Trimis 6 comentarii pentru thread #3
+[14:46:01] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:46:07] 📥 Primit de la ktqmd: GET_COMMENTS:2
+[14:46:07] 📤 Trimis 0 comentarii pentru thread #2
+[14:46:07] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:2
+[14:46:08] 📥 Primit de la student: GET_COMMENTS:3
+[14:46:08] 📤 Trimis 6 comentarii pentru thread #3
+[14:46:08] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:46:14] 📥 Primit de la ktqmd: GET_COMMENTS:2
+[14:46:14] 📤 Trimis 0 comentarii pentru thread #2
+[14:46:14] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:2
+[14:46:15] 📥 Primit de la student: GET_COMMENTS:3
+[14:46:15] 📤 Trimis 6 comentarii pentru thread #3
+[14:46:15] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:46:21] 📥 Primit de la ktqmd: GET_COMMENTS:2
+[14:46:21] 📤 Trimis 0 comentarii pentru thread #2
+[14:46:21] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:2
+[14:46:22] 📥 Primit de la student: GET_COMMENTS:3
+[14:46:22] 📤 Trimis 6 comentarii pentru thread #3
+[14:46:22] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:46:22] 📥 Primit de la ktqmd: GET_THREAD:3
+[14:46:22] 📤 Trimis thread #3 către ktqmd
+[14:46:22] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765197835922_6:6:3
+[14:46:22] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:46:22] 📤 Trimis 6 comentarii pentru thread #3
+[14:46:22] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:46:26] 📥 Primit de la ktqmd: GET_THREADS
+[14:46:26] 📤 Trimis 9 thread-uri către ktqmd
+[14:46:26] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:46:26] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765197835922_6:6:3
+[14:46:28] 📥 Primit de la student: GET_THREADS
+[14:46:28] 📤 Trimis 9 thread-uri către student
+[14:46:28] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:46:28] 📥 Primit de la student: HEARTBEAT:sess_1765197868254_1:1:3
+[14:46:29] 📥 Primit de la student: GET_COMMENTS:3
+[14:46:29] 📤 Trimis 6 comentarii pentru thread #3
+[14:46:29] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:46:29] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:46:29] 📤 Trimis 6 comentarii pentru thread #3
+[14:46:29] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:46:35] 📥 Primit de la student: GET_THREAD:3
+[14:46:35] 📤 Trimis thread #3 către student
+[14:46:35] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765197868254_1:1:3
+[14:46:35] 📥 Primit de la student: GET_COMMENTS:3
+[14:46:35] 📤 Trimis 6 comentarii pentru thread #3
+[14:46:35] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:46:36] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:46:36] 📤 Trimis 6 comentarii pentru thread #3
+[14:46:36] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:46:42] 📥 Primit de la student: GET_COMMENTS:3
+[14:46:42] 📤 Trimis 6 comentarii pentru thread #3
+[14:46:42] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:46:43] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:46:43] 📤 Trimis 6 comentarii pentru thread #3
+[14:46:43] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:46:49] 📥 Primit de la student: GET_COMMENTS:3
+[14:46:49] 📤 Trimis 6 comentarii pentru thread #3
+[14:46:49] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:46:50] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:46:50] 📤 Trimis 6 comentarii pentru thread #3
+[14:46:50] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:46:56] 📥 Primit de la ktqmd: GET_THREADS
+[14:46:56] 📤 Trimis 9 thread-uri către ktqmd
+[14:46:56] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:46:56] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765197835922_6:6:3
+[14:46:56] 📥 Primit de la student: GET_COMMENTS:3
+[14:46:56] 📤 Trimis 6 comentarii pentru thread #3
+[14:46:56] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:46:57] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:46:57] 📤 Trimis 6 comentarii pentru thread #3
+[14:46:57] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:46:58] 📥 Primit de la student: GET_THREADS
+[14:46:58] 📤 Trimis 9 thread-uri către student
+[14:46:58] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:46:58] 📥 Primit de la student: HEARTBEAT:sess_1765197868254_1:1:3
+[14:47:03] 📥 Primit de la student: GET_COMMENTS:3
+[14:47:03] 📤 Trimis 6 comentarii pentru thread #3
+[14:47:03] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:47:04] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:47:04] 📤 Trimis 6 comentarii pentru thread #3
+[14:47:04] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:47:10] 📥 Primit de la student: GET_COMMENTS:3
+[14:47:10] 📤 Trimis 6 comentarii pentru thread #3
+[14:47:10] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:47:11] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:47:11] 📤 Trimis 6 comentarii pentru thread #3
+[14:47:11] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:47:15] 📥 Primit de la student: GET_THREAD:3
+[14:47:15] 📤 Trimis thread #3 către student
+[14:47:15] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765197868254_1:1:3
+[14:47:15] 📥 Primit de la student: GET_COMMENTS:3
+[14:47:15] 📤 Trimis 6 comentarii pentru thread #3
+[14:47:15] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:47:18] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:47:18] 📤 Trimis 6 comentarii pentru thread #3
+[14:47:18] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:47:22] 📥 Primit de la student: GET_COMMENTS:3
+[14:47:22] 📤 Trimis 6 comentarii pentru thread #3
+[14:47:22] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:47:25] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:47:25] 📤 Trimis 6 comentarii pentru thread #3
+[14:47:25] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:47:26] 📥 Primit de la ktqmd: GET_THREADS
+[14:47:26] 📤 Trimis 9 thread-uri către ktqmd
+[14:47:26] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:47:26] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765197835922_6:6:3
+[14:47:28] 📥 Primit de la student: GET_THREADS
+[14:47:28] 📤 Trimis 9 thread-uri către student
+[14:47:28] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:47:28] 📥 Primit de la student: HEARTBEAT:sess_1765197868254_1:1:3
+[14:47:29] 📥 Primit de la student: GET_COMMENTS:3
+[14:47:29] 📤 Trimis 6 comentarii pentru thread #3
+[14:47:29] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:47:32] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:47:32] 📤 Trimis 6 comentarii pentru thread #3
+[14:47:32] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:47:36] 📥 Primit de la student: GET_COMMENTS:3
+[14:47:36] 📤 Trimis 6 comentarii pentru thread #3
+[14:47:36] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:47:39] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:47:39] 📤 Trimis 6 comentarii pentru thread #3
+[14:47:39] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:47:43] 📥 Primit de la student: GET_COMMENTS:3
+[14:47:43] 📤 Trimis 6 comentarii pentru thread #3
+[14:47:43] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:47:46] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:47:46] 📤 Trimis 6 comentarii pentru thread #3
+[14:47:46] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:47:50] 📥 Primit de la student: GET_COMMENTS:3
+[14:47:50] 📤 Trimis 6 comentarii pentru thread #3
+[14:47:50] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:47:53] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:47:53] 📤 Trimis 6 comentarii pentru thread #3
+[14:47:53] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:47:56] 📥 Primit de la ktqmd: GET_THREADS
+[14:47:56] 📤 Trimis 9 thread-uri către ktqmd
+[14:47:56] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:47:56] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765197835922_6:6:3
+[14:47:57] 📥 Primit de la student: GET_COMMENTS:3
+[14:47:57] 📤 Trimis 6 comentarii pentru thread #3
+[14:47:57] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:47:58] 📥 Primit de la student: GET_THREADS
+[14:47:58] 📤 Trimis 9 thread-uri către student
+[14:47:58] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:47:58] 📥 Primit de la student: HEARTBEAT:sess_1765197868254_1:1:3
+[14:48:00] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:48:00] 📤 Trimis 6 comentarii pentru thread #3
+[14:48:00] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:48:04] 📥 Primit de la student: GET_COMMENTS:3
+[14:48:04] 📤 Trimis 6 comentarii pentru thread #3
+[14:48:04] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:48:07] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:48:07] 📤 Trimis 6 comentarii pentru thread #3
+[14:48:07] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:48:11] 📥 Primit de la student: GET_COMMENTS:3
+[14:48:11] 📤 Trimis 6 comentarii pentru thread #3
+[14:48:11] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:48:14] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:48:14] 📤 Trimis 6 comentarii pentru thread #3
+[14:48:14] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:48:18] 📥 Primit de la student: GET_COMMENTS:3
+[14:48:18] 📤 Trimis 6 comentarii pentru thread #3
+[14:48:18] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:48:21] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:48:21] 📤 Trimis 6 comentarii pentru thread #3
+[14:48:21] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:48:25] 📥 Primit de la student: GET_COMMENTS:3
+[14:48:25] 📤 Trimis 6 comentarii pentru thread #3
+[14:48:25] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:48:26] 📥 Primit de la ktqmd: GET_THREADS
+[14:48:26] 📤 Trimis 9 thread-uri către ktqmd
+[14:48:26] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:48:26] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765197835922_6:6:3
+[14:48:28] 📥 Primit de la student: GET_THREADS
+[14:48:28] 📤 Trimis 9 thread-uri către student
+[14:48:28] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:48:28] 📥 Primit de la student: HEARTBEAT:sess_1765197868254_1:1:3
+[14:48:28] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:48:28] 📤 Trimis 6 comentarii pentru thread #3
+[14:48:28] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:48:32] 📥 Primit de la student: GET_COMMENTS:3
+[14:48:32] 📤 Trimis 6 comentarii pentru thread #3
+[14:48:32] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:48:35] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:48:35] 📤 Trimis 6 comentarii pentru thread #3
+[14:48:35] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:48:39] 📥 Primit de la student: GET_COMMENTS:3
+[14:48:39] 📤 Trimis 6 comentarii pentru thread #3
+[14:48:39] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:48:42] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:48:42] 📤 Trimis 6 comentarii pentru thread #3
+[14:48:42] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:48:46] 📥 Primit de la student: GET_COMMENTS:3
+[14:48:46] 📤 Trimis 6 comentarii pentru thread #3
+[14:48:46] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:48:49] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:48:49] 📤 Trimis 6 comentarii pentru thread #3
+[14:48:49] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:48:53] 📥 Primit de la student: GET_COMMENTS:3
+[14:48:53] 📤 Trimis 6 comentarii pentru thread #3
+[14:48:53] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:48:56] 📥 Primit de la ktqmd: GET_THREADS
+[14:48:56] 📤 Trimis 9 thread-uri către ktqmd
+[14:48:56] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:48:56] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765197835922_6:6:3
+[14:48:56] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:48:56] 📤 Trimis 6 comentarii pentru thread #3
+[14:48:56] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:48:58] 📥 Primit de la student: GET_THREADS
+[14:48:58] 📤 Trimis 9 thread-uri către student
+[14:48:58] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:48:58] 📥 Primit de la student: HEARTBEAT:sess_1765197868254_1:1:3
+[14:49:00] 📥 Primit de la student: GET_COMMENTS:3
+[14:49:00] 📤 Trimis 6 comentarii pentru thread #3
+[14:49:00] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:49:03] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:49:03] 📤 Trimis 6 comentarii pentru thread #3
+[14:49:03] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:49:07] 📥 Primit de la student: GET_COMMENTS:3
+[14:49:07] 📤 Trimis 6 comentarii pentru thread #3
+[14:49:07] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:49:10] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:49:10] 📤 Trimis 6 comentarii pentru thread #3
+[14:49:10] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:49:14] 📥 Primit de la student: GET_COMMENTS:3
+[14:49:14] 📤 Trimis 6 comentarii pentru thread #3
+[14:49:14] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:49:17] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:49:17] 📤 Trimis 6 comentarii pentru thread #3
+[14:49:17] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:49:21] 📥 Primit de la student: GET_COMMENTS:3
+[14:49:21] 📤 Trimis 6 comentarii pentru thread #3
+[14:49:21] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:49:24] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:49:24] 📤 Trimis 6 comentarii pentru thread #3
+[14:49:24] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:49:26] 📥 Primit de la ktqmd: GET_THREADS
+[14:49:26] 📤 Trimis 9 thread-uri către ktqmd
+[14:49:26] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:49:26] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765197835922_6:6:3
+[14:49:28] 📥 Primit de la student: GET_THREADS
+[14:49:28] 📤 Trimis 9 thread-uri către student
+[14:49:28] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:49:28] 📥 Primit de la student: HEARTBEAT:sess_1765197868254_1:1:3
+[14:49:28] 📥 Primit de la student: GET_COMMENTS:3
+[14:49:28] 📤 Trimis 6 comentarii pentru thread #3
+[14:49:28] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:49:31] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:49:31] 📤 Trimis 6 comentarii pentru thread #3
+[14:49:31] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:49:35] 📥 Primit de la student: GET_COMMENTS:3
+[14:49:35] 📤 Trimis 6 comentarii pentru thread #3
+[14:49:35] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:49:38] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:49:38] 📤 Trimis 6 comentarii pentru thread #3
+[14:49:38] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:49:42] 📥 Primit de la student: GET_COMMENTS:3
+[14:49:42] 📤 Trimis 6 comentarii pentru thread #3
+[14:49:42] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:49:45] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:49:45] 📤 Trimis 6 comentarii pentru thread #3
+[14:49:45] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:49:49] 📥 Primit de la student: GET_COMMENTS:3
+[14:49:49] 📤 Trimis 6 comentarii pentru thread #3
+[14:49:49] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:49:52] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:49:52] 📤 Trimis 6 comentarii pentru thread #3
+[14:49:52] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:49:56] 📥 Primit de la ktqmd: GET_THREADS
+[14:49:56] 📤 Trimis 9 thread-uri către ktqmd
+[14:49:56] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:49:56] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765197835922_6:6:3
+[14:49:56] 📥 Primit de la student: GET_COMMENTS:3
+[14:49:56] 📤 Trimis 6 comentarii pentru thread #3
+[14:49:56] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:49:58] 📥 Primit de la student: GET_THREADS
+[14:49:58] 📤 Trimis 9 thread-uri către student
+[14:49:58] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:49:58] 📥 Primit de la student: HEARTBEAT:sess_1765197868254_1:1:3
+[14:49:59] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:49:59] 📤 Trimis 6 comentarii pentru thread #3
+[14:49:59] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:50:03] 📥 Primit de la student: GET_COMMENTS:3
+[14:50:03] 📤 Trimis 6 comentarii pentru thread #3
+[14:50:03] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:50:06] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:50:06] 📤 Trimis 6 comentarii pentru thread #3
+[14:50:06] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:50:10] 📥 Primit de la student: GET_COMMENTS:3
+[14:50:10] 📤 Trimis 6 comentarii pentru thread #3
+[14:50:10] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:50:13] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:50:13] 📤 Trimis 6 comentarii pentru thread #3
+[14:50:13] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:50:17] 📥 Primit de la student: GET_COMMENTS:3
+[14:50:17] 📤 Trimis 6 comentarii pentru thread #3
+[14:50:17] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:50:20] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:50:20] 📤 Trimis 6 comentarii pentru thread #3
+[14:50:20] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:50:24] 📥 Primit de la student: GET_COMMENTS:3
+[14:50:24] 📤 Trimis 6 comentarii pentru thread #3
+[14:50:24] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:50:26] 📥 Primit de la ktqmd: GET_THREADS
+[14:50:26] 📤 Trimis 9 thread-uri către ktqmd
+[14:50:26] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:50:26] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765197835922_6:6:3
+[14:50:27] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:50:27] 📤 Trimis 6 comentarii pentru thread #3
+[14:50:27] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:50:28] 📥 Primit de la student: GET_THREADS
+[14:50:28] 📤 Trimis 9 thread-uri către student
+[14:50:28] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:50:28] 📥 Primit de la student: HEARTBEAT:sess_1765197868254_1:1:3
+[14:50:31] 📥 Primit de la student: GET_COMMENTS:3
+[14:50:31] 📤 Trimis 6 comentarii pentru thread #3
+[14:50:31] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:50:34] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:50:34] 📤 Trimis 6 comentarii pentru thread #3
+[14:50:34] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:50:38] 📥 Primit de la student: GET_COMMENTS:3
+[14:50:38] 📤 Trimis 6 comentarii pentru thread #3
+[14:50:38] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:50:41] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:50:41] 📤 Trimis 6 comentarii pentru thread #3
+[14:50:41] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:50:45] 📥 Primit de la student: GET_COMMENTS:3
+[14:50:45] 📤 Trimis 6 comentarii pentru thread #3
+[14:50:45] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:50:48] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:50:48] 📤 Trimis 6 comentarii pentru thread #3
+[14:50:48] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:50:52] 📥 Primit de la student: GET_COMMENTS:3
+[14:50:52] 📤 Trimis 6 comentarii pentru thread #3
+[14:50:52] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:50:55] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:50:55] 📤 Trimis 6 comentarii pentru thread #3
+[14:50:55] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:50:56] 📥 Primit de la ktqmd: GET_THREADS
+[14:50:56] 📤 Trimis 9 thread-uri către ktqmd
+[14:50:56] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:50:56] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765197835922_6:6:3
+[14:50:58] 📥 Primit de la student: GET_THREADS
+[14:50:58] 📤 Trimis 9 thread-uri către student
+[14:50:58] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:50:58] 📥 Primit de la student: HEARTBEAT:sess_1765197868254_1:1:3
+[14:50:59] 📥 Primit de la student: GET_COMMENTS:3
+[14:50:59] 📤 Trimis 6 comentarii pentru thread #3
+[14:50:59] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:51:02] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:51:02] 📤 Trimis 6 comentarii pentru thread #3
+[14:51:02] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:51:06] 📥 Primit de la student: GET_COMMENTS:3
+[14:51:06] 📤 Trimis 6 comentarii pentru thread #3
+[14:51:06] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:51:09] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:51:09] 📤 Trimis 6 comentarii pentru thread #3
+[14:51:09] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:51:13] 📥 Primit de la student: GET_COMMENTS:3
+[14:51:13] 📤 Trimis 6 comentarii pentru thread #3
+[14:51:13] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:51:16] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:51:16] 📤 Trimis 6 comentarii pentru thread #3
+[14:51:16] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:51:20] 📥 Primit de la student: GET_COMMENTS:3
+[14:51:20] 📤 Trimis 6 comentarii pentru thread #3
+[14:51:20] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:51:23] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:51:23] 📤 Trimis 6 comentarii pentru thread #3
+[14:51:23] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:51:26] 📥 Primit de la ktqmd: GET_THREADS
+[14:51:26] 📤 Trimis 9 thread-uri către ktqmd
+[14:51:26] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:51:26] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765197835922_6:6:3
+[14:51:27] 📥 Primit de la student: GET_COMMENTS:3
+[14:51:27] 📤 Trimis 6 comentarii pentru thread #3
+[14:51:27] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:51:28] 📥 Primit de la student: GET_THREADS
+[14:51:28] 📤 Trimis 9 thread-uri către student
+[14:51:28] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:51:28] 📥 Primit de la student: HEARTBEAT:sess_1765197868254_1:1:3
+[14:51:30] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:51:30] 📤 Trimis 6 comentarii pentru thread #3
+[14:51:30] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:51:34] 📥 Primit de la student: GET_COMMENTS:3
+[14:51:34] 📤 Trimis 6 comentarii pentru thread #3
+[14:51:34] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:51:37] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:51:37] 📤 Trimis 6 comentarii pentru thread #3
+[14:51:37] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:51:41] 📥 Primit de la student: GET_COMMENTS:3
+[14:51:41] 📤 Trimis 6 comentarii pentru thread #3
+[14:51:41] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:51:44] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:51:44] 📤 Trimis 6 comentarii pentru thread #3
+[14:51:44] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:51:48] 📥 Primit de la student: GET_COMMENTS:3
+[14:51:48] 📤 Trimis 6 comentarii pentru thread #3
+[14:51:48] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:51:51] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:51:51] 📤 Trimis 6 comentarii pentru thread #3
+[14:51:51] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:51:53] 📥 Primit de la student: ADD_COMMENT:3:1:ceva
+[14:51:53] ✅ student a adăugat comentariu la thread #3
+[14:51:53] 📢 Broadcasting comment update for thread #3
+[14:51:53] 📤 Sending 7 comments to student
+[14:51:53] 📤 Trimis 7 comentarii către student
+[14:51:53] 📤 Sending 7 comments to ktqmd
+[14:51:53] 📤 Trimis 7 comentarii către ktqmd
+[14:51:53] 📥 Primit de la student: GET_COMMENTS:3
+[14:51:53] 📤 Trimis 7 comentarii pentru thread #3
+[14:51:53] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:51:53] 📥 Primit de la student: GET_THREADS
+[14:51:53] 📤 Trimis 9 thread-uri către student
+[14:51:53] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765197835922_6:6:3
+[14:51:53] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765197868254_1:1:3
+[14:51:53] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:51:53] 📤 Trimis 7 comentarii pentru thread #3
+[14:51:53] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:51:53] 📥 Primit de la ktqmd: GET_THREADS
+[14:51:53] 📤 Trimis 9 thread-uri către ktqmd
+[14:51:53] ❌ ERROR: ❌ Eroare trimitere active users: not in readObject invocation or fields already read
+[14:51:53] 📥 Primit de la student: GET_COMMENTS:3
+[14:51:53] 📤 Trimis 7 comentarii pentru thread #3
+[14:51:53] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:51:53] 📥 Primit de la student: GET_THREADS
+[14:51:53] 📤 Trimis 9 thread-uri către student
+[14:51:56] 📥 Primit de la ktqmd: GET_THREADS
+[14:51:56] 📤 Trimis 9 thread-uri către ktqmd
+[14:51:56] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:51:56] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765197835922_6:6:3
+[14:51:58] 📥 Primit de la student: GET_THREADS
+[14:51:58] 📤 Trimis 9 thread-uri către student
+[14:51:58] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:51:58] 📥 Primit de la student: HEARTBEAT:sess_1765197868254_1:1:3
+[14:52:00] 📥 Primit de la student: GET_COMMENTS:3
+[14:52:00] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:52:00] 📤 Trimis 7 comentarii pentru thread #3
+[14:52:00] 📤 Trimis 7 comentarii pentru thread #3
+[14:52:00] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:52:00] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:52:07] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:52:07] 📥 Primit de la student: GET_COMMENTS:3
+[14:52:07] 📤 Trimis 7 comentarii pentru thread #3
+[14:52:07] 📤 Trimis 7 comentarii pentru thread #3
+[14:52:07] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:52:07] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:52:08] 📥 Primit de la student: ADD_COMMENT:3:1:111
+[14:52:08] ✅ student a adăugat comentariu la thread #3
+[14:52:08] 📢 Broadcasting comment update for thread #3
+[14:52:08] 📤 Sending 8 comments to student
+[14:52:08] 📤 Trimis 8 comentarii către student
+[14:52:08] 📤 Sending 8 comments to ktqmd
+[14:52:08] 📤 Trimis 8 comentarii către ktqmd
+[14:52:08] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765197835922_6:6:3
+[14:52:08] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:52:08] 📤 Trimis 8 comentarii pentru thread #3
+[14:52:08] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:52:08] 📥 Primit de la ktqmd: GET_THREADS
+[14:52:08] 📤 Trimis 9 thread-uri către ktqmd
+[14:52:14] 📥 Primit de la student: GET_COMMENTS:3
+[14:52:14] 📤 Trimis 8 comentarii pentru thread #3
+[14:52:14] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:52:15] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:52:15] 📤 Trimis 8 comentarii pentru thread #3
+[14:52:15] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:52:21] 📥 Primit de la student: GET_COMMENTS:3
+[14:52:21] 📤 Trimis 8 comentarii pentru thread #3
+[14:52:21] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:52:22] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:52:22] 📤 Trimis 8 comentarii pentru thread #3
+[14:52:22] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:52:26] 📥 Primit de la ktqmd: GET_THREADS
+[14:52:26] 📤 Trimis 9 thread-uri către ktqmd
+[14:52:26] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:52:26] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765197835922_6:6:3
+[14:52:26] 📥 Primit de la student: GET_THREAD:3
+[14:52:26] 📤 Trimis thread #3 către student
+[14:52:28] 📥 Primit de la student: GET_THREADS
+[14:52:28] 📤 Trimis 9 thread-uri către student
+[14:52:28] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:52:28] 📥 Primit de la student: HEARTBEAT:sess_1765197868254_1:1:3
+[14:52:28] 📥 Primit de la student: GET_COMMENTS:3
+[14:52:28] 📤 Trimis 8 comentarii pentru thread #3
+[14:52:28] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:52:29] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:52:29] 📤 Trimis 8 comentarii pentru thread #3
+[14:52:29] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:52:32] 📥 Primit de la student: ADD_COMMENT:3:1:333
+[14:52:32] ✅ student a adăugat comentariu la thread #3
+[14:52:32] 📢 Broadcasting comment update for thread #3
+[14:52:32] 📤 Sending 9 comments to student
+[14:52:32] 📤 Trimis 9 comentarii către student
+[14:52:32] 📤 Sending 9 comments to ktqmd
+[14:52:32] 📤 Trimis 9 comentarii către ktqmd
+[14:52:32] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765197835922_6:6:3
+[14:52:32] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:52:32] 📤 Trimis 9 comentarii pentru thread #3
+[14:52:32] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:52:32] 📥 Primit de la ktqmd: GET_THREADS
+[14:52:32] 📤 Trimis 9 thread-uri către ktqmd
+[14:52:35] 📥 Primit de la student: GET_COMMENTS:3
+[14:52:35] 📤 Trimis 9 comentarii pentru thread #3
+[14:52:35] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:52:38] 📥 Primit de la student: GET_THREAD:3
+[14:52:38] 📤 Trimis thread #3 către student
+[14:52:39] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:52:39] 📤 Trimis 9 comentarii pentru thread #3
+[14:52:39] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:52:40] 📥 Primit de la student: GET_THREAD:3
+[14:52:40] 📤 Trimis thread #3 către student
+[14:52:42] 📥 Primit de la student: GET_COMMENTS:3
+[14:52:42] 📤 Trimis 9 comentarii pentru thread #3
+[14:52:42] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:52:45] 📥 Primit de la student: LOGOUT
+[14:52:45] 👋 student logged out
+[14:52:45] 📴 Client disconnected: student
+[14:52:45] 👋 Deconectare client: student
+[14:52:46] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:52:46] 📤 Trimis 9 comentarii pentru thread #3
+[14:52:46] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:52:52] 🔗 Client conectat: 127.0.0.1
+[14:52:52] 🎬 ClientHandler pornit pentru: /127.0.0.1
+[14:52:53] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:52:53] 📤 Trimis 9 comentarii pentru thread #3
+[14:52:53] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:52:56] 📥 Primit de la ktqmd: GET_THREADS
+[14:52:56] 📤 Trimis 9 thread-uri către ktqmd
+[14:52:56] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:52:56] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765197835922_6:6:3
+[14:52:58] 📥 Primit de la anonim: LOGIN:student:student123
+[14:52:58] ✅ student autentificat (session: sess_1765198378691_1)
+[14:52:58] 📥 Primit de la student: GET_THREADS
+[14:52:58] 📤 Trimis 9 thread-uri către student
+[14:52:58] 📥 Primit de la student: GET_ACTIVE_USERS:null
+[14:52:59] 📥 Primit de la student: GET_THREAD:3
+[14:52:59] 📤 Trimis thread #3 către student
+[14:53:00] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765198378691_1:1:3
+[14:53:00] 📥 Primit de la student: GET_COMMENTS:3
+[14:53:00] 📤 Trimis 9 comentarii pentru thread #3
+[14:53:00] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:53:00] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:53:00] 📤 Trimis 9 comentarii pentru thread #3
+[14:53:00] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:53:07] 📥 Primit de la student: GET_COMMENTS:3
+[14:53:07] 📤 Trimis 9 comentarii pentru thread #3
+[14:53:07] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:53:07] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:53:07] 📤 Trimis 9 comentarii pentru thread #3
+[14:53:07] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:53:08] 📥 Primit de la ktqmd: ADD_COMMENT:3:6:joi
+[14:53:08] ✅ ktqmd a adăugat comentariu la thread #3
+[14:53:08] 📢 Broadcasting comment update for thread #3
+[14:53:08] 📤 Sending 10 comments to ktqmd
+[14:53:08] 📤 Trimis 10 comentarii către ktqmd
+[14:53:08] 📤 Sending 10 comments to student
+[14:53:08] 📤 Trimis 10 comentarii către student
+[14:53:08] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:53:08] 📤 Trimis 10 comentarii pentru thread #3
+[14:53:08] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:53:08] 📥 Primit de la ktqmd: GET_THREADS
+[14:53:08] 📤 Trimis 9 thread-uri către ktqmd
+[14:53:08] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765197835922_6:6:3
+[14:53:08] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:53:08] 📤 Trimis 10 comentarii pentru thread #3
+[14:53:08] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:53:08] 📥 Primit de la ktqmd: GET_THREADS
+[14:53:08] 📤 Trimis 9 thread-uri către ktqmd
+[14:53:08] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765198378691_1:1:3
+[14:53:08] 📥 Primit de la student: GET_COMMENTS:3
+[14:53:08] 📤 Trimis 10 comentarii pentru thread #3
+[14:53:08] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:53:08] 📥 Primit de la student: GET_THREADS
+[14:53:08] 📤 Trimis 9 thread-uri către student
+[14:53:15] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:53:15] 📤 Trimis 10 comentarii pentru thread #3
+[14:53:15] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:53:15] 📥 Primit de la student: GET_COMMENTS:3
+[14:53:15] 📤 Trimis 10 comentarii pentru thread #3
+[14:53:15] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:53:17] 📥 Primit de la ktqmd: ADD_COMMENT:3:6:vineri
+[14:53:17] ✅ ktqmd a adăugat comentariu la thread #3
+[14:53:17] 📢 Broadcasting comment update for thread #3
+[14:53:17] 📤 Sending 11 comments to ktqmd
+[14:53:17] 📤 Trimis 11 comentarii către ktqmd
+[14:53:17] 📤 Sending 11 comments to student
+[14:53:17] 📤 Trimis 11 comentarii către student
+[14:53:17] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:53:17] 📤 Trimis 11 comentarii pentru thread #3
+[14:53:17] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:53:17] 📥 Primit de la ktqmd: GET_THREADS
+[14:53:17] 📤 Trimis 9 thread-uri către ktqmd
+[14:53:17] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765197835922_6:6:3
+[14:53:17] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:53:17] 📤 Trimis 11 comentarii pentru thread #3
+[14:53:17] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:53:17] 📥 Primit de la ktqmd: GET_THREADS
+[14:53:17] 📤 Trimis 9 thread-uri către ktqmd
+[14:53:17] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765198378691_1:1:3
+[14:53:17] 📥 Primit de la student: GET_COMMENTS:3
+[14:53:17] 📤 Trimis 11 comentarii pentru thread #3
+[14:53:17] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:53:17] 📥 Primit de la student: GET_THREADS
+[14:53:17] 📤 Trimis 9 thread-uri către student
+[14:53:24] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:53:24] 📤 Trimis 11 comentarii pentru thread #3
+[14:53:24] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:53:24] 📥 Primit de la student: GET_COMMENTS:3
+[14:53:24] 📤 Trimis 11 comentarii pentru thread #3
+[14:53:24] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:53:26] 📥 Primit de la ktqmd: GET_THREADS
+[14:53:26] 📤 Trimis 9 thread-uri către ktqmd
+[14:53:26] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:53:26] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765197835922_6:6:3
+[14:53:28] 📥 Primit de la student: GET_THREADS
+[14:53:28] 📤 Trimis 9 thread-uri către student
+[14:53:28] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:53:28] 📥 Primit de la student: HEARTBEAT:sess_1765198378691_1:1:3
+[14:53:31] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:53:31] 📤 Trimis 11 comentarii pentru thread #3
+[14:53:31] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:53:31] 📥 Primit de la student: GET_COMMENTS:3
+[14:53:31] 📤 Trimis 11 comentarii pentru thread #3
+[14:53:31] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:53:38] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:53:38] 📤 Trimis 11 comentarii pentru thread #3
+[14:53:38] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:53:38] 📥 Primit de la student: GET_COMMENTS:3
+[14:53:38] 📤 Trimis 11 comentarii pentru thread #3
+[14:53:38] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:53:45] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:53:45] 📤 Trimis 11 comentarii pentru thread #3
+[14:53:45] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:53:45] 📥 Primit de la student: GET_COMMENTS:3
+[14:53:45] 📤 Trimis 11 comentarii pentru thread #3
+[14:53:45] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:53:52] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:53:52] 📤 Trimis 11 comentarii pentru thread #3
+[14:53:52] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:53:52] 📥 Primit de la student: GET_COMMENTS:3
+[14:53:52] 📤 Trimis 11 comentarii pentru thread #3
+[14:53:52] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:53:56] 📥 Primit de la ktqmd: GET_THREADS
+[14:53:56] 📤 Trimis 9 thread-uri către ktqmd
+[14:53:56] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:53:56] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765197835922_6:6:3
+[14:53:58] 📥 Primit de la student: GET_THREADS
+[14:53:58] 📤 Trimis 9 thread-uri către student
+[14:53:58] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:53:58] 📥 Primit de la student: HEARTBEAT:sess_1765198378691_1:1:3
+[14:53:59] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:53:59] 📤 Trimis 11 comentarii pentru thread #3
+[14:53:59] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:53:59] 📥 Primit de la student: GET_COMMENTS:3
+[14:53:59] 📤 Trimis 11 comentarii pentru thread #3
+[14:53:59] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:54:06] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:54:06] 📤 Trimis 11 comentarii pentru thread #3
+[14:54:06] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:54:06] 📥 Primit de la student: GET_COMMENTS:3
+[14:54:06] 📤 Trimis 11 comentarii pentru thread #3
+[14:54:06] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:54:13] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:54:13] 📤 Trimis 11 comentarii pentru thread #3
+[14:54:13] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:54:13] 📥 Primit de la student: GET_COMMENTS:3
+[14:54:13] 📤 Trimis 11 comentarii pentru thread #3
+[14:54:13] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:54:20] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:54:20] 📤 Trimis 11 comentarii pentru thread #3
+[14:54:20] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:54:20] 📥 Primit de la student: GET_COMMENTS:3
+[14:54:20] 📤 Trimis 11 comentarii pentru thread #3
+[14:54:20] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:54:26] 📥 Primit de la ktqmd: GET_THREADS
+[14:54:26] 📤 Trimis 9 thread-uri către ktqmd
+[14:54:26] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:54:26] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765197835922_6:6:3
+[14:54:27] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:54:27] 📤 Trimis 11 comentarii pentru thread #3
+[14:54:27] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:54:27] 📥 Primit de la student: GET_COMMENTS:3
+[14:54:27] 📤 Trimis 11 comentarii pentru thread #3
+[14:54:27] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:54:28] 📥 Primit de la student: GET_THREADS
+[14:54:28] 📤 Trimis 9 thread-uri către student
+[14:54:28] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:54:28] 📥 Primit de la student: HEARTBEAT:sess_1765198378691_1:1:3
+[14:54:30] 📥 Primit de la ktqmd: ADD_COMMENT:3:6:salut, ma numesc Andrei
+[14:54:30] ✅ ktqmd a adăugat comentariu la thread #3
+[14:54:30] 📢 Broadcasting comment update for thread #3
+[14:54:30] 📤 Sending 12 comments to ktqmd
+[14:54:30] 📤 Trimis 12 comentarii către ktqmd
+[14:54:30] 📤 Sending 12 comments to student
+[14:54:30] 📤 Trimis 12 comentarii către student
+[14:54:30] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:54:30] 📤 Trimis 12 comentarii pentru thread #3
+[14:54:30] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:54:30] 📥 Primit de la ktqmd: GET_THREADS
+[14:54:30] 📤 Trimis 9 thread-uri către ktqmd
+[14:54:30] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765197835922_6:6:3
+[14:54:30] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:54:30] 📤 Trimis 12 comentarii pentru thread #3
+[14:54:30] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:54:30] 📥 Primit de la ktqmd: GET_THREADS
+[14:54:30] 📤 Trimis 9 thread-uri către ktqmd
+[14:54:30] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765198378691_1:1:3
+[14:54:30] 📥 Primit de la student: GET_COMMENTS:3
+[14:54:30] 📤 Trimis 12 comentarii pentru thread #3
+[14:54:30] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:54:30] 📥 Primit de la student: GET_THREADS
+[14:54:30] 📤 Trimis 9 thread-uri către student
+[14:54:37] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:54:37] 📤 Trimis 12 comentarii pentru thread #3
+[14:54:37] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:54:37] 📥 Primit de la student: GET_COMMENTS:3
+[14:54:37] 📤 Trimis 12 comentarii pentru thread #3
+[14:54:37] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:54:44] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:54:44] 📤 Trimis 12 comentarii pentru thread #3
+[14:54:44] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:54:44] 📥 Primit de la student: GET_COMMENTS:3
+[14:54:44] 📤 Trimis 12 comentarii pentru thread #3
+[14:54:44] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:54:51] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:54:51] 📤 Trimis 12 comentarii pentru thread #3
+[14:54:51] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:54:51] 📥 Primit de la student: GET_COMMENTS:3
+[14:54:51] 📤 Trimis 12 comentarii pentru thread #3
+[14:54:51] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:54:56] 📥 Primit de la ktqmd: GET_THREADS
+[14:54:56] 📤 Trimis 9 thread-uri către ktqmd
+[14:54:56] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:54:56] 📥 Primit de la ktqmd: HEARTBEAT:sess_1765197835922_6:6:3
+[14:54:58] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:54:58] 📤 Trimis 12 comentarii pentru thread #3
+[14:54:58] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:54:58] 📥 Primit de la student: GET_COMMENTS:3
+[14:54:58] 📤 Trimis 12 comentarii pentru thread #3
+[14:54:58] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:54:58] 📥 Primit de la student: GET_THREADS
+[14:54:58] 📤 Trimis 9 thread-uri către student
+[14:54:58] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:54:58] 📥 Primit de la student: HEARTBEAT:sess_1765198378691_1:1:3
+[14:55:05] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:55:05] 📤 Trimis 12 comentarii pentru thread #3
+[14:55:05] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:55:05] 📥 Primit de la student: GET_COMMENTS:3
+[14:55:05] 📤 Trimis 12 comentarii pentru thread #3
+[14:55:05] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:55:07] 📥 Primit de la ktqmd: ADD_COMMENT:3:6:exemplu de mesaj, si realizarea lui!!!
+[14:55:07] ✅ ktqmd a adăugat comentariu la thread #3
+[14:55:07] 📢 Broadcasting comment update for thread #3
+[14:55:07] 📤 Sending 13 comments to ktqmd
+[14:55:07] 📤 Trimis 13 comentarii către ktqmd
+[14:55:07] 📤 Sending 13 comments to student
+[14:55:07] 📤 Trimis 13 comentarii către student
+[14:55:07] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:55:07] 📤 Trimis 13 comentarii pentru thread #3
+[14:55:07] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:55:07] 📥 Primit de la ktqmd: GET_THREADS
+[14:55:07] 📤 Trimis 9 thread-uri către ktqmd
+[14:55:07] 📥 Primit de la ktqmd: UPDATE_ACTIVITY:sess_1765197835922_6:6:3
+[14:55:07] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:55:07] 📥 Primit de la student: UPDATE_ACTIVITY:sess_1765198378691_1:1:3
+[14:55:07] ❌ ERROR: ❌ Eroare trimitere active users: not in readObject invocation or fields already read
+[14:55:07] 📥 Primit de la student: GET_COMMENTS:3
+[14:55:07] ❌ ERROR: ❌ Eroare procesare request: Cannot invoke "java.io.SerialCallbackContext.setUsed()" because "this.curContext" is null
+[14:55:07] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:55:07] 📤 Trimis 13 comentarii pentru thread #3
+[14:55:07] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:55:07] 📥 Primit de la ktqmd: GET_THREADS
+[14:55:07] 📥 Primit de la student: GET_THREADS
+[14:55:07] 📤 Trimis 9 thread-uri către student
+[14:55:07] 📤 Trimis 9 thread-uri către ktqmd
+[14:55:14] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:55:14] 📤 Trimis 13 comentarii pentru thread #3
+[14:55:14] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:55:14] 📥 Primit de la student: GET_COMMENTS:3
+[14:55:14] 📤 Trimis 13 comentarii pentru thread #3
+[14:55:14] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:55:15] 📥 Primit de la ktqmd: GET_THREAD:9
+[14:55:15] 📤 Trimis thread #9 către ktqmd
+[14:55:15] 📥 Primit de la ktqmd: GET_THREAD:3
+[14:55:15] 📤 Trimis thread #3 către ktqmd
+[14:55:21] 📥 Primit de la ktqmd: GET_COMMENTS:3
+[14:55:21] 📥 Primit de la student: GET_COMMENTS:3
+[14:55:21] 📤 Trimis 13 comentarii pentru thread #3
+[14:55:21] 📤 Trimis 13 comentarii pentru thread #3
+[14:55:21] 📥 Primit de la ktqmd: GET_ACTIVE_USERS:3
+[14:55:21] 📥 Primit de la student: GET_ACTIVE_USERS:3
+[14:55:21] 📥 Primit de la ktqmd: LOGOUT
+[14:55:21] 👋 ktqmd logged out
+[14:55:21] ❌ ERROR: ❌ Eroare trimitere obiect: Broken pipe
+[14:55:21] 👋 Deconectare client: ktqmd
+[14:55:21] ❌ ERROR: ❌ Eroare închidere socket: Broken pipe
+[14:55:21] ❌ ERROR: ❌ Eroare client handler: Connection reset
+[14:55:21] 👋 Deconectare client: ktqmd
+[14:55:21] ❌ ERROR: ❌ Eroare închidere socket: Broken pipe
+[14:55:24] 📥 Primit de la student: LOGOUT
+[14:55:24] 👋 student logged out
+[14:55:24] 📴 Client disconnected: student
+[14:55:24] 👋 Deconectare client: student
+[06:19:41] 📁 Closing log file
