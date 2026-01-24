@@ -1,0 +1,30 @@
+{
+  "name": "task-manager-server",
+  "version": "1.0.0",
+  "description": "Task Manager Server with Express and MySQL",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "init-db": "node src/config/initDatabase.js",
+    "migrate:list-color": "node src/migrations/add-list-color.js"
+  },
+  "keywords": ["task-manager", "trello", "express", "mysql"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.6.5",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "socket.io": "^4.7.2",
+    "express-validator": "^7.0.1",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
