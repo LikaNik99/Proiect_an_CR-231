@@ -1,0 +1,28 @@
+spring:
+  web:
+    error:
+      include-message: always
+      include-binding-errors: always
+      include-stacktrace: always   # doar local, pentru debug
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/rezervari_online
+    username: rezervari_user
+    password: admin123
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        jdbc:
+          '[time_zone]': Europe/Chisinau
+server:
+  port: 8080
+
+logging:
+  level:
+    '[org.springframework.web]': DEBUG
+    '[com.example.backend_api]': DEBUG
+    '[org.hibernate.SQL]': DEBUG
+    '[org.hibernate.orm.jdbc.bind]': TRACE
+
